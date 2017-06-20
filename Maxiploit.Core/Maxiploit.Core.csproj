@@ -86,6 +86,7 @@
     <Compile Include="Modules\VSRO\VSROModuleInfo.cs" />
     <Compile Include="Modules\VSRO\VSROServer.cs" />
     <Compile Include="Modules\VSRO\VSROSettings.cs" />
+    <Compile Include="Utils\IPUtils.cs" />
     <Compile Include="Utils\ObjectPool.cs" />
     <Compile Include="Utils\SQLUtils.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -77,6 +77,7 @@
             this.tpAccount = new System.Windows.Forms.TabPage();
             this.gbBruteAccountSQL = new System.Windows.Forms.GroupBox();
             this.gbBruteAccountFile = new System.Windows.Forms.GroupBox();
+            this.btnAccountBruteStartStop = new System.Windows.Forms.Button();
             this.btnAccountBruteFileOutput = new System.Windows.Forms.Button();
             this.btnAccountBruteFileInput = new System.Windows.Forms.Button();
             this.txtAccountBruteOutputFilePath = new System.Windows.Forms.TextBox();
@@ -124,7 +125,6 @@
             this.tpLog = new System.Windows.Forms.TabPage();
             this.lbLogDetail = new System.Windows.Forms.ListBox();
             this.lbLog = new System.Windows.Forms.ListBox();
-            this.btnAccountBruteStartStop = new System.Windows.Forms.Button();
             this.msMenu.SuspendLayout();
             this.tcMain.SuspendLayout();
             this.tpMain.SuspendLayout();
@@ -654,6 +654,16 @@
             this.gbBruteAccountFile.TabStop = false;
             this.gbBruteAccountFile.Text = "Wordlist Attack";
             // 
+            // btnAccountBruteStartStop
+            // 
+            this.btnAccountBruteStartStop.Location = new System.Drawing.Point(9, 190);
+            this.btnAccountBruteStartStop.Name = "btnAccountBruteStartStop";
+            this.btnAccountBruteStartStop.Size = new System.Drawing.Size(157, 23);
+            this.btnAccountBruteStartStop.TabIndex = 14;
+            this.btnAccountBruteStartStop.Text = "Start";
+            this.btnAccountBruteStartStop.UseVisualStyleBackColor = true;
+            this.btnAccountBruteStartStop.Click += new System.EventHandler(this.btnAccountBruteStartStop_Click);
+            // 
             // btnAccountBruteFileOutput
             // 
             this.btnAccountBruteFileOutput.Location = new System.Drawing.Point(368, 52);
@@ -662,6 +672,7 @@
             this.btnAccountBruteFileOutput.TabIndex = 13;
             this.btnAccountBruteFileOutput.Text = "...";
             this.btnAccountBruteFileOutput.UseVisualStyleBackColor = true;
+            this.btnAccountBruteFileOutput.Click += new System.EventHandler(this.btnAccountBruteFileOutput_Click);
             // 
             // btnAccountBruteFileInput
             // 
@@ -671,6 +682,7 @@
             this.btnAccountBruteFileInput.TabIndex = 12;
             this.btnAccountBruteFileInput.Text = "...";
             this.btnAccountBruteFileInput.UseVisualStyleBackColor = true;
+            this.btnAccountBruteFileInput.Click += new System.EventHandler(this.btnAccountBruteFileInput_Click);
             // 
             // txtAccountBruteOutputFilePath
             // 
@@ -707,6 +719,7 @@
             // lblAccountBruteStatus
             // 
             this.lblAccountBruteStatus.AutoSize = true;
+            this.lblAccountBruteStatus.ForeColor = System.Drawing.Color.DarkRed;
             this.lblAccountBruteStatus.Location = new System.Drawing.Point(99, 165);
             this.lblAccountBruteStatus.Name = "lblAccountBruteStatus";
             this.lblAccountBruteStatus.Size = new System.Drawing.Size(67, 13);
@@ -1104,15 +1117,7 @@
             this.lbLog.Name = "lbLog";
             this.lbLog.Size = new System.Drawing.Size(931, 134);
             this.lbLog.TabIndex = 2;
-            // 
-            // btnAccountBruteStartStop
-            // 
-            this.btnAccountBruteStartStop.Location = new System.Drawing.Point(9, 190);
-            this.btnAccountBruteStartStop.Name = "btnAccountBruteStartStop";
-            this.btnAccountBruteStartStop.Size = new System.Drawing.Size(157, 23);
-            this.btnAccountBruteStartStop.TabIndex = 14;
-            this.btnAccountBruteStartStop.Text = "Start";
-            this.btnAccountBruteStartStop.UseVisualStyleBackColor = true;
+            this.lbLog.SelectedIndexChanged += new System.EventHandler(this.lbLog_SelectedIndexChanged);
             // 
             // frmVSRO
             // 
@@ -1129,6 +1134,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Maxiploit for VSRO";
             this.TransparencyKey = System.Drawing.Color.Fuchsia;
+            this.Load += new System.EventHandler(this.frmVSRO_Load);
             this.msMenu.ResumeLayout(false);
             this.msMenu.PerformLayout();
             this.tcMain.ResumeLayout(false);

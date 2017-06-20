@@ -133,6 +133,11 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Maxiploit.Core\Maxiploit.Core.csproj">
+      <Project>{CEC95E70-2A74-45C8-9BDA-376919F9DF36}</Project>
+      <Name>Maxiploit.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
