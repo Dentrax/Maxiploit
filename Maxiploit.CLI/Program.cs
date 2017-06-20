@@ -10,6 +10,7 @@ namespace Maxiploit.CLI
     {
         static void Main(string[] args)
         {
+            //Test
         }
     }
 }
