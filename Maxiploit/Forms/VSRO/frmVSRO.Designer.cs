@@ -126,6 +126,7 @@
             this.lbLogDetail = new System.Windows.Forms.ListBox();
             this.lbLog = new System.Windows.Forms.ListBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.msMenu.SuspendLayout();
             this.tcMain.SuspendLayout();
             this.tpMain.SuspendLayout();
@@ -138,6 +139,7 @@
             this.tpBruteForce.SuspendLayout();
             this.tcBruteForce.SuspendLayout();
             this.tpAccount.SuspendLayout();
+            this.gbBruteAccountSQL.SuspendLayout();
             this.gbBruteAccountFile.SuspendLayout();
             this.tpAdvanced.SuspendLayout();
             this.tpLive.SuspendLayout();
@@ -625,7 +627,8 @@
             // 
             // gbBruteAccountSQL
             // 
-            this.gbBruteAccountSQL.Location = new System.Drawing.Point(560, 6);
+            this.gbBruteAccountSQL.Controls.Add(this.button1);
+            this.gbBruteAccountSQL.Location = new System.Drawing.Point(520, 6);
             this.gbBruteAccountSQL.Name = "gbBruteAccountSQL";
             this.gbBruteAccountSQL.Size = new System.Drawing.Size(341, 301);
             this.gbBruteAccountSQL.TabIndex = 1;
@@ -1131,6 +1134,15 @@
             this.checkBox1.Text = "checkBox1";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(29, 190);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // frmVSRO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1164,6 +1176,7 @@
             this.tpBruteForce.ResumeLayout(false);
             this.tcBruteForce.ResumeLayout(false);
             this.tpAccount.ResumeLayout(false);
+            this.gbBruteAccountSQL.ResumeLayout(false);
             this.gbBruteAccountFile.ResumeLayout(false);
             this.gbBruteAccountFile.PerformLayout();
             this.tpAdvanced.ResumeLayout(false);
@@ -1282,5 +1295,6 @@
         private System.Windows.Forms.Label lblAccountBruteWLInfo;
         private System.Windows.Forms.Button btnAccountBruteStartStop;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button button1;
     }
 }
