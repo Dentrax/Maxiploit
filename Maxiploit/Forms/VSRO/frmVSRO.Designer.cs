@@ -125,6 +125,7 @@
             this.tpLog = new System.Windows.Forms.TabPage();
             this.lbLogDetail = new System.Windows.Forms.ListBox();
             this.lbLog = new System.Windows.Forms.ListBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.msMenu.SuspendLayout();
             this.tcMain.SuspendLayout();
             this.tpMain.SuspendLayout();
@@ -537,6 +538,7 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.checkBox1);
             this.groupBox3.Controls.Add(this.btnCertificationAnalyze);
             this.groupBox3.Location = new System.Drawing.Point(16, 12);
             this.groupBox3.Name = "groupBox3";
@@ -547,7 +549,7 @@
             // 
             // btnCertificationAnalyze
             // 
-            this.btnCertificationAnalyze.Location = new System.Drawing.Point(88, 62);
+            this.btnCertificationAnalyze.Location = new System.Drawing.Point(113, 79);
             this.btnCertificationAnalyze.Name = "btnCertificationAnalyze";
             this.btnCertificationAnalyze.Size = new System.Drawing.Size(75, 23);
             this.btnCertificationAnalyze.TabIndex = 0;
@@ -1119,6 +1121,16 @@
             this.lbLog.TabIndex = 2;
             this.lbLog.SelectedIndexChanged += new System.EventHandler(this.lbLog_SelectedIndexChanged);
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(62, 34);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(80, 17);
+            this.checkBox1.TabIndex = 1;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // frmVSRO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1148,6 +1160,7 @@
             this.tcNetwork.ResumeLayout(false);
             this.tpNetworkCertification.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.tpBruteForce.ResumeLayout(false);
             this.tcBruteForce.ResumeLayout(false);
             this.tpAccount.ResumeLayout(false);
@@ -1268,5 +1281,6 @@
         private System.Windows.Forms.Label lblAccountBruteOutputInfo;
         private System.Windows.Forms.Label lblAccountBruteWLInfo;
         private System.Windows.Forms.Button btnAccountBruteStartStop;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
