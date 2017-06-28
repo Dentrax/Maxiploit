@@ -547,7 +547,7 @@
             // 
             // btnCertificationAnalyze
             // 
-            this.btnCertificationAnalyze.Location = new System.Drawing.Point(83, 74);
+            this.btnCertificationAnalyze.Location = new System.Drawing.Point(83, 44);
             this.btnCertificationAnalyze.Name = "btnCertificationAnalyze";
             this.btnCertificationAnalyze.Size = new System.Drawing.Size(75, 23);
             this.btnCertificationAnalyze.TabIndex = 0;
