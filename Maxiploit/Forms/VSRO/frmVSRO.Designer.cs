@@ -287,6 +287,12 @@
             this.textBox20 = new System.Windows.Forms.TextBox();
             this.checkBox29 = new System.Windows.Forms.CheckBox();
             this.checkBox31 = new System.Windows.Forms.CheckBox();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.button9 = new System.Windows.Forms.Button();
+            this.comboBox29 = new System.Windows.Forms.ComboBox();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.textBox22 = new System.Windows.Forms.TextBox();
             this.msMenu.SuspendLayout();
             this.tcMain.SuspendLayout();
             this.tpMain.SuspendLayout();
@@ -311,6 +317,7 @@
             this.gbPacketCreator.SuspendLayout();
             this.gbPacketRestrictor.SuspendLayout();
             this.groupBox5.SuspendLayout();
+            this.tpTest.SuspendLayout();
             this.tpLive.SuspendLayout();
             this.gbLivePacket.SuspendLayout();
             this.tpDatabase.SuspendLayout();
@@ -319,6 +326,7 @@
             this.tableLayoutPanel1.SuspendLayout();
             this.gbExploitName.SuspendLayout();
             this.tpLog.SuspendLayout();
+            this.groupBox9.SuspendLayout();
             this.SuspendLayout();
             // 
             // msMenu
@@ -2982,6 +2990,7 @@
             // 
             // tpTest
             // 
+            this.tpTest.Controls.Add(this.groupBox9);
             this.tpTest.Location = new System.Drawing.Point(4, 22);
             this.tpTest.Name = "tpTest";
             this.tpTest.Size = new System.Drawing.Size(988, 435);
@@ -3279,6 +3288,66 @@
             this.checkBox31.Text = "Ingore Global Criticals";
             this.checkBox31.UseVisualStyleBackColor = true;
             // 
+            // groupBox9
+            // 
+            this.groupBox9.Controls.Add(this.textBox22);
+            this.groupBox9.Controls.Add(this.radioButton4);
+            this.groupBox9.Controls.Add(this.radioButton3);
+            this.groupBox9.Controls.Add(this.comboBox29);
+            this.groupBox9.Controls.Add(this.button9);
+            this.groupBox9.Location = new System.Drawing.Point(3, 3);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(269, 118);
+            this.groupBox9.TabIndex = 0;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "Exploit Test";
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(6, 73);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(238, 23);
+            this.button9.TabIndex = 0;
+            this.button9.Text = "Test";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // comboBox29
+            // 
+            this.comboBox29.FormattingEnabled = true;
+            this.comboBox29.Location = new System.Drawing.Point(140, 26);
+            this.comboBox29.Name = "comboBox29";
+            this.comboBox29.Size = new System.Drawing.Size(104, 21);
+            this.comboBox29.TabIndex = 1;
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Location = new System.Drawing.Point(6, 27);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(128, 17);
+            this.radioButton3.TabIndex = 3;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "Send Custom Packet:";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.Location = new System.Drawing.Point(6, 50);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(132, 17);
+            this.radioButton4.TabIndex = 3;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "Send Custom Opcode:";
+            this.radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // textBox22
+            // 
+            this.textBox22.Location = new System.Drawing.Point(140, 49);
+            this.textBox22.Name = "textBox22";
+            this.textBox22.Size = new System.Drawing.Size(104, 20);
+            this.textBox22.TabIndex = 4;
+            // 
             // frmVSRO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -3332,6 +3401,7 @@
             this.gbPacketRestrictor.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
+            this.tpTest.ResumeLayout(false);
             this.tpLive.ResumeLayout(false);
             this.gbLivePacket.ResumeLayout(false);
             this.tpDatabase.ResumeLayout(false);
@@ -3342,6 +3412,8 @@
             this.tableLayoutPanel1.PerformLayout();
             this.gbExploitName.ResumeLayout(false);
             this.tpLog.ResumeLayout(false);
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox9.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3608,5 +3680,11 @@
         private System.Windows.Forms.TextBox textBox20;
         private System.Windows.Forms.CheckBox checkBox29;
         private System.Windows.Forms.CheckBox checkBox31;
+        private System.Windows.Forms.GroupBox groupBox9;
+        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.ComboBox comboBox29;
+        private System.Windows.Forms.Button button9;
     }
 }
