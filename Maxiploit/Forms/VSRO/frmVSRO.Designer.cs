@@ -68,6 +68,7 @@
             this.tpNetworkModel = new System.Windows.Forms.TabPage();
             this.tpNetworkCertification = new System.Windows.Forms.TabPage();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.btnCertificationAnalyze = new System.Windows.Forms.Button();
             this.tpNetworkAgent = new System.Windows.Forms.TabPage();
             this.tpNetworkGatewayServer = new System.Windows.Forms.TabPage();
@@ -76,6 +77,7 @@
             this.tcBruteForce = new System.Windows.Forms.TabControl();
             this.tpAccount = new System.Windows.Forms.TabPage();
             this.gbBruteAccountSQL = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.gbBruteAccountFile = new System.Windows.Forms.GroupBox();
             this.btnAccountBruteStartStop = new System.Windows.Forms.Button();
             this.btnAccountBruteFileOutput = new System.Windows.Forms.Button();
@@ -100,6 +102,22 @@
             this.tpGuardDestroyer = new System.Windows.Forms.TabPage();
             this.tpPanelDestroyer = new System.Windows.Forms.TabPage();
             this.tpAdvanced = new System.Windows.Forms.TabPage();
+            this.gbPacketCreator = new System.Windows.Forms.GroupBox();
+            this.lblPacketCreatorDataType = new System.Windows.Forms.Label();
+            this.cbPacketCreatorPacketDataType1 = new System.Windows.Forms.ComboBox();
+            this.txtPacketCreatorPacketWriter1 = new System.Windows.Forms.TextBox();
+            this.lblPacketCreatorWriter10 = new System.Windows.Forms.Label();
+            this.lblPacketCreatorWriter9 = new System.Windows.Forms.Label();
+            this.lblPacketCreatorWriter8 = new System.Windows.Forms.Label();
+            this.lblPacketCreatorWriter7 = new System.Windows.Forms.Label();
+            this.lblPacketCreatorWriter6 = new System.Windows.Forms.Label();
+            this.lblPacketCreatorWriter5 = new System.Windows.Forms.Label();
+            this.lblPacketCreatorWriter4 = new System.Windows.Forms.Label();
+            this.lblPacketCreatorWriter3 = new System.Windows.Forms.Label();
+            this.lblPacketCreatorWriter2 = new System.Windows.Forms.Label();
+            this.lblPacketCreatorWriter1 = new System.Windows.Forms.Label();
+            this.txtPacketCreatorPacketOpcode = new System.Windows.Forms.TextBox();
+            this.lblPacketCreatorOpcode = new System.Windows.Forms.Label();
             this.gbPacketRestrictor = new System.Windows.Forms.GroupBox();
             this.tpTest = new System.Windows.Forms.TabPage();
             this.tpLive = new System.Windows.Forms.TabPage();
@@ -125,8 +143,29 @@
             this.tpLog = new System.Windows.Forms.TabPage();
             this.lbLogDetail = new System.Windows.Forms.ListBox();
             this.lbLog = new System.Windows.Forms.ListBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txtPacketCreatorPacketWriter2 = new System.Windows.Forms.TextBox();
+            this.txtPacketCreatorPacketWriter3 = new System.Windows.Forms.TextBox();
+            this.txtPacketCreatorPacketWriter4 = new System.Windows.Forms.TextBox();
+            this.txtPacketCreatorPacketWriter5 = new System.Windows.Forms.TextBox();
+            this.txtPacketCreatorPacketWriter6 = new System.Windows.Forms.TextBox();
+            this.txtPacketCreatorPacketWriter7 = new System.Windows.Forms.TextBox();
+            this.txtPacketCreatorPacketWriter8 = new System.Windows.Forms.TextBox();
+            this.txtPacketCreatorPacketWriter9 = new System.Windows.Forms.TextBox();
+            this.txtPacketCreatorPacketWriter10 = new System.Windows.Forms.TextBox();
+            this.cbPacketCreatorPacketDataType2 = new System.Windows.Forms.ComboBox();
+            this.cbPacketCreatorPacketDataType3 = new System.Windows.Forms.ComboBox();
+            this.cbPacketCreatorPacketDataType4 = new System.Windows.Forms.ComboBox();
+            this.cbPacketCreatorPacketDataType5 = new System.Windows.Forms.ComboBox();
+            this.cbPacketCreatorPacketDataType6 = new System.Windows.Forms.ComboBox();
+            this.cbPacketCreatorPacketDataType7 = new System.Windows.Forms.ComboBox();
+            this.comboBox9 = new System.Windows.Forms.ComboBox();
+            this.cbPacketCreatorPacketDataType8 = new System.Windows.Forms.ComboBox();
+            this.cbPacketCreatorPacketDataType9 = new System.Windows.Forms.ComboBox();
+            this.cbPacketCreatorPacketDataType10 = new System.Windows.Forms.ComboBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.btnPacketCreatorCreatePacket = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtPacketCreatorPacketName = new System.Windows.Forms.TextBox();
             this.msMenu.SuspendLayout();
             this.tcMain.SuspendLayout();
             this.tpMain.SuspendLayout();
@@ -142,6 +181,8 @@
             this.gbBruteAccountSQL.SuspendLayout();
             this.gbBruteAccountFile.SuspendLayout();
             this.tpAdvanced.SuspendLayout();
+            this.gbPacketCreator.SuspendLayout();
+            this.gbPacketRestrictor.SuspendLayout();
             this.tpLive.SuspendLayout();
             this.gbLivePacket.SuspendLayout();
             this.tpDatabase.SuspendLayout();
@@ -549,6 +590,16 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Certification Server";
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(52, 42);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(80, 17);
+            this.checkBox1.TabIndex = 1;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // btnCertificationAnalyze
             // 
             this.btnCertificationAnalyze.Location = new System.Drawing.Point(113, 79);
@@ -634,6 +685,15 @@
             this.gbBruteAccountSQL.TabIndex = 1;
             this.gbBruteAccountSQL.TabStop = false;
             this.gbBruteAccountSQL.Text = "DB Attack";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(29, 190);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // gbBruteAccountFile
             // 
@@ -860,6 +920,7 @@
             // 
             // tpAdvanced
             // 
+            this.tpAdvanced.Controls.Add(this.gbPacketCreator);
             this.tpAdvanced.Controls.Add(this.gbPacketRestrictor);
             this.tpAdvanced.Location = new System.Drawing.Point(4, 22);
             this.tpAdvanced.Name = "tpAdvanced";
@@ -869,11 +930,215 @@
             this.tpAdvanced.Text = "Advanced";
             this.tpAdvanced.UseVisualStyleBackColor = true;
             // 
+            // gbPacketCreator
+            // 
+            this.gbPacketCreator.Controls.Add(this.txtPacketCreatorPacketName);
+            this.gbPacketCreator.Controls.Add(this.label6);
+            this.gbPacketCreator.Controls.Add(this.btnPacketCreatorCreatePacket);
+            this.gbPacketCreator.Controls.Add(this.checkBox2);
+            this.gbPacketCreator.Controls.Add(this.lblPacketCreatorDataType);
+            this.gbPacketCreator.Controls.Add(this.cbPacketCreatorPacketDataType10);
+            this.gbPacketCreator.Controls.Add(this.cbPacketCreatorPacketDataType9);
+            this.gbPacketCreator.Controls.Add(this.cbPacketCreatorPacketDataType8);
+            this.gbPacketCreator.Controls.Add(this.cbPacketCreatorPacketDataType7);
+            this.gbPacketCreator.Controls.Add(this.cbPacketCreatorPacketDataType6);
+            this.gbPacketCreator.Controls.Add(this.cbPacketCreatorPacketDataType5);
+            this.gbPacketCreator.Controls.Add(this.cbPacketCreatorPacketDataType4);
+            this.gbPacketCreator.Controls.Add(this.cbPacketCreatorPacketDataType3);
+            this.gbPacketCreator.Controls.Add(this.cbPacketCreatorPacketDataType2);
+            this.gbPacketCreator.Controls.Add(this.cbPacketCreatorPacketDataType1);
+            this.gbPacketCreator.Controls.Add(this.txtPacketCreatorPacketWriter10);
+            this.gbPacketCreator.Controls.Add(this.txtPacketCreatorPacketWriter9);
+            this.gbPacketCreator.Controls.Add(this.txtPacketCreatorPacketWriter8);
+            this.gbPacketCreator.Controls.Add(this.txtPacketCreatorPacketWriter7);
+            this.gbPacketCreator.Controls.Add(this.txtPacketCreatorPacketWriter6);
+            this.gbPacketCreator.Controls.Add(this.txtPacketCreatorPacketWriter5);
+            this.gbPacketCreator.Controls.Add(this.txtPacketCreatorPacketWriter4);
+            this.gbPacketCreator.Controls.Add(this.txtPacketCreatorPacketWriter3);
+            this.gbPacketCreator.Controls.Add(this.txtPacketCreatorPacketWriter2);
+            this.gbPacketCreator.Controls.Add(this.txtPacketCreatorPacketWriter1);
+            this.gbPacketCreator.Controls.Add(this.lblPacketCreatorWriter10);
+            this.gbPacketCreator.Controls.Add(this.lblPacketCreatorWriter9);
+            this.gbPacketCreator.Controls.Add(this.lblPacketCreatorWriter8);
+            this.gbPacketCreator.Controls.Add(this.lblPacketCreatorWriter7);
+            this.gbPacketCreator.Controls.Add(this.lblPacketCreatorWriter6);
+            this.gbPacketCreator.Controls.Add(this.lblPacketCreatorWriter5);
+            this.gbPacketCreator.Controls.Add(this.lblPacketCreatorWriter4);
+            this.gbPacketCreator.Controls.Add(this.lblPacketCreatorWriter3);
+            this.gbPacketCreator.Controls.Add(this.lblPacketCreatorWriter2);
+            this.gbPacketCreator.Controls.Add(this.lblPacketCreatorWriter1);
+            this.gbPacketCreator.Controls.Add(this.txtPacketCreatorPacketOpcode);
+            this.gbPacketCreator.Controls.Add(this.lblPacketCreatorOpcode);
+            this.gbPacketCreator.Location = new System.Drawing.Point(299, 6);
+            this.gbPacketCreator.Name = "gbPacketCreator";
+            this.gbPacketCreator.Size = new System.Drawing.Size(224, 399);
+            this.gbPacketCreator.TabIndex = 1;
+            this.gbPacketCreator.TabStop = false;
+            this.gbPacketCreator.Text = "Packet Creator";
+            // 
+            // lblPacketCreatorDataType
+            // 
+            this.lblPacketCreatorDataType.AutoSize = true;
+            this.lblPacketCreatorDataType.Location = new System.Drawing.Point(142, 53);
+            this.lblPacketCreatorDataType.Name = "lblPacketCreatorDataType";
+            this.lblPacketCreatorDataType.Size = new System.Drawing.Size(57, 13);
+            this.lblPacketCreatorDataType.TabIndex = 5;
+            this.lblPacketCreatorDataType.Text = "Data Type";
+            // 
+            // cbPacketCreatorPacketDataType1
+            // 
+            this.cbPacketCreatorPacketDataType1.FormattingEnabled = true;
+            this.cbPacketCreatorPacketDataType1.Items.AddRange(new object[] {
+            "UInt8",
+            "Int8",
+            "UInt16",
+            "Int16",
+            "UInt32",
+            "Int32",
+            "UInt64",
+            "Int64",
+            "Single",
+            "Double",
+            "Ascii",
+            "Unicode",
+            "UInt8Array",
+            "Int8Array",
+            "UInt16Array",
+            "Int16Array",
+            "UInt32Array",
+            "Int32Array",
+            "UInt64Array",
+            "Int64Array",
+            "SingleArray",
+            "DoubleArray",
+            "AsciiArray",
+            "UnicodeArray"});
+            this.cbPacketCreatorPacketDataType1.Location = new System.Drawing.Point(145, 74);
+            this.cbPacketCreatorPacketDataType1.Name = "cbPacketCreatorPacketDataType1";
+            this.cbPacketCreatorPacketDataType1.Size = new System.Drawing.Size(68, 21);
+            this.cbPacketCreatorPacketDataType1.TabIndex = 4;
+            this.cbPacketCreatorPacketDataType1.Text = "UInt8";
+            // 
+            // txtPacketCreatorPacketWriter1
+            // 
+            this.txtPacketCreatorPacketWriter1.Location = new System.Drawing.Point(68, 74);
+            this.txtPacketCreatorPacketWriter1.Name = "txtPacketCreatorPacketWriter1";
+            this.txtPacketCreatorPacketWriter1.Size = new System.Drawing.Size(58, 20);
+            this.txtPacketCreatorPacketWriter1.TabIndex = 3;
+            // 
+            // lblPacketCreatorWriter10
+            // 
+            this.lblPacketCreatorWriter10.AutoSize = true;
+            this.lblPacketCreatorWriter10.Location = new System.Drawing.Point(12, 310);
+            this.lblPacketCreatorWriter10.Name = "lblPacketCreatorWriter10";
+            this.lblPacketCreatorWriter10.Size = new System.Drawing.Size(53, 13);
+            this.lblPacketCreatorWriter10.TabIndex = 2;
+            this.lblPacketCreatorWriter10.Text = "Writer 10:";
+            // 
+            // lblPacketCreatorWriter9
+            // 
+            this.lblPacketCreatorWriter9.AutoSize = true;
+            this.lblPacketCreatorWriter9.Location = new System.Drawing.Point(12, 284);
+            this.lblPacketCreatorWriter9.Name = "lblPacketCreatorWriter9";
+            this.lblPacketCreatorWriter9.Size = new System.Drawing.Size(47, 13);
+            this.lblPacketCreatorWriter9.TabIndex = 2;
+            this.lblPacketCreatorWriter9.Text = "Writer 9:";
+            // 
+            // lblPacketCreatorWriter8
+            // 
+            this.lblPacketCreatorWriter8.AutoSize = true;
+            this.lblPacketCreatorWriter8.Location = new System.Drawing.Point(12, 260);
+            this.lblPacketCreatorWriter8.Name = "lblPacketCreatorWriter8";
+            this.lblPacketCreatorWriter8.Size = new System.Drawing.Size(47, 13);
+            this.lblPacketCreatorWriter8.TabIndex = 2;
+            this.lblPacketCreatorWriter8.Text = "Writer 8:";
+            // 
+            // lblPacketCreatorWriter7
+            // 
+            this.lblPacketCreatorWriter7.AutoSize = true;
+            this.lblPacketCreatorWriter7.Location = new System.Drawing.Point(12, 234);
+            this.lblPacketCreatorWriter7.Name = "lblPacketCreatorWriter7";
+            this.lblPacketCreatorWriter7.Size = new System.Drawing.Size(47, 13);
+            this.lblPacketCreatorWriter7.TabIndex = 2;
+            this.lblPacketCreatorWriter7.Text = "Writer 7:";
+            // 
+            // lblPacketCreatorWriter6
+            // 
+            this.lblPacketCreatorWriter6.AutoSize = true;
+            this.lblPacketCreatorWriter6.Location = new System.Drawing.Point(12, 207);
+            this.lblPacketCreatorWriter6.Name = "lblPacketCreatorWriter6";
+            this.lblPacketCreatorWriter6.Size = new System.Drawing.Size(47, 13);
+            this.lblPacketCreatorWriter6.TabIndex = 2;
+            this.lblPacketCreatorWriter6.Text = "Writer 6:";
+            // 
+            // lblPacketCreatorWriter5
+            // 
+            this.lblPacketCreatorWriter5.AutoSize = true;
+            this.lblPacketCreatorWriter5.Location = new System.Drawing.Point(12, 181);
+            this.lblPacketCreatorWriter5.Name = "lblPacketCreatorWriter5";
+            this.lblPacketCreatorWriter5.Size = new System.Drawing.Size(47, 13);
+            this.lblPacketCreatorWriter5.TabIndex = 2;
+            this.lblPacketCreatorWriter5.Text = "Writer 5:";
+            // 
+            // lblPacketCreatorWriter4
+            // 
+            this.lblPacketCreatorWriter4.AutoSize = true;
+            this.lblPacketCreatorWriter4.Location = new System.Drawing.Point(12, 155);
+            this.lblPacketCreatorWriter4.Name = "lblPacketCreatorWriter4";
+            this.lblPacketCreatorWriter4.Size = new System.Drawing.Size(47, 13);
+            this.lblPacketCreatorWriter4.TabIndex = 2;
+            this.lblPacketCreatorWriter4.Text = "Writer 4:";
+            // 
+            // lblPacketCreatorWriter3
+            // 
+            this.lblPacketCreatorWriter3.AutoSize = true;
+            this.lblPacketCreatorWriter3.Location = new System.Drawing.Point(12, 129);
+            this.lblPacketCreatorWriter3.Name = "lblPacketCreatorWriter3";
+            this.lblPacketCreatorWriter3.Size = new System.Drawing.Size(47, 13);
+            this.lblPacketCreatorWriter3.TabIndex = 2;
+            this.lblPacketCreatorWriter3.Text = "Writer 3:";
+            // 
+            // lblPacketCreatorWriter2
+            // 
+            this.lblPacketCreatorWriter2.AutoSize = true;
+            this.lblPacketCreatorWriter2.Location = new System.Drawing.Point(12, 103);
+            this.lblPacketCreatorWriter2.Name = "lblPacketCreatorWriter2";
+            this.lblPacketCreatorWriter2.Size = new System.Drawing.Size(47, 13);
+            this.lblPacketCreatorWriter2.TabIndex = 2;
+            this.lblPacketCreatorWriter2.Text = "Writer 2:";
+            // 
+            // lblPacketCreatorWriter1
+            // 
+            this.lblPacketCreatorWriter1.AutoSize = true;
+            this.lblPacketCreatorWriter1.Location = new System.Drawing.Point(12, 77);
+            this.lblPacketCreatorWriter1.Name = "lblPacketCreatorWriter1";
+            this.lblPacketCreatorWriter1.Size = new System.Drawing.Size(47, 13);
+            this.lblPacketCreatorWriter1.TabIndex = 2;
+            this.lblPacketCreatorWriter1.Text = "Writer 1:";
+            // 
+            // txtPacketCreatorPacketOpcode
+            // 
+            this.txtPacketCreatorPacketOpcode.Location = new System.Drawing.Point(68, 50);
+            this.txtPacketCreatorPacketOpcode.Name = "txtPacketCreatorPacketOpcode";
+            this.txtPacketCreatorPacketOpcode.Size = new System.Drawing.Size(58, 20);
+            this.txtPacketCreatorPacketOpcode.TabIndex = 1;
+            this.txtPacketCreatorPacketOpcode.Text = "0x";
+            // 
+            // lblPacketCreatorOpcode
+            // 
+            this.lblPacketCreatorOpcode.AutoSize = true;
+            this.lblPacketCreatorOpcode.Location = new System.Drawing.Point(12, 53);
+            this.lblPacketCreatorOpcode.Name = "lblPacketCreatorOpcode";
+            this.lblPacketCreatorOpcode.Size = new System.Drawing.Size(48, 13);
+            this.lblPacketCreatorOpcode.TabIndex = 0;
+            this.lblPacketCreatorOpcode.Text = "Opcode:";
+            // 
             // gbPacketRestrictor
             // 
+            this.gbPacketRestrictor.Controls.Add(this.comboBox9);
             this.gbPacketRestrictor.Location = new System.Drawing.Point(6, 6);
             this.gbPacketRestrictor.Name = "gbPacketRestrictor";
-            this.gbPacketRestrictor.Size = new System.Drawing.Size(272, 284);
+            this.gbPacketRestrictor.Size = new System.Drawing.Size(266, 284);
             this.gbPacketRestrictor.TabIndex = 0;
             this.gbPacketRestrictor.TabStop = false;
             this.gbPacketRestrictor.Text = "Packet Restrictor";
@@ -1124,24 +1389,217 @@
             this.lbLog.TabIndex = 2;
             this.lbLog.SelectedIndexChanged += new System.EventHandler(this.lbLog_SelectedIndexChanged);
             // 
-            // checkBox1
+            // txtPacketCreatorPacketWriter2
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(52, 42);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
-            this.checkBox1.TabIndex = 1;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.txtPacketCreatorPacketWriter2.Location = new System.Drawing.Point(68, 100);
+            this.txtPacketCreatorPacketWriter2.Name = "txtPacketCreatorPacketWriter2";
+            this.txtPacketCreatorPacketWriter2.Size = new System.Drawing.Size(58, 20);
+            this.txtPacketCreatorPacketWriter2.TabIndex = 3;
             // 
-            // button1
+            // txtPacketCreatorPacketWriter3
             // 
-            this.button1.Location = new System.Drawing.Point(29, 190);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.txtPacketCreatorPacketWriter3.Location = new System.Drawing.Point(68, 126);
+            this.txtPacketCreatorPacketWriter3.Name = "txtPacketCreatorPacketWriter3";
+            this.txtPacketCreatorPacketWriter3.Size = new System.Drawing.Size(58, 20);
+            this.txtPacketCreatorPacketWriter3.TabIndex = 3;
+            // 
+            // txtPacketCreatorPacketWriter4
+            // 
+            this.txtPacketCreatorPacketWriter4.Location = new System.Drawing.Point(68, 152);
+            this.txtPacketCreatorPacketWriter4.Name = "txtPacketCreatorPacketWriter4";
+            this.txtPacketCreatorPacketWriter4.Size = new System.Drawing.Size(58, 20);
+            this.txtPacketCreatorPacketWriter4.TabIndex = 3;
+            // 
+            // txtPacketCreatorPacketWriter5
+            // 
+            this.txtPacketCreatorPacketWriter5.Location = new System.Drawing.Point(68, 178);
+            this.txtPacketCreatorPacketWriter5.Name = "txtPacketCreatorPacketWriter5";
+            this.txtPacketCreatorPacketWriter5.Size = new System.Drawing.Size(58, 20);
+            this.txtPacketCreatorPacketWriter5.TabIndex = 3;
+            // 
+            // txtPacketCreatorPacketWriter6
+            // 
+            this.txtPacketCreatorPacketWriter6.Location = new System.Drawing.Point(68, 204);
+            this.txtPacketCreatorPacketWriter6.Name = "txtPacketCreatorPacketWriter6";
+            this.txtPacketCreatorPacketWriter6.Size = new System.Drawing.Size(58, 20);
+            this.txtPacketCreatorPacketWriter6.TabIndex = 3;
+            // 
+            // txtPacketCreatorPacketWriter7
+            // 
+            this.txtPacketCreatorPacketWriter7.Location = new System.Drawing.Point(68, 231);
+            this.txtPacketCreatorPacketWriter7.Name = "txtPacketCreatorPacketWriter7";
+            this.txtPacketCreatorPacketWriter7.Size = new System.Drawing.Size(58, 20);
+            this.txtPacketCreatorPacketWriter7.TabIndex = 3;
+            // 
+            // txtPacketCreatorPacketWriter8
+            // 
+            this.txtPacketCreatorPacketWriter8.Location = new System.Drawing.Point(68, 257);
+            this.txtPacketCreatorPacketWriter8.Name = "txtPacketCreatorPacketWriter8";
+            this.txtPacketCreatorPacketWriter8.Size = new System.Drawing.Size(58, 20);
+            this.txtPacketCreatorPacketWriter8.TabIndex = 3;
+            // 
+            // txtPacketCreatorPacketWriter9
+            // 
+            this.txtPacketCreatorPacketWriter9.Location = new System.Drawing.Point(68, 281);
+            this.txtPacketCreatorPacketWriter9.Name = "txtPacketCreatorPacketWriter9";
+            this.txtPacketCreatorPacketWriter9.Size = new System.Drawing.Size(58, 20);
+            this.txtPacketCreatorPacketWriter9.TabIndex = 3;
+            // 
+            // txtPacketCreatorPacketWriter10
+            // 
+            this.txtPacketCreatorPacketWriter10.Location = new System.Drawing.Point(68, 307);
+            this.txtPacketCreatorPacketWriter10.Name = "txtPacketCreatorPacketWriter10";
+            this.txtPacketCreatorPacketWriter10.Size = new System.Drawing.Size(58, 20);
+            this.txtPacketCreatorPacketWriter10.TabIndex = 3;
+            // 
+            // cbPacketCreatorPacketDataType2
+            // 
+            this.cbPacketCreatorPacketDataType2.FormattingEnabled = true;
+            this.cbPacketCreatorPacketDataType2.Location = new System.Drawing.Point(145, 100);
+            this.cbPacketCreatorPacketDataType2.Name = "cbPacketCreatorPacketDataType2";
+            this.cbPacketCreatorPacketDataType2.Size = new System.Drawing.Size(68, 21);
+            this.cbPacketCreatorPacketDataType2.TabIndex = 4;
+            this.cbPacketCreatorPacketDataType2.Text = "UInt8";
+            // 
+            // cbPacketCreatorPacketDataType3
+            // 
+            this.cbPacketCreatorPacketDataType3.FormattingEnabled = true;
+            this.cbPacketCreatorPacketDataType3.Location = new System.Drawing.Point(145, 126);
+            this.cbPacketCreatorPacketDataType3.Name = "cbPacketCreatorPacketDataType3";
+            this.cbPacketCreatorPacketDataType3.Size = new System.Drawing.Size(68, 21);
+            this.cbPacketCreatorPacketDataType3.TabIndex = 4;
+            this.cbPacketCreatorPacketDataType3.Text = "UInt8";
+            // 
+            // cbPacketCreatorPacketDataType4
+            // 
+            this.cbPacketCreatorPacketDataType4.FormattingEnabled = true;
+            this.cbPacketCreatorPacketDataType4.Location = new System.Drawing.Point(145, 152);
+            this.cbPacketCreatorPacketDataType4.Name = "cbPacketCreatorPacketDataType4";
+            this.cbPacketCreatorPacketDataType4.Size = new System.Drawing.Size(68, 21);
+            this.cbPacketCreatorPacketDataType4.TabIndex = 4;
+            this.cbPacketCreatorPacketDataType4.Text = "UInt8";
+            // 
+            // cbPacketCreatorPacketDataType5
+            // 
+            this.cbPacketCreatorPacketDataType5.FormattingEnabled = true;
+            this.cbPacketCreatorPacketDataType5.Location = new System.Drawing.Point(145, 178);
+            this.cbPacketCreatorPacketDataType5.Name = "cbPacketCreatorPacketDataType5";
+            this.cbPacketCreatorPacketDataType5.Size = new System.Drawing.Size(68, 21);
+            this.cbPacketCreatorPacketDataType5.TabIndex = 4;
+            this.cbPacketCreatorPacketDataType5.Text = "UInt8";
+            // 
+            // cbPacketCreatorPacketDataType6
+            // 
+            this.cbPacketCreatorPacketDataType6.FormattingEnabled = true;
+            this.cbPacketCreatorPacketDataType6.Location = new System.Drawing.Point(145, 204);
+            this.cbPacketCreatorPacketDataType6.Name = "cbPacketCreatorPacketDataType6";
+            this.cbPacketCreatorPacketDataType6.Size = new System.Drawing.Size(68, 21);
+            this.cbPacketCreatorPacketDataType6.TabIndex = 4;
+            this.cbPacketCreatorPacketDataType6.Text = "UInt8";
+            // 
+            // cbPacketCreatorPacketDataType7
+            // 
+            this.cbPacketCreatorPacketDataType7.FormattingEnabled = true;
+            this.cbPacketCreatorPacketDataType7.Location = new System.Drawing.Point(145, 231);
+            this.cbPacketCreatorPacketDataType7.Name = "cbPacketCreatorPacketDataType7";
+            this.cbPacketCreatorPacketDataType7.Size = new System.Drawing.Size(68, 21);
+            this.cbPacketCreatorPacketDataType7.TabIndex = 4;
+            this.cbPacketCreatorPacketDataType7.Text = "UInt8";
+            // 
+            // comboBox9
+            // 
+            this.comboBox9.FormattingEnabled = true;
+            this.comboBox9.Location = new System.Drawing.Point(93, 203);
+            this.comboBox9.Name = "comboBox9";
+            this.comboBox9.Size = new System.Drawing.Size(68, 21);
+            this.comboBox9.TabIndex = 4;
+            // 
+            // cbPacketCreatorPacketDataType8
+            // 
+            this.cbPacketCreatorPacketDataType8.FormattingEnabled = true;
+            this.cbPacketCreatorPacketDataType8.Location = new System.Drawing.Point(145, 257);
+            this.cbPacketCreatorPacketDataType8.Name = "cbPacketCreatorPacketDataType8";
+            this.cbPacketCreatorPacketDataType8.Size = new System.Drawing.Size(68, 21);
+            this.cbPacketCreatorPacketDataType8.TabIndex = 4;
+            this.cbPacketCreatorPacketDataType8.Text = "UInt8";
+            // 
+            // cbPacketCreatorPacketDataType9
+            // 
+            this.cbPacketCreatorPacketDataType9.FormattingEnabled = true;
+            this.cbPacketCreatorPacketDataType9.Items.AddRange(new object[] {
+            "UInt8",
+            "Int8",
+            "UInt16",
+            "Int16",
+            "UInt32",
+            "Int32",
+            "UInt64",
+            "Int64",
+            "Single",
+            "Double",
+            "Ascii",
+            "Unicode",
+            "UInt8Array",
+            "Int8Array",
+            "UInt16Array",
+            "Int16Array",
+            "UInt32Array",
+            "Int32Array",
+            "UInt64Array",
+            "Int64Array",
+            "SingleArray",
+            "DoubleArray",
+            "AsciiArray",
+            "UnicodeArray"});
+            this.cbPacketCreatorPacketDataType9.Location = new System.Drawing.Point(145, 281);
+            this.cbPacketCreatorPacketDataType9.Name = "cbPacketCreatorPacketDataType9";
+            this.cbPacketCreatorPacketDataType9.Size = new System.Drawing.Size(68, 21);
+            this.cbPacketCreatorPacketDataType9.TabIndex = 4;
+            this.cbPacketCreatorPacketDataType9.Text = "UInt8";
+            // 
+            // cbPacketCreatorPacketDataType10
+            // 
+            this.cbPacketCreatorPacketDataType10.FormattingEnabled = true;
+            this.cbPacketCreatorPacketDataType10.Location = new System.Drawing.Point(145, 307);
+            this.cbPacketCreatorPacketDataType10.Name = "cbPacketCreatorPacketDataType10";
+            this.cbPacketCreatorPacketDataType10.Size = new System.Drawing.Size(68, 21);
+            this.cbPacketCreatorPacketDataType10.TabIndex = 4;
+            this.cbPacketCreatorPacketDataType10.Text = "UInt8";
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(15, 333);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(72, 17);
+            this.checkBox2.TabIndex = 6;
+            this.checkBox2.Text = "I Approve";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // btnPacketCreatorCreatePacket
+            // 
+            this.btnPacketCreatorCreatePacket.Location = new System.Drawing.Point(15, 356);
+            this.btnPacketCreatorCreatePacket.Name = "btnPacketCreatorCreatePacket";
+            this.btnPacketCreatorCreatePacket.Size = new System.Drawing.Size(198, 23);
+            this.btnPacketCreatorCreatePacket.TabIndex = 7;
+            this.btnPacketCreatorCreatePacket.Text = "Create Packet";
+            this.btnPacketCreatorCreatePacket.UseVisualStyleBackColor = true;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(12, 27);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(38, 13);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "Name:";
+            // 
+            // txtPacketCreatorPacketName
+            // 
+            this.txtPacketCreatorPacketName.Location = new System.Drawing.Point(68, 20);
+            this.txtPacketCreatorPacketName.Name = "txtPacketCreatorPacketName";
+            this.txtPacketCreatorPacketName.Size = new System.Drawing.Size(145, 20);
+            this.txtPacketCreatorPacketName.TabIndex = 9;
             // 
             // frmVSRO
             // 
@@ -1180,6 +1638,9 @@
             this.gbBruteAccountFile.ResumeLayout(false);
             this.gbBruteAccountFile.PerformLayout();
             this.tpAdvanced.ResumeLayout(false);
+            this.gbPacketCreator.ResumeLayout(false);
+            this.gbPacketCreator.PerformLayout();
+            this.gbPacketRestrictor.ResumeLayout(false);
             this.tpLive.ResumeLayout(false);
             this.gbLivePacket.ResumeLayout(false);
             this.tpDatabase.ResumeLayout(false);
@@ -1296,5 +1757,44 @@
         private System.Windows.Forms.Button btnAccountBruteStartStop;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.GroupBox gbPacketCreator;
+        private System.Windows.Forms.TextBox txtPacketCreatorPacketOpcode;
+        private System.Windows.Forms.Label lblPacketCreatorOpcode;
+        private System.Windows.Forms.Label lblPacketCreatorDataType;
+        private System.Windows.Forms.ComboBox cbPacketCreatorPacketDataType1;
+        private System.Windows.Forms.TextBox txtPacketCreatorPacketWriter1;
+        private System.Windows.Forms.Label lblPacketCreatorWriter10;
+        private System.Windows.Forms.Label lblPacketCreatorWriter9;
+        private System.Windows.Forms.Label lblPacketCreatorWriter8;
+        private System.Windows.Forms.Label lblPacketCreatorWriter7;
+        private System.Windows.Forms.Label lblPacketCreatorWriter6;
+        private System.Windows.Forms.Label lblPacketCreatorWriter5;
+        private System.Windows.Forms.Label lblPacketCreatorWriter4;
+        private System.Windows.Forms.Label lblPacketCreatorWriter3;
+        private System.Windows.Forms.Label lblPacketCreatorWriter2;
+        private System.Windows.Forms.Label lblPacketCreatorWriter1;
+        private System.Windows.Forms.ComboBox cbPacketCreatorPacketDataType10;
+        private System.Windows.Forms.ComboBox cbPacketCreatorPacketDataType9;
+        private System.Windows.Forms.ComboBox cbPacketCreatorPacketDataType8;
+        private System.Windows.Forms.ComboBox comboBox9;
+        private System.Windows.Forms.ComboBox cbPacketCreatorPacketDataType7;
+        private System.Windows.Forms.ComboBox cbPacketCreatorPacketDataType6;
+        private System.Windows.Forms.ComboBox cbPacketCreatorPacketDataType5;
+        private System.Windows.Forms.ComboBox cbPacketCreatorPacketDataType4;
+        private System.Windows.Forms.ComboBox cbPacketCreatorPacketDataType3;
+        private System.Windows.Forms.ComboBox cbPacketCreatorPacketDataType2;
+        private System.Windows.Forms.TextBox txtPacketCreatorPacketWriter10;
+        private System.Windows.Forms.TextBox txtPacketCreatorPacketWriter9;
+        private System.Windows.Forms.TextBox txtPacketCreatorPacketWriter8;
+        private System.Windows.Forms.TextBox txtPacketCreatorPacketWriter7;
+        private System.Windows.Forms.TextBox txtPacketCreatorPacketWriter6;
+        private System.Windows.Forms.TextBox txtPacketCreatorPacketWriter5;
+        private System.Windows.Forms.TextBox txtPacketCreatorPacketWriter4;
+        private System.Windows.Forms.TextBox txtPacketCreatorPacketWriter3;
+        private System.Windows.Forms.TextBox txtPacketCreatorPacketWriter2;
+        private System.Windows.Forms.TextBox txtPacketCreatorPacketName;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btnPacketCreatorCreatePacket;
+        private System.Windows.Forms.CheckBox checkBox2;
     }
 }
