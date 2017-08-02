@@ -106,16 +106,6 @@
             this.lblPacketCreatorDataType = new System.Windows.Forms.Label();
             this.cbPacketCreatorPacketDataType1 = new System.Windows.Forms.ComboBox();
             this.txtPacketCreatorPacketWriter1 = new System.Windows.Forms.TextBox();
-            this.lblPacketCreatorWriter10 = new System.Windows.Forms.Label();
-            this.lblPacketCreatorWriter9 = new System.Windows.Forms.Label();
-            this.lblPacketCreatorWriter8 = new System.Windows.Forms.Label();
-            this.lblPacketCreatorWriter7 = new System.Windows.Forms.Label();
-            this.lblPacketCreatorWriter6 = new System.Windows.Forms.Label();
-            this.lblPacketCreatorWriter5 = new System.Windows.Forms.Label();
-            this.lblPacketCreatorWriter4 = new System.Windows.Forms.Label();
-            this.lblPacketCreatorWriter3 = new System.Windows.Forms.Label();
-            this.lblPacketCreatorWriter2 = new System.Windows.Forms.Label();
-            this.lblPacketCreatorWriter1 = new System.Windows.Forms.Label();
             this.txtPacketCreatorPacketOpcode = new System.Windows.Forms.TextBox();
             this.lblPacketCreatorOpcode = new System.Windows.Forms.Label();
             this.gbPacketRestrictor = new System.Windows.Forms.GroupBox();
@@ -158,7 +148,6 @@
             this.cbPacketCreatorPacketDataType5 = new System.Windows.Forms.ComboBox();
             this.cbPacketCreatorPacketDataType6 = new System.Windows.Forms.ComboBox();
             this.cbPacketCreatorPacketDataType7 = new System.Windows.Forms.ComboBox();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
             this.cbPacketCreatorPacketDataType8 = new System.Windows.Forms.ComboBox();
             this.cbPacketCreatorPacketDataType9 = new System.Windows.Forms.ComboBox();
             this.cbPacketCreatorPacketDataType10 = new System.Windows.Forms.ComboBox();
@@ -166,6 +155,86 @@
             this.btnPacketCreatorCreatePacket = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.txtPacketCreatorPacketName = new System.Windows.Forms.TextBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
+            this.comboBox10 = new System.Windows.Forms.ComboBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.checkBox10 = new System.Windows.Forms.CheckBox();
+            this.comboBox11 = new System.Windows.Forms.ComboBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.checkBox11 = new System.Windows.Forms.CheckBox();
+            this.comboBox12 = new System.Windows.Forms.ComboBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.checkBox12 = new System.Windows.Forms.CheckBox();
+            this.cbPacketCreatorSeek1 = new System.Windows.Forms.CheckBox();
+            this.cbPacketCreatorSeek2 = new System.Windows.Forms.CheckBox();
+            this.cbPacketCreatorSeek3 = new System.Windows.Forms.CheckBox();
+            this.cbPacketCreatorSeek4 = new System.Windows.Forms.CheckBox();
+            this.cbPacketCreatorSeek5 = new System.Windows.Forms.CheckBox();
+            this.cbPacketCreatorSeek6 = new System.Windows.Forms.CheckBox();
+            this.cbPacketCreatorSeek7 = new System.Windows.Forms.CheckBox();
+            this.cbPacketCreatorSeek8 = new System.Windows.Forms.CheckBox();
+            this.cbPacketCreatorSeek9 = new System.Windows.Forms.CheckBox();
+            this.cbPacketCreatorSeek10 = new System.Windows.Forms.CheckBox();
+            this.checkBox13 = new System.Windows.Forms.CheckBox();
+            this.comboBox13 = new System.Windows.Forms.ComboBox();
+            this.checkBox14 = new System.Windows.Forms.CheckBox();
+            this.comboBox14 = new System.Windows.Forms.ComboBox();
+            this.checkBox15 = new System.Windows.Forms.CheckBox();
+            this.comboBox15 = new System.Windows.Forms.ComboBox();
+            this.checkBox16 = new System.Windows.Forms.CheckBox();
+            this.comboBox16 = new System.Windows.Forms.ComboBox();
+            this.checkBox17 = new System.Windows.Forms.CheckBox();
+            this.comboBox17 = new System.Windows.Forms.ComboBox();
+            this.checkBox18 = new System.Windows.Forms.CheckBox();
+            this.comboBox18 = new System.Windows.Forms.ComboBox();
+            this.checkBox19 = new System.Windows.Forms.CheckBox();
+            this.comboBox19 = new System.Windows.Forms.ComboBox();
+            this.checkBox20 = new System.Windows.Forms.CheckBox();
+            this.comboBox20 = new System.Windows.Forms.ComboBox();
+            this.checkBox21 = new System.Windows.Forms.CheckBox();
+            this.comboBox21 = new System.Windows.Forms.ComboBox();
+            this.checkBox22 = new System.Windows.Forms.CheckBox();
+            this.comboBox22 = new System.Windows.Forms.ComboBox();
+            this.label20 = new System.Windows.Forms.Label();
             this.msMenu.SuspendLayout();
             this.tcMain.SuspendLayout();
             this.tpMain.SuspendLayout();
@@ -191,6 +260,7 @@
             this.tableLayoutPanel1.SuspendLayout();
             this.gbExploitName.SuspendLayout();
             this.tpLog.SuspendLayout();
+            this.groupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
             // msMenu
@@ -932,6 +1002,18 @@
             // 
             // gbPacketCreator
             // 
+            this.gbPacketCreator.Controls.Add(this.cbPacketCreatorSeek10);
+            this.gbPacketCreator.Controls.Add(this.cbPacketCreatorSeek9);
+            this.gbPacketCreator.Controls.Add(this.cbPacketCreatorSeek8);
+            this.gbPacketCreator.Controls.Add(this.cbPacketCreatorSeek7);
+            this.gbPacketCreator.Controls.Add(this.cbPacketCreatorSeek6);
+            this.gbPacketCreator.Controls.Add(this.cbPacketCreatorSeek5);
+            this.gbPacketCreator.Controls.Add(this.cbPacketCreatorSeek4);
+            this.gbPacketCreator.Controls.Add(this.cbPacketCreatorSeek3);
+            this.gbPacketCreator.Controls.Add(this.cbPacketCreatorSeek2);
+            this.gbPacketCreator.Controls.Add(this.cbPacketCreatorSeek1);
+            this.gbPacketCreator.Controls.Add(this.label8);
+            this.gbPacketCreator.Controls.Add(this.label7);
             this.gbPacketCreator.Controls.Add(this.txtPacketCreatorPacketName);
             this.gbPacketCreator.Controls.Add(this.label6);
             this.gbPacketCreator.Controls.Add(this.btnPacketCreatorCreatePacket);
@@ -957,21 +1039,11 @@
             this.gbPacketCreator.Controls.Add(this.txtPacketCreatorPacketWriter3);
             this.gbPacketCreator.Controls.Add(this.txtPacketCreatorPacketWriter2);
             this.gbPacketCreator.Controls.Add(this.txtPacketCreatorPacketWriter1);
-            this.gbPacketCreator.Controls.Add(this.lblPacketCreatorWriter10);
-            this.gbPacketCreator.Controls.Add(this.lblPacketCreatorWriter9);
-            this.gbPacketCreator.Controls.Add(this.lblPacketCreatorWriter8);
-            this.gbPacketCreator.Controls.Add(this.lblPacketCreatorWriter7);
-            this.gbPacketCreator.Controls.Add(this.lblPacketCreatorWriter6);
-            this.gbPacketCreator.Controls.Add(this.lblPacketCreatorWriter5);
-            this.gbPacketCreator.Controls.Add(this.lblPacketCreatorWriter4);
-            this.gbPacketCreator.Controls.Add(this.lblPacketCreatorWriter3);
-            this.gbPacketCreator.Controls.Add(this.lblPacketCreatorWriter2);
-            this.gbPacketCreator.Controls.Add(this.lblPacketCreatorWriter1);
             this.gbPacketCreator.Controls.Add(this.txtPacketCreatorPacketOpcode);
             this.gbPacketCreator.Controls.Add(this.lblPacketCreatorOpcode);
-            this.gbPacketCreator.Location = new System.Drawing.Point(299, 6);
+            this.gbPacketCreator.Location = new System.Drawing.Point(688, 6);
             this.gbPacketCreator.Name = "gbPacketCreator";
-            this.gbPacketCreator.Size = new System.Drawing.Size(224, 399);
+            this.gbPacketCreator.Size = new System.Drawing.Size(233, 423);
             this.gbPacketCreator.TabIndex = 1;
             this.gbPacketCreator.TabStop = false;
             this.gbPacketCreator.Text = "Packet Creator";
@@ -1013,112 +1085,22 @@
             "DoubleArray",
             "AsciiArray",
             "UnicodeArray"});
-            this.cbPacketCreatorPacketDataType1.Location = new System.Drawing.Point(145, 74);
+            this.cbPacketCreatorPacketDataType1.Location = new System.Drawing.Point(145, 72);
             this.cbPacketCreatorPacketDataType1.Name = "cbPacketCreatorPacketDataType1";
-            this.cbPacketCreatorPacketDataType1.Size = new System.Drawing.Size(68, 21);
+            this.cbPacketCreatorPacketDataType1.Size = new System.Drawing.Size(80, 21);
             this.cbPacketCreatorPacketDataType1.TabIndex = 4;
-            this.cbPacketCreatorPacketDataType1.Text = "UInt8";
+            this.cbPacketCreatorPacketDataType1.Text = "UInt8Array";
             // 
             // txtPacketCreatorPacketWriter1
             // 
-            this.txtPacketCreatorPacketWriter1.Location = new System.Drawing.Point(68, 74);
+            this.txtPacketCreatorPacketWriter1.Location = new System.Drawing.Point(81, 74);
             this.txtPacketCreatorPacketWriter1.Name = "txtPacketCreatorPacketWriter1";
             this.txtPacketCreatorPacketWriter1.Size = new System.Drawing.Size(58, 20);
             this.txtPacketCreatorPacketWriter1.TabIndex = 3;
             // 
-            // lblPacketCreatorWriter10
-            // 
-            this.lblPacketCreatorWriter10.AutoSize = true;
-            this.lblPacketCreatorWriter10.Location = new System.Drawing.Point(12, 310);
-            this.lblPacketCreatorWriter10.Name = "lblPacketCreatorWriter10";
-            this.lblPacketCreatorWriter10.Size = new System.Drawing.Size(53, 13);
-            this.lblPacketCreatorWriter10.TabIndex = 2;
-            this.lblPacketCreatorWriter10.Text = "Writer 10:";
-            // 
-            // lblPacketCreatorWriter9
-            // 
-            this.lblPacketCreatorWriter9.AutoSize = true;
-            this.lblPacketCreatorWriter9.Location = new System.Drawing.Point(12, 284);
-            this.lblPacketCreatorWriter9.Name = "lblPacketCreatorWriter9";
-            this.lblPacketCreatorWriter9.Size = new System.Drawing.Size(47, 13);
-            this.lblPacketCreatorWriter9.TabIndex = 2;
-            this.lblPacketCreatorWriter9.Text = "Writer 9:";
-            // 
-            // lblPacketCreatorWriter8
-            // 
-            this.lblPacketCreatorWriter8.AutoSize = true;
-            this.lblPacketCreatorWriter8.Location = new System.Drawing.Point(12, 260);
-            this.lblPacketCreatorWriter8.Name = "lblPacketCreatorWriter8";
-            this.lblPacketCreatorWriter8.Size = new System.Drawing.Size(47, 13);
-            this.lblPacketCreatorWriter8.TabIndex = 2;
-            this.lblPacketCreatorWriter8.Text = "Writer 8:";
-            // 
-            // lblPacketCreatorWriter7
-            // 
-            this.lblPacketCreatorWriter7.AutoSize = true;
-            this.lblPacketCreatorWriter7.Location = new System.Drawing.Point(12, 234);
-            this.lblPacketCreatorWriter7.Name = "lblPacketCreatorWriter7";
-            this.lblPacketCreatorWriter7.Size = new System.Drawing.Size(47, 13);
-            this.lblPacketCreatorWriter7.TabIndex = 2;
-            this.lblPacketCreatorWriter7.Text = "Writer 7:";
-            // 
-            // lblPacketCreatorWriter6
-            // 
-            this.lblPacketCreatorWriter6.AutoSize = true;
-            this.lblPacketCreatorWriter6.Location = new System.Drawing.Point(12, 207);
-            this.lblPacketCreatorWriter6.Name = "lblPacketCreatorWriter6";
-            this.lblPacketCreatorWriter6.Size = new System.Drawing.Size(47, 13);
-            this.lblPacketCreatorWriter6.TabIndex = 2;
-            this.lblPacketCreatorWriter6.Text = "Writer 6:";
-            // 
-            // lblPacketCreatorWriter5
-            // 
-            this.lblPacketCreatorWriter5.AutoSize = true;
-            this.lblPacketCreatorWriter5.Location = new System.Drawing.Point(12, 181);
-            this.lblPacketCreatorWriter5.Name = "lblPacketCreatorWriter5";
-            this.lblPacketCreatorWriter5.Size = new System.Drawing.Size(47, 13);
-            this.lblPacketCreatorWriter5.TabIndex = 2;
-            this.lblPacketCreatorWriter5.Text = "Writer 5:";
-            // 
-            // lblPacketCreatorWriter4
-            // 
-            this.lblPacketCreatorWriter4.AutoSize = true;
-            this.lblPacketCreatorWriter4.Location = new System.Drawing.Point(12, 155);
-            this.lblPacketCreatorWriter4.Name = "lblPacketCreatorWriter4";
-            this.lblPacketCreatorWriter4.Size = new System.Drawing.Size(47, 13);
-            this.lblPacketCreatorWriter4.TabIndex = 2;
-            this.lblPacketCreatorWriter4.Text = "Writer 4:";
-            // 
-            // lblPacketCreatorWriter3
-            // 
-            this.lblPacketCreatorWriter3.AutoSize = true;
-            this.lblPacketCreatorWriter3.Location = new System.Drawing.Point(12, 129);
-            this.lblPacketCreatorWriter3.Name = "lblPacketCreatorWriter3";
-            this.lblPacketCreatorWriter3.Size = new System.Drawing.Size(47, 13);
-            this.lblPacketCreatorWriter3.TabIndex = 2;
-            this.lblPacketCreatorWriter3.Text = "Writer 3:";
-            // 
-            // lblPacketCreatorWriter2
-            // 
-            this.lblPacketCreatorWriter2.AutoSize = true;
-            this.lblPacketCreatorWriter2.Location = new System.Drawing.Point(12, 103);
-            this.lblPacketCreatorWriter2.Name = "lblPacketCreatorWriter2";
-            this.lblPacketCreatorWriter2.Size = new System.Drawing.Size(47, 13);
-            this.lblPacketCreatorWriter2.TabIndex = 2;
-            this.lblPacketCreatorWriter2.Text = "Writer 2:";
-            // 
-            // lblPacketCreatorWriter1
-            // 
-            this.lblPacketCreatorWriter1.AutoSize = true;
-            this.lblPacketCreatorWriter1.Location = new System.Drawing.Point(12, 77);
-            this.lblPacketCreatorWriter1.Name = "lblPacketCreatorWriter1";
-            this.lblPacketCreatorWriter1.Size = new System.Drawing.Size(47, 13);
-            this.lblPacketCreatorWriter1.TabIndex = 2;
-            this.lblPacketCreatorWriter1.Text = "Writer 1:";
-            // 
             // txtPacketCreatorPacketOpcode
             // 
-            this.txtPacketCreatorPacketOpcode.Location = new System.Drawing.Point(68, 50);
+            this.txtPacketCreatorPacketOpcode.Location = new System.Drawing.Point(81, 50);
             this.txtPacketCreatorPacketOpcode.Name = "txtPacketCreatorPacketOpcode";
             this.txtPacketCreatorPacketOpcode.Size = new System.Drawing.Size(58, 20);
             this.txtPacketCreatorPacketOpcode.TabIndex = 1;
@@ -1127,7 +1109,7 @@
             // lblPacketCreatorOpcode
             // 
             this.lblPacketCreatorOpcode.AutoSize = true;
-            this.lblPacketCreatorOpcode.Location = new System.Drawing.Point(12, 53);
+            this.lblPacketCreatorOpcode.Location = new System.Drawing.Point(3, 53);
             this.lblPacketCreatorOpcode.Name = "lblPacketCreatorOpcode";
             this.lblPacketCreatorOpcode.Size = new System.Drawing.Size(48, 13);
             this.lblPacketCreatorOpcode.TabIndex = 0;
@@ -1135,10 +1117,11 @@
             // 
             // gbPacketRestrictor
             // 
-            this.gbPacketRestrictor.Controls.Add(this.comboBox9);
+            this.gbPacketRestrictor.Controls.Add(this.groupBox5);
+            this.gbPacketRestrictor.Controls.Add(this.listBox1);
             this.gbPacketRestrictor.Location = new System.Drawing.Point(6, 6);
             this.gbPacketRestrictor.Name = "gbPacketRestrictor";
-            this.gbPacketRestrictor.Size = new System.Drawing.Size(266, 284);
+            this.gbPacketRestrictor.Size = new System.Drawing.Size(676, 423);
             this.gbPacketRestrictor.TabIndex = 0;
             this.gbPacketRestrictor.TabStop = false;
             this.gbPacketRestrictor.Text = "Packet Restrictor";
@@ -1391,63 +1374,63 @@
             // 
             // txtPacketCreatorPacketWriter2
             // 
-            this.txtPacketCreatorPacketWriter2.Location = new System.Drawing.Point(68, 100);
+            this.txtPacketCreatorPacketWriter2.Location = new System.Drawing.Point(81, 100);
             this.txtPacketCreatorPacketWriter2.Name = "txtPacketCreatorPacketWriter2";
             this.txtPacketCreatorPacketWriter2.Size = new System.Drawing.Size(58, 20);
             this.txtPacketCreatorPacketWriter2.TabIndex = 3;
             // 
             // txtPacketCreatorPacketWriter3
             // 
-            this.txtPacketCreatorPacketWriter3.Location = new System.Drawing.Point(68, 126);
+            this.txtPacketCreatorPacketWriter3.Location = new System.Drawing.Point(81, 126);
             this.txtPacketCreatorPacketWriter3.Name = "txtPacketCreatorPacketWriter3";
             this.txtPacketCreatorPacketWriter3.Size = new System.Drawing.Size(58, 20);
             this.txtPacketCreatorPacketWriter3.TabIndex = 3;
             // 
             // txtPacketCreatorPacketWriter4
             // 
-            this.txtPacketCreatorPacketWriter4.Location = new System.Drawing.Point(68, 152);
+            this.txtPacketCreatorPacketWriter4.Location = new System.Drawing.Point(81, 152);
             this.txtPacketCreatorPacketWriter4.Name = "txtPacketCreatorPacketWriter4";
             this.txtPacketCreatorPacketWriter4.Size = new System.Drawing.Size(58, 20);
             this.txtPacketCreatorPacketWriter4.TabIndex = 3;
             // 
             // txtPacketCreatorPacketWriter5
             // 
-            this.txtPacketCreatorPacketWriter5.Location = new System.Drawing.Point(68, 178);
+            this.txtPacketCreatorPacketWriter5.Location = new System.Drawing.Point(81, 178);
             this.txtPacketCreatorPacketWriter5.Name = "txtPacketCreatorPacketWriter5";
             this.txtPacketCreatorPacketWriter5.Size = new System.Drawing.Size(58, 20);
             this.txtPacketCreatorPacketWriter5.TabIndex = 3;
             // 
             // txtPacketCreatorPacketWriter6
             // 
-            this.txtPacketCreatorPacketWriter6.Location = new System.Drawing.Point(68, 204);
+            this.txtPacketCreatorPacketWriter6.Location = new System.Drawing.Point(81, 204);
             this.txtPacketCreatorPacketWriter6.Name = "txtPacketCreatorPacketWriter6";
             this.txtPacketCreatorPacketWriter6.Size = new System.Drawing.Size(58, 20);
             this.txtPacketCreatorPacketWriter6.TabIndex = 3;
             // 
             // txtPacketCreatorPacketWriter7
             // 
-            this.txtPacketCreatorPacketWriter7.Location = new System.Drawing.Point(68, 231);
+            this.txtPacketCreatorPacketWriter7.Location = new System.Drawing.Point(81, 231);
             this.txtPacketCreatorPacketWriter7.Name = "txtPacketCreatorPacketWriter7";
             this.txtPacketCreatorPacketWriter7.Size = new System.Drawing.Size(58, 20);
             this.txtPacketCreatorPacketWriter7.TabIndex = 3;
             // 
             // txtPacketCreatorPacketWriter8
             // 
-            this.txtPacketCreatorPacketWriter8.Location = new System.Drawing.Point(68, 257);
+            this.txtPacketCreatorPacketWriter8.Location = new System.Drawing.Point(81, 257);
             this.txtPacketCreatorPacketWriter8.Name = "txtPacketCreatorPacketWriter8";
             this.txtPacketCreatorPacketWriter8.Size = new System.Drawing.Size(58, 20);
             this.txtPacketCreatorPacketWriter8.TabIndex = 3;
             // 
             // txtPacketCreatorPacketWriter9
             // 
-            this.txtPacketCreatorPacketWriter9.Location = new System.Drawing.Point(68, 281);
+            this.txtPacketCreatorPacketWriter9.Location = new System.Drawing.Point(81, 281);
             this.txtPacketCreatorPacketWriter9.Name = "txtPacketCreatorPacketWriter9";
             this.txtPacketCreatorPacketWriter9.Size = new System.Drawing.Size(58, 20);
             this.txtPacketCreatorPacketWriter9.TabIndex = 3;
             // 
             // txtPacketCreatorPacketWriter10
             // 
-            this.txtPacketCreatorPacketWriter10.Location = new System.Drawing.Point(68, 307);
+            this.txtPacketCreatorPacketWriter10.Location = new System.Drawing.Point(81, 307);
             this.txtPacketCreatorPacketWriter10.Name = "txtPacketCreatorPacketWriter10";
             this.txtPacketCreatorPacketWriter10.Size = new System.Drawing.Size(58, 20);
             this.txtPacketCreatorPacketWriter10.TabIndex = 3;
@@ -1457,7 +1440,7 @@
             this.cbPacketCreatorPacketDataType2.FormattingEnabled = true;
             this.cbPacketCreatorPacketDataType2.Location = new System.Drawing.Point(145, 100);
             this.cbPacketCreatorPacketDataType2.Name = "cbPacketCreatorPacketDataType2";
-            this.cbPacketCreatorPacketDataType2.Size = new System.Drawing.Size(68, 21);
+            this.cbPacketCreatorPacketDataType2.Size = new System.Drawing.Size(80, 21);
             this.cbPacketCreatorPacketDataType2.TabIndex = 4;
             this.cbPacketCreatorPacketDataType2.Text = "UInt8";
             // 
@@ -1466,7 +1449,7 @@
             this.cbPacketCreatorPacketDataType3.FormattingEnabled = true;
             this.cbPacketCreatorPacketDataType3.Location = new System.Drawing.Point(145, 126);
             this.cbPacketCreatorPacketDataType3.Name = "cbPacketCreatorPacketDataType3";
-            this.cbPacketCreatorPacketDataType3.Size = new System.Drawing.Size(68, 21);
+            this.cbPacketCreatorPacketDataType3.Size = new System.Drawing.Size(80, 21);
             this.cbPacketCreatorPacketDataType3.TabIndex = 4;
             this.cbPacketCreatorPacketDataType3.Text = "UInt8";
             // 
@@ -1475,7 +1458,7 @@
             this.cbPacketCreatorPacketDataType4.FormattingEnabled = true;
             this.cbPacketCreatorPacketDataType4.Location = new System.Drawing.Point(145, 152);
             this.cbPacketCreatorPacketDataType4.Name = "cbPacketCreatorPacketDataType4";
-            this.cbPacketCreatorPacketDataType4.Size = new System.Drawing.Size(68, 21);
+            this.cbPacketCreatorPacketDataType4.Size = new System.Drawing.Size(80, 21);
             this.cbPacketCreatorPacketDataType4.TabIndex = 4;
             this.cbPacketCreatorPacketDataType4.Text = "UInt8";
             // 
@@ -1484,7 +1467,7 @@
             this.cbPacketCreatorPacketDataType5.FormattingEnabled = true;
             this.cbPacketCreatorPacketDataType5.Location = new System.Drawing.Point(145, 178);
             this.cbPacketCreatorPacketDataType5.Name = "cbPacketCreatorPacketDataType5";
-            this.cbPacketCreatorPacketDataType5.Size = new System.Drawing.Size(68, 21);
+            this.cbPacketCreatorPacketDataType5.Size = new System.Drawing.Size(80, 21);
             this.cbPacketCreatorPacketDataType5.TabIndex = 4;
             this.cbPacketCreatorPacketDataType5.Text = "UInt8";
             // 
@@ -1493,7 +1476,7 @@
             this.cbPacketCreatorPacketDataType6.FormattingEnabled = true;
             this.cbPacketCreatorPacketDataType6.Location = new System.Drawing.Point(145, 204);
             this.cbPacketCreatorPacketDataType6.Name = "cbPacketCreatorPacketDataType6";
-            this.cbPacketCreatorPacketDataType6.Size = new System.Drawing.Size(68, 21);
+            this.cbPacketCreatorPacketDataType6.Size = new System.Drawing.Size(80, 21);
             this.cbPacketCreatorPacketDataType6.TabIndex = 4;
             this.cbPacketCreatorPacketDataType6.Text = "UInt8";
             // 
@@ -1502,24 +1485,16 @@
             this.cbPacketCreatorPacketDataType7.FormattingEnabled = true;
             this.cbPacketCreatorPacketDataType7.Location = new System.Drawing.Point(145, 231);
             this.cbPacketCreatorPacketDataType7.Name = "cbPacketCreatorPacketDataType7";
-            this.cbPacketCreatorPacketDataType7.Size = new System.Drawing.Size(68, 21);
+            this.cbPacketCreatorPacketDataType7.Size = new System.Drawing.Size(80, 21);
             this.cbPacketCreatorPacketDataType7.TabIndex = 4;
             this.cbPacketCreatorPacketDataType7.Text = "UInt8";
-            // 
-            // comboBox9
-            // 
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Location = new System.Drawing.Point(93, 203);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(68, 21);
-            this.comboBox9.TabIndex = 4;
             // 
             // cbPacketCreatorPacketDataType8
             // 
             this.cbPacketCreatorPacketDataType8.FormattingEnabled = true;
             this.cbPacketCreatorPacketDataType8.Location = new System.Drawing.Point(145, 257);
             this.cbPacketCreatorPacketDataType8.Name = "cbPacketCreatorPacketDataType8";
-            this.cbPacketCreatorPacketDataType8.Size = new System.Drawing.Size(68, 21);
+            this.cbPacketCreatorPacketDataType8.Size = new System.Drawing.Size(80, 21);
             this.cbPacketCreatorPacketDataType8.TabIndex = 4;
             this.cbPacketCreatorPacketDataType8.Text = "UInt8";
             // 
@@ -1553,7 +1528,7 @@
             "UnicodeArray"});
             this.cbPacketCreatorPacketDataType9.Location = new System.Drawing.Point(145, 281);
             this.cbPacketCreatorPacketDataType9.Name = "cbPacketCreatorPacketDataType9";
-            this.cbPacketCreatorPacketDataType9.Size = new System.Drawing.Size(68, 21);
+            this.cbPacketCreatorPacketDataType9.Size = new System.Drawing.Size(80, 21);
             this.cbPacketCreatorPacketDataType9.TabIndex = 4;
             this.cbPacketCreatorPacketDataType9.Text = "UInt8";
             // 
@@ -1562,14 +1537,14 @@
             this.cbPacketCreatorPacketDataType10.FormattingEnabled = true;
             this.cbPacketCreatorPacketDataType10.Location = new System.Drawing.Point(145, 307);
             this.cbPacketCreatorPacketDataType10.Name = "cbPacketCreatorPacketDataType10";
-            this.cbPacketCreatorPacketDataType10.Size = new System.Drawing.Size(68, 21);
+            this.cbPacketCreatorPacketDataType10.Size = new System.Drawing.Size(80, 21);
             this.cbPacketCreatorPacketDataType10.TabIndex = 4;
             this.cbPacketCreatorPacketDataType10.Text = "UInt8";
             // 
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(15, 333);
+            this.checkBox2.Location = new System.Drawing.Point(15, 345);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(72, 17);
             this.checkBox2.TabIndex = 6;
@@ -1578,9 +1553,9 @@
             // 
             // btnPacketCreatorCreatePacket
             // 
-            this.btnPacketCreatorCreatePacket.Location = new System.Drawing.Point(15, 356);
+            this.btnPacketCreatorCreatePacket.Location = new System.Drawing.Point(15, 368);
             this.btnPacketCreatorCreatePacket.Name = "btnPacketCreatorCreatePacket";
-            this.btnPacketCreatorCreatePacket.Size = new System.Drawing.Size(198, 23);
+            this.btnPacketCreatorCreatePacket.Size = new System.Drawing.Size(198, 36);
             this.btnPacketCreatorCreatePacket.TabIndex = 7;
             this.btnPacketCreatorCreatePacket.Text = "Create Packet";
             this.btnPacketCreatorCreatePacket.UseVisualStyleBackColor = true;
@@ -1588,7 +1563,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 27);
+            this.label6.Location = new System.Drawing.Point(3, 27);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(38, 13);
             this.label6.TabIndex = 8;
@@ -1596,10 +1571,849 @@
             // 
             // txtPacketCreatorPacketName
             // 
-            this.txtPacketCreatorPacketName.Location = new System.Drawing.Point(68, 20);
+            this.txtPacketCreatorPacketName.Location = new System.Drawing.Point(81, 24);
             this.txtPacketCreatorPacketName.Name = "txtPacketCreatorPacketName";
-            this.txtPacketCreatorPacketName.Size = new System.Drawing.Size(145, 20);
+            this.txtPacketCreatorPacketName.Size = new System.Drawing.Size(144, 20);
             this.txtPacketCreatorPacketName.TabIndex = 9;
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(6, 27);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(205, 381);
+            this.listBox1.TabIndex = 5;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(321, 352);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(116, 23);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "Add to Restrict";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.label20);
+            this.groupBox5.Controls.Add(this.comboBox22);
+            this.groupBox5.Controls.Add(this.comboBox21);
+            this.groupBox5.Controls.Add(this.comboBox20);
+            this.groupBox5.Controls.Add(this.comboBox19);
+            this.groupBox5.Controls.Add(this.comboBox18);
+            this.groupBox5.Controls.Add(this.comboBox17);
+            this.groupBox5.Controls.Add(this.comboBox16);
+            this.groupBox5.Controls.Add(this.comboBox15);
+            this.groupBox5.Controls.Add(this.comboBox14);
+            this.groupBox5.Controls.Add(this.comboBox13);
+            this.groupBox5.Controls.Add(this.checkBox22);
+            this.groupBox5.Controls.Add(this.checkBox21);
+            this.groupBox5.Controls.Add(this.checkBox20);
+            this.groupBox5.Controls.Add(this.checkBox19);
+            this.groupBox5.Controls.Add(this.checkBox18);
+            this.groupBox5.Controls.Add(this.checkBox17);
+            this.groupBox5.Controls.Add(this.checkBox16);
+            this.groupBox5.Controls.Add(this.checkBox15);
+            this.groupBox5.Controls.Add(this.checkBox14);
+            this.groupBox5.Controls.Add(this.checkBox13);
+            this.groupBox5.Controls.Add(this.checkBox12);
+            this.groupBox5.Controls.Add(this.checkBox11);
+            this.groupBox5.Controls.Add(this.checkBox10);
+            this.groupBox5.Controls.Add(this.checkBox9);
+            this.groupBox5.Controls.Add(this.checkBox8);
+            this.groupBox5.Controls.Add(this.checkBox7);
+            this.groupBox5.Controls.Add(this.checkBox6);
+            this.groupBox5.Controls.Add(this.checkBox5);
+            this.groupBox5.Controls.Add(this.checkBox4);
+            this.groupBox5.Controls.Add(this.checkBox3);
+            this.groupBox5.Controls.Add(this.radioButton2);
+            this.groupBox5.Controls.Add(this.label19);
+            this.groupBox5.Controls.Add(this.label18);
+            this.groupBox5.Controls.Add(this.label17);
+            this.groupBox5.Controls.Add(this.label16);
+            this.groupBox5.Controls.Add(this.label15);
+            this.groupBox5.Controls.Add(this.label14);
+            this.groupBox5.Controls.Add(this.label13);
+            this.groupBox5.Controls.Add(this.label12);
+            this.groupBox5.Controls.Add(this.label10);
+            this.groupBox5.Controls.Add(this.radioButton1);
+            this.groupBox5.Controls.Add(this.textBox11);
+            this.groupBox5.Controls.Add(this.textBox10);
+            this.groupBox5.Controls.Add(this.textBox9);
+            this.groupBox5.Controls.Add(this.textBox8);
+            this.groupBox5.Controls.Add(this.textBox7);
+            this.groupBox5.Controls.Add(this.textBox6);
+            this.groupBox5.Controls.Add(this.textBox5);
+            this.groupBox5.Controls.Add(this.textBox4);
+            this.groupBox5.Controls.Add(this.textBox3);
+            this.groupBox5.Controls.Add(this.label11);
+            this.groupBox5.Controls.Add(this.comboBox12);
+            this.groupBox5.Controls.Add(this.comboBox11);
+            this.groupBox5.Controls.Add(this.comboBox10);
+            this.groupBox5.Controls.Add(this.comboBox8);
+            this.groupBox5.Controls.Add(this.comboBox7);
+            this.groupBox5.Controls.Add(this.comboBox6);
+            this.groupBox5.Controls.Add(this.comboBox5);
+            this.groupBox5.Controls.Add(this.comboBox4);
+            this.groupBox5.Controls.Add(this.comboBox3);
+            this.groupBox5.Controls.Add(this.textBox2);
+            this.groupBox5.Controls.Add(this.comboBox2);
+            this.groupBox5.Controls.Add(this.label9);
+            this.groupBox5.Controls.Add(this.textBox1);
+            this.groupBox5.Controls.Add(this.button2);
+            this.groupBox5.Location = new System.Drawing.Point(227, 27);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(443, 381);
+            this.groupBox5.TabIndex = 9;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Rule Creator";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(12, 407);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(40, 13);
+            this.label7.TabIndex = 10;
+            this.label7.Text = "Status:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label8.Location = new System.Drawing.Point(58, 407);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(43, 13);
+            this.label8.TabIndex = 11;
+            this.label8.Text = "Waiting";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(60, 23);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(58, 20);
+            this.textBox1.TabIndex = 7;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(6, 26);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(48, 13);
+            this.label9.TabIndex = 8;
+            this.label9.Text = "Opcode:";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "Equals",
+            "Not Equals",
+            "Greater",
+            "Smaller"});
+            this.comboBox2.Location = new System.Drawing.Point(90, 47);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(68, 21);
+            this.comboBox2.TabIndex = 10;
+            this.comboBox2.Text = "Equals";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(186, 47);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(58, 20);
+            this.textBox2.TabIndex = 11;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(164, 50);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(16, 13);
+            this.label11.TabIndex = 12;
+            this.label11.Text = "to";
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(9, 330);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(97, 17);
+            this.radioButton1.TabIndex = 13;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Client -> Server";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(9, 307);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(97, 17);
+            this.radioButton2.TabIndex = 13;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Server -> Client";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(9, 49);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(75, 17);
+            this.checkBox3.TabIndex = 14;
+            this.checkBox3.Text = "If Seek 1 :";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "Equals",
+            "Not Equals",
+            "Greater",
+            "Smaller"});
+            this.comboBox3.Location = new System.Drawing.Point(90, 73);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(68, 21);
+            this.comboBox3.TabIndex = 10;
+            this.comboBox3.Text = "Equals";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(186, 73);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(58, 20);
+            this.textBox3.TabIndex = 11;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(164, 76);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(16, 13);
+            this.label10.TabIndex = 12;
+            this.label10.Text = "to";
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(9, 75);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(75, 17);
+            this.checkBox4.TabIndex = 14;
+            this.checkBox4.Text = "If Seek 2 :";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "Equals",
+            "Not Equals",
+            "Greater",
+            "Smaller"});
+            this.comboBox4.Location = new System.Drawing.Point(90, 99);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(68, 21);
+            this.comboBox4.TabIndex = 10;
+            this.comboBox4.Text = "Equals";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(186, 99);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(58, 20);
+            this.textBox4.TabIndex = 11;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(164, 102);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(16, 13);
+            this.label12.TabIndex = 12;
+            this.label12.Text = "to";
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Location = new System.Drawing.Point(9, 101);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(75, 17);
+            this.checkBox5.TabIndex = 14;
+            this.checkBox5.Text = "If Seek 3 :";
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
+            // comboBox5
+            // 
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Items.AddRange(new object[] {
+            "Equals",
+            "Not Equals",
+            "Greater",
+            "Smaller"});
+            this.comboBox5.Location = new System.Drawing.Point(90, 125);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(68, 21);
+            this.comboBox5.TabIndex = 10;
+            this.comboBox5.Text = "Equals";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(186, 125);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(58, 20);
+            this.textBox5.TabIndex = 11;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(164, 128);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(16, 13);
+            this.label13.TabIndex = 12;
+            this.label13.Text = "to";
+            // 
+            // checkBox6
+            // 
+            this.checkBox6.AutoSize = true;
+            this.checkBox6.Location = new System.Drawing.Point(9, 127);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(75, 17);
+            this.checkBox6.TabIndex = 14;
+            this.checkBox6.Text = "If Seek 4 :";
+            this.checkBox6.UseVisualStyleBackColor = true;
+            // 
+            // comboBox6
+            // 
+            this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Items.AddRange(new object[] {
+            "Equals",
+            "Not Equals",
+            "Greater",
+            "Smaller"});
+            this.comboBox6.Location = new System.Drawing.Point(90, 151);
+            this.comboBox6.Name = "comboBox6";
+            this.comboBox6.Size = new System.Drawing.Size(68, 21);
+            this.comboBox6.TabIndex = 10;
+            this.comboBox6.Text = "Equals";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(186, 151);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(58, 20);
+            this.textBox6.TabIndex = 11;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(164, 154);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(16, 13);
+            this.label14.TabIndex = 12;
+            this.label14.Text = "to";
+            // 
+            // checkBox7
+            // 
+            this.checkBox7.AutoSize = true;
+            this.checkBox7.Location = new System.Drawing.Point(9, 153);
+            this.checkBox7.Name = "checkBox7";
+            this.checkBox7.Size = new System.Drawing.Size(75, 17);
+            this.checkBox7.TabIndex = 14;
+            this.checkBox7.Text = "If Seek 5 :";
+            this.checkBox7.UseVisualStyleBackColor = true;
+            // 
+            // comboBox7
+            // 
+            this.comboBox7.FormattingEnabled = true;
+            this.comboBox7.Items.AddRange(new object[] {
+            "Equals",
+            "Not Equals",
+            "Greater",
+            "Smaller"});
+            this.comboBox7.Location = new System.Drawing.Point(90, 177);
+            this.comboBox7.Name = "comboBox7";
+            this.comboBox7.Size = new System.Drawing.Size(68, 21);
+            this.comboBox7.TabIndex = 10;
+            this.comboBox7.Text = "Equals";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(186, 177);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(58, 20);
+            this.textBox7.TabIndex = 11;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(164, 180);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(16, 13);
+            this.label15.TabIndex = 12;
+            this.label15.Text = "to";
+            // 
+            // checkBox8
+            // 
+            this.checkBox8.AutoSize = true;
+            this.checkBox8.Location = new System.Drawing.Point(9, 179);
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.Size = new System.Drawing.Size(75, 17);
+            this.checkBox8.TabIndex = 14;
+            this.checkBox8.Text = "If Seek 6 :";
+            this.checkBox8.UseVisualStyleBackColor = true;
+            // 
+            // comboBox8
+            // 
+            this.comboBox8.FormattingEnabled = true;
+            this.comboBox8.Items.AddRange(new object[] {
+            "Equals",
+            "Not Equals",
+            "Greater",
+            "Smaller"});
+            this.comboBox8.Location = new System.Drawing.Point(90, 204);
+            this.comboBox8.Name = "comboBox8";
+            this.comboBox8.Size = new System.Drawing.Size(68, 21);
+            this.comboBox8.TabIndex = 10;
+            this.comboBox8.Text = "Equals";
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(186, 204);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(58, 20);
+            this.textBox8.TabIndex = 11;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(164, 207);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(16, 13);
+            this.label16.TabIndex = 12;
+            this.label16.Text = "to";
+            // 
+            // checkBox9
+            // 
+            this.checkBox9.AutoSize = true;
+            this.checkBox9.Location = new System.Drawing.Point(9, 206);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(75, 17);
+            this.checkBox9.TabIndex = 14;
+            this.checkBox9.Text = "If Seek 7 :";
+            this.checkBox9.UseVisualStyleBackColor = true;
+            // 
+            // comboBox10
+            // 
+            this.comboBox10.FormattingEnabled = true;
+            this.comboBox10.Items.AddRange(new object[] {
+            "Equals",
+            "Not Equals",
+            "Greater",
+            "Smaller"});
+            this.comboBox10.Location = new System.Drawing.Point(90, 230);
+            this.comboBox10.Name = "comboBox10";
+            this.comboBox10.Size = new System.Drawing.Size(68, 21);
+            this.comboBox10.TabIndex = 10;
+            this.comboBox10.Text = "Equals";
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(186, 230);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(58, 20);
+            this.textBox9.TabIndex = 11;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(164, 233);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(16, 13);
+            this.label17.TabIndex = 12;
+            this.label17.Text = "to";
+            // 
+            // checkBox10
+            // 
+            this.checkBox10.AutoSize = true;
+            this.checkBox10.Location = new System.Drawing.Point(9, 232);
+            this.checkBox10.Name = "checkBox10";
+            this.checkBox10.Size = new System.Drawing.Size(75, 17);
+            this.checkBox10.TabIndex = 14;
+            this.checkBox10.Text = "If Seek 8 :";
+            this.checkBox10.UseVisualStyleBackColor = true;
+            // 
+            // comboBox11
+            // 
+            this.comboBox11.FormattingEnabled = true;
+            this.comboBox11.Items.AddRange(new object[] {
+            "Equals",
+            "Not Equals",
+            "Greater",
+            "Smaller"});
+            this.comboBox11.Location = new System.Drawing.Point(90, 254);
+            this.comboBox11.Name = "comboBox11";
+            this.comboBox11.Size = new System.Drawing.Size(68, 21);
+            this.comboBox11.TabIndex = 10;
+            this.comboBox11.Text = "Equals";
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(186, 254);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(58, 20);
+            this.textBox10.TabIndex = 11;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(164, 257);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(16, 13);
+            this.label18.TabIndex = 12;
+            this.label18.Text = "to";
+            // 
+            // checkBox11
+            // 
+            this.checkBox11.AutoSize = true;
+            this.checkBox11.Location = new System.Drawing.Point(9, 256);
+            this.checkBox11.Name = "checkBox11";
+            this.checkBox11.Size = new System.Drawing.Size(75, 17);
+            this.checkBox11.TabIndex = 14;
+            this.checkBox11.Text = "If Seek 9 :";
+            this.checkBox11.UseVisualStyleBackColor = true;
+            // 
+            // comboBox12
+            // 
+            this.comboBox12.FormattingEnabled = true;
+            this.comboBox12.Items.AddRange(new object[] {
+            "Equals",
+            "Not Equals",
+            "Greater",
+            "Smaller"});
+            this.comboBox12.Location = new System.Drawing.Point(90, 280);
+            this.comboBox12.Name = "comboBox12";
+            this.comboBox12.Size = new System.Drawing.Size(68, 21);
+            this.comboBox12.TabIndex = 10;
+            this.comboBox12.Text = "Equals";
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(186, 280);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(58, 20);
+            this.textBox11.TabIndex = 11;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(164, 283);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(16, 13);
+            this.label19.TabIndex = 12;
+            this.label19.Text = "to";
+            // 
+            // checkBox12
+            // 
+            this.checkBox12.AutoSize = true;
+            this.checkBox12.Location = new System.Drawing.Point(9, 282);
+            this.checkBox12.Name = "checkBox12";
+            this.checkBox12.Size = new System.Drawing.Size(81, 17);
+            this.checkBox12.TabIndex = 14;
+            this.checkBox12.Text = "If Seek 10 :";
+            this.checkBox12.UseVisualStyleBackColor = true;
+            // 
+            // cbPacketCreatorSeek1
+            // 
+            this.cbPacketCreatorSeek1.AutoSize = true;
+            this.cbPacketCreatorSeek1.Location = new System.Drawing.Point(6, 76);
+            this.cbPacketCreatorSeek1.Name = "cbPacketCreatorSeek1";
+            this.cbPacketCreatorSeek1.Size = new System.Drawing.Size(66, 17);
+            this.cbPacketCreatorSeek1.TabIndex = 12;
+            this.cbPacketCreatorSeek1.Text = "Seek 1 :";
+            this.cbPacketCreatorSeek1.UseVisualStyleBackColor = true;
+            // 
+            // cbPacketCreatorSeek2
+            // 
+            this.cbPacketCreatorSeek2.AutoSize = true;
+            this.cbPacketCreatorSeek2.Location = new System.Drawing.Point(6, 102);
+            this.cbPacketCreatorSeek2.Name = "cbPacketCreatorSeek2";
+            this.cbPacketCreatorSeek2.Size = new System.Drawing.Size(66, 17);
+            this.cbPacketCreatorSeek2.TabIndex = 12;
+            this.cbPacketCreatorSeek2.Text = "Seek 2 :";
+            this.cbPacketCreatorSeek2.UseVisualStyleBackColor = true;
+            // 
+            // cbPacketCreatorSeek3
+            // 
+            this.cbPacketCreatorSeek3.AutoSize = true;
+            this.cbPacketCreatorSeek3.Location = new System.Drawing.Point(6, 128);
+            this.cbPacketCreatorSeek3.Name = "cbPacketCreatorSeek3";
+            this.cbPacketCreatorSeek3.Size = new System.Drawing.Size(66, 17);
+            this.cbPacketCreatorSeek3.TabIndex = 12;
+            this.cbPacketCreatorSeek3.Text = "Seek 3 :";
+            this.cbPacketCreatorSeek3.UseVisualStyleBackColor = true;
+            // 
+            // cbPacketCreatorSeek4
+            // 
+            this.cbPacketCreatorSeek4.AutoSize = true;
+            this.cbPacketCreatorSeek4.Location = new System.Drawing.Point(6, 154);
+            this.cbPacketCreatorSeek4.Name = "cbPacketCreatorSeek4";
+            this.cbPacketCreatorSeek4.Size = new System.Drawing.Size(66, 17);
+            this.cbPacketCreatorSeek4.TabIndex = 12;
+            this.cbPacketCreatorSeek4.Text = "Seek 4 :";
+            this.cbPacketCreatorSeek4.UseVisualStyleBackColor = true;
+            // 
+            // cbPacketCreatorSeek5
+            // 
+            this.cbPacketCreatorSeek5.AutoSize = true;
+            this.cbPacketCreatorSeek5.Location = new System.Drawing.Point(6, 180);
+            this.cbPacketCreatorSeek5.Name = "cbPacketCreatorSeek5";
+            this.cbPacketCreatorSeek5.Size = new System.Drawing.Size(66, 17);
+            this.cbPacketCreatorSeek5.TabIndex = 12;
+            this.cbPacketCreatorSeek5.Text = "Seek 5 :";
+            this.cbPacketCreatorSeek5.UseVisualStyleBackColor = true;
+            // 
+            // cbPacketCreatorSeek6
+            // 
+            this.cbPacketCreatorSeek6.AutoSize = true;
+            this.cbPacketCreatorSeek6.Location = new System.Drawing.Point(6, 206);
+            this.cbPacketCreatorSeek6.Name = "cbPacketCreatorSeek6";
+            this.cbPacketCreatorSeek6.Size = new System.Drawing.Size(66, 17);
+            this.cbPacketCreatorSeek6.TabIndex = 12;
+            this.cbPacketCreatorSeek6.Text = "Seek 6 :";
+            this.cbPacketCreatorSeek6.UseVisualStyleBackColor = true;
+            // 
+            // cbPacketCreatorSeek7
+            // 
+            this.cbPacketCreatorSeek7.AutoSize = true;
+            this.cbPacketCreatorSeek7.Location = new System.Drawing.Point(6, 233);
+            this.cbPacketCreatorSeek7.Name = "cbPacketCreatorSeek7";
+            this.cbPacketCreatorSeek7.Size = new System.Drawing.Size(66, 17);
+            this.cbPacketCreatorSeek7.TabIndex = 12;
+            this.cbPacketCreatorSeek7.Text = "Seek 7 :";
+            this.cbPacketCreatorSeek7.UseVisualStyleBackColor = true;
+            // 
+            // cbPacketCreatorSeek8
+            // 
+            this.cbPacketCreatorSeek8.AutoSize = true;
+            this.cbPacketCreatorSeek8.Location = new System.Drawing.Point(6, 259);
+            this.cbPacketCreatorSeek8.Name = "cbPacketCreatorSeek8";
+            this.cbPacketCreatorSeek8.Size = new System.Drawing.Size(66, 17);
+            this.cbPacketCreatorSeek8.TabIndex = 12;
+            this.cbPacketCreatorSeek8.Text = "Seek 8 :";
+            this.cbPacketCreatorSeek8.UseVisualStyleBackColor = true;
+            // 
+            // cbPacketCreatorSeek9
+            // 
+            this.cbPacketCreatorSeek9.AutoSize = true;
+            this.cbPacketCreatorSeek9.Location = new System.Drawing.Point(6, 283);
+            this.cbPacketCreatorSeek9.Name = "cbPacketCreatorSeek9";
+            this.cbPacketCreatorSeek9.Size = new System.Drawing.Size(66, 17);
+            this.cbPacketCreatorSeek9.TabIndex = 12;
+            this.cbPacketCreatorSeek9.Text = "Seek 9 :";
+            this.cbPacketCreatorSeek9.UseVisualStyleBackColor = true;
+            // 
+            // cbPacketCreatorSeek10
+            // 
+            this.cbPacketCreatorSeek10.AutoSize = true;
+            this.cbPacketCreatorSeek10.Location = new System.Drawing.Point(6, 309);
+            this.cbPacketCreatorSeek10.Name = "cbPacketCreatorSeek10";
+            this.cbPacketCreatorSeek10.Size = new System.Drawing.Size(72, 17);
+            this.cbPacketCreatorSeek10.TabIndex = 12;
+            this.cbPacketCreatorSeek10.Text = "Seek 10 :";
+            this.cbPacketCreatorSeek10.UseVisualStyleBackColor = true;
+            // 
+            // checkBox13
+            // 
+            this.checkBox13.AutoSize = true;
+            this.checkBox13.Location = new System.Drawing.Point(250, 49);
+            this.checkBox13.Name = "checkBox13";
+            this.checkBox13.Size = new System.Drawing.Size(73, 17);
+            this.checkBox13.TabIndex = 15;
+            this.checkBox13.Text = "or Custom";
+            this.checkBox13.UseVisualStyleBackColor = true;
+            // 
+            // comboBox13
+            // 
+            this.comboBox13.FormattingEnabled = true;
+            this.comboBox13.Location = new System.Drawing.Point(321, 47);
+            this.comboBox13.Name = "comboBox13";
+            this.comboBox13.Size = new System.Drawing.Size(116, 21);
+            this.comboBox13.TabIndex = 16;
+            // 
+            // checkBox14
+            // 
+            this.checkBox14.AutoSize = true;
+            this.checkBox14.Location = new System.Drawing.Point(250, 75);
+            this.checkBox14.Name = "checkBox14";
+            this.checkBox14.Size = new System.Drawing.Size(73, 17);
+            this.checkBox14.TabIndex = 15;
+            this.checkBox14.Text = "or Custom";
+            this.checkBox14.UseVisualStyleBackColor = true;
+            // 
+            // comboBox14
+            // 
+            this.comboBox14.FormattingEnabled = true;
+            this.comboBox14.Location = new System.Drawing.Point(321, 73);
+            this.comboBox14.Name = "comboBox14";
+            this.comboBox14.Size = new System.Drawing.Size(116, 21);
+            this.comboBox14.TabIndex = 16;
+            // 
+            // checkBox15
+            // 
+            this.checkBox15.AutoSize = true;
+            this.checkBox15.Location = new System.Drawing.Point(250, 101);
+            this.checkBox15.Name = "checkBox15";
+            this.checkBox15.Size = new System.Drawing.Size(73, 17);
+            this.checkBox15.TabIndex = 15;
+            this.checkBox15.Text = "or Custom";
+            this.checkBox15.UseVisualStyleBackColor = true;
+            // 
+            // comboBox15
+            // 
+            this.comboBox15.FormattingEnabled = true;
+            this.comboBox15.Location = new System.Drawing.Point(321, 99);
+            this.comboBox15.Name = "comboBox15";
+            this.comboBox15.Size = new System.Drawing.Size(116, 21);
+            this.comboBox15.TabIndex = 16;
+            // 
+            // checkBox16
+            // 
+            this.checkBox16.AutoSize = true;
+            this.checkBox16.Location = new System.Drawing.Point(250, 127);
+            this.checkBox16.Name = "checkBox16";
+            this.checkBox16.Size = new System.Drawing.Size(73, 17);
+            this.checkBox16.TabIndex = 15;
+            this.checkBox16.Text = "or Custom";
+            this.checkBox16.UseVisualStyleBackColor = true;
+            // 
+            // comboBox16
+            // 
+            this.comboBox16.FormattingEnabled = true;
+            this.comboBox16.Location = new System.Drawing.Point(321, 125);
+            this.comboBox16.Name = "comboBox16";
+            this.comboBox16.Size = new System.Drawing.Size(116, 21);
+            this.comboBox16.TabIndex = 16;
+            // 
+            // checkBox17
+            // 
+            this.checkBox17.AutoSize = true;
+            this.checkBox17.Location = new System.Drawing.Point(250, 153);
+            this.checkBox17.Name = "checkBox17";
+            this.checkBox17.Size = new System.Drawing.Size(73, 17);
+            this.checkBox17.TabIndex = 15;
+            this.checkBox17.Text = "or Custom";
+            this.checkBox17.UseVisualStyleBackColor = true;
+            // 
+            // comboBox17
+            // 
+            this.comboBox17.FormattingEnabled = true;
+            this.comboBox17.Location = new System.Drawing.Point(321, 151);
+            this.comboBox17.Name = "comboBox17";
+            this.comboBox17.Size = new System.Drawing.Size(116, 21);
+            this.comboBox17.TabIndex = 16;
+            // 
+            // checkBox18
+            // 
+            this.checkBox18.AutoSize = true;
+            this.checkBox18.Location = new System.Drawing.Point(250, 179);
+            this.checkBox18.Name = "checkBox18";
+            this.checkBox18.Size = new System.Drawing.Size(73, 17);
+            this.checkBox18.TabIndex = 15;
+            this.checkBox18.Text = "or Custom";
+            this.checkBox18.UseVisualStyleBackColor = true;
+            // 
+            // comboBox18
+            // 
+            this.comboBox18.FormattingEnabled = true;
+            this.comboBox18.Location = new System.Drawing.Point(321, 177);
+            this.comboBox18.Name = "comboBox18";
+            this.comboBox18.Size = new System.Drawing.Size(116, 21);
+            this.comboBox18.TabIndex = 16;
+            // 
+            // checkBox19
+            // 
+            this.checkBox19.AutoSize = true;
+            this.checkBox19.Location = new System.Drawing.Point(250, 206);
+            this.checkBox19.Name = "checkBox19";
+            this.checkBox19.Size = new System.Drawing.Size(73, 17);
+            this.checkBox19.TabIndex = 15;
+            this.checkBox19.Text = "or Custom";
+            this.checkBox19.UseVisualStyleBackColor = true;
+            // 
+            // comboBox19
+            // 
+            this.comboBox19.FormattingEnabled = true;
+            this.comboBox19.Location = new System.Drawing.Point(321, 204);
+            this.comboBox19.Name = "comboBox19";
+            this.comboBox19.Size = new System.Drawing.Size(116, 21);
+            this.comboBox19.TabIndex = 16;
+            // 
+            // checkBox20
+            // 
+            this.checkBox20.AutoSize = true;
+            this.checkBox20.Location = new System.Drawing.Point(250, 232);
+            this.checkBox20.Name = "checkBox20";
+            this.checkBox20.Size = new System.Drawing.Size(73, 17);
+            this.checkBox20.TabIndex = 15;
+            this.checkBox20.Text = "or Custom";
+            this.checkBox20.UseVisualStyleBackColor = true;
+            // 
+            // comboBox20
+            // 
+            this.comboBox20.FormattingEnabled = true;
+            this.comboBox20.Location = new System.Drawing.Point(321, 230);
+            this.comboBox20.Name = "comboBox20";
+            this.comboBox20.Size = new System.Drawing.Size(116, 21);
+            this.comboBox20.TabIndex = 16;
+            // 
+            // checkBox21
+            // 
+            this.checkBox21.AutoSize = true;
+            this.checkBox21.Location = new System.Drawing.Point(250, 256);
+            this.checkBox21.Name = "checkBox21";
+            this.checkBox21.Size = new System.Drawing.Size(73, 17);
+            this.checkBox21.TabIndex = 15;
+            this.checkBox21.Text = "or Custom";
+            this.checkBox21.UseVisualStyleBackColor = true;
+            // 
+            // comboBox21
+            // 
+            this.comboBox21.FormattingEnabled = true;
+            this.comboBox21.Location = new System.Drawing.Point(321, 254);
+            this.comboBox21.Name = "comboBox21";
+            this.comboBox21.Size = new System.Drawing.Size(116, 21);
+            this.comboBox21.TabIndex = 16;
+            // 
+            // checkBox22
+            // 
+            this.checkBox22.AutoSize = true;
+            this.checkBox22.Location = new System.Drawing.Point(250, 282);
+            this.checkBox22.Name = "checkBox22";
+            this.checkBox22.Size = new System.Drawing.Size(73, 17);
+            this.checkBox22.TabIndex = 15;
+            this.checkBox22.Text = "or Custom";
+            this.checkBox22.UseVisualStyleBackColor = true;
+            // 
+            // comboBox22
+            // 
+            this.comboBox22.FormattingEnabled = true;
+            this.comboBox22.Location = new System.Drawing.Point(321, 280);
+            this.comboBox22.Name = "comboBox22";
+            this.comboBox22.Size = new System.Drawing.Size(116, 21);
+            this.comboBox22.TabIndex = 16;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(318, 26);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(110, 13);
+            this.label20.TabIndex = 17;
+            this.label20.Text = "Custom Packet Name";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmVSRO
             // 
@@ -1651,6 +2465,8 @@
             this.tableLayoutPanel1.PerformLayout();
             this.gbExploitName.ResumeLayout(false);
             this.tpLog.ResumeLayout(false);
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1763,20 +2579,9 @@
         private System.Windows.Forms.Label lblPacketCreatorDataType;
         private System.Windows.Forms.ComboBox cbPacketCreatorPacketDataType1;
         private System.Windows.Forms.TextBox txtPacketCreatorPacketWriter1;
-        private System.Windows.Forms.Label lblPacketCreatorWriter10;
-        private System.Windows.Forms.Label lblPacketCreatorWriter9;
-        private System.Windows.Forms.Label lblPacketCreatorWriter8;
-        private System.Windows.Forms.Label lblPacketCreatorWriter7;
-        private System.Windows.Forms.Label lblPacketCreatorWriter6;
-        private System.Windows.Forms.Label lblPacketCreatorWriter5;
-        private System.Windows.Forms.Label lblPacketCreatorWriter4;
-        private System.Windows.Forms.Label lblPacketCreatorWriter3;
-        private System.Windows.Forms.Label lblPacketCreatorWriter2;
-        private System.Windows.Forms.Label lblPacketCreatorWriter1;
         private System.Windows.Forms.ComboBox cbPacketCreatorPacketDataType10;
         private System.Windows.Forms.ComboBox cbPacketCreatorPacketDataType9;
         private System.Windows.Forms.ComboBox cbPacketCreatorPacketDataType8;
-        private System.Windows.Forms.ComboBox comboBox9;
         private System.Windows.Forms.ComboBox cbPacketCreatorPacketDataType7;
         private System.Windows.Forms.ComboBox cbPacketCreatorPacketDataType6;
         private System.Windows.Forms.ComboBox cbPacketCreatorPacketDataType5;
@@ -1796,5 +2601,85 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnPacketCreatorCreatePacket;
         private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.CheckBox cbPacketCreatorSeek10;
+        private System.Windows.Forms.CheckBox cbPacketCreatorSeek9;
+        private System.Windows.Forms.CheckBox cbPacketCreatorSeek8;
+        private System.Windows.Forms.CheckBox cbPacketCreatorSeek7;
+        private System.Windows.Forms.CheckBox cbPacketCreatorSeek6;
+        private System.Windows.Forms.CheckBox cbPacketCreatorSeek5;
+        private System.Windows.Forms.CheckBox cbPacketCreatorSeek4;
+        private System.Windows.Forms.CheckBox cbPacketCreatorSeek3;
+        private System.Windows.Forms.CheckBox cbPacketCreatorSeek2;
+        private System.Windows.Forms.CheckBox cbPacketCreatorSeek1;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.ComboBox comboBox22;
+        private System.Windows.Forms.ComboBox comboBox21;
+        private System.Windows.Forms.ComboBox comboBox20;
+        private System.Windows.Forms.ComboBox comboBox19;
+        private System.Windows.Forms.ComboBox comboBox18;
+        private System.Windows.Forms.ComboBox comboBox17;
+        private System.Windows.Forms.ComboBox comboBox16;
+        private System.Windows.Forms.ComboBox comboBox15;
+        private System.Windows.Forms.ComboBox comboBox14;
+        private System.Windows.Forms.ComboBox comboBox13;
+        private System.Windows.Forms.CheckBox checkBox22;
+        private System.Windows.Forms.CheckBox checkBox21;
+        private System.Windows.Forms.CheckBox checkBox20;
+        private System.Windows.Forms.CheckBox checkBox19;
+        private System.Windows.Forms.CheckBox checkBox18;
+        private System.Windows.Forms.CheckBox checkBox17;
+        private System.Windows.Forms.CheckBox checkBox16;
+        private System.Windows.Forms.CheckBox checkBox15;
+        private System.Windows.Forms.CheckBox checkBox14;
+        private System.Windows.Forms.CheckBox checkBox13;
+        private System.Windows.Forms.CheckBox checkBox12;
+        private System.Windows.Forms.CheckBox checkBox11;
+        private System.Windows.Forms.CheckBox checkBox10;
+        private System.Windows.Forms.CheckBox checkBox9;
+        private System.Windows.Forms.CheckBox checkBox8;
+        private System.Windows.Forms.CheckBox checkBox7;
+        private System.Windows.Forms.CheckBox checkBox6;
+        private System.Windows.Forms.CheckBox checkBox5;
+        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.ComboBox comboBox12;
+        private System.Windows.Forms.ComboBox comboBox11;
+        private System.Windows.Forms.ComboBox comboBox10;
+        private System.Windows.Forms.ComboBox comboBox8;
+        private System.Windows.Forms.ComboBox comboBox7;
+        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
