@@ -659,7 +659,7 @@
             this.gbServerCharacter.Controls.Add(this.txtServerAccountID);
             this.gbServerCharacter.Controls.Add(this.lblServerAccountPW);
             this.gbServerCharacter.Controls.Add(this.lblServerAccountID);
-            this.gbServerCharacter.Location = new System.Drawing.Point(658, 6);
+            this.gbServerCharacter.Location = new System.Drawing.Point(643, 6);
             this.gbServerCharacter.Name = "gbServerCharacter";
             this.gbServerCharacter.Size = new System.Drawing.Size(298, 282);
             this.gbServerCharacter.TabIndex = 1;
@@ -2397,16 +2397,16 @@
             this.gbPacketRestrictor.Size = new System.Drawing.Size(737, 423);
             this.gbPacketRestrictor.TabIndex = 0;
             this.gbPacketRestrictor.TabStop = false;
-            this.gbPacketRestrictor.Text = "Packet Restrictor";
+            this.gbPacketRestrictor.Text = "Packet Redirector";
             // 
             // label23
             // 
             this.label23.AutoSize = true;
             this.label23.Location = new System.Drawing.Point(3, 19);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(114, 13);
+            this.label23.Size = new System.Drawing.Size(118, 13);
             this.label23.TabIndex = 10;
-            this.label23.Text = "Packet Restricted List:";
+            this.label23.Text = "Packet Redirected List:";
             // 
             // groupBox5
             // 
@@ -3335,7 +3335,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(142, 36);
             this.button2.TabIndex = 6;
-            this.button2.Text = "Add to Restrict";
+            this.button2.Text = "Add to Redirect";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // listBox1
