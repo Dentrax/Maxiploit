@@ -158,7 +158,6 @@
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.textBox20 = new System.Windows.Forms.TextBox();
             this.checkBox29 = new System.Windows.Forms.CheckBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
             this.checkBox27 = new System.Windows.Forms.CheckBox();
             this.label30 = new System.Windows.Forms.Label();
             this.comboBox27 = new System.Windows.Forms.ComboBox();
@@ -1163,7 +1162,7 @@
             // checkBox16
             // 
             this.checkBox16.AutoSize = true;
-            this.checkBox16.ForeColor = System.Drawing.Color.Maroon;
+            this.checkBox16.ForeColor = System.Drawing.Color.Red;
             this.checkBox16.Location = new System.Drawing.Point(6, 47);
             this.checkBox16.Name = "checkBox16";
             this.checkBox16.Size = new System.Drawing.Size(192, 17);
@@ -1194,7 +1193,7 @@
             // checkBox17
             // 
             this.checkBox17.AutoSize = true;
-            this.checkBox17.Location = new System.Drawing.Point(7, 29);
+            this.checkBox17.Location = new System.Drawing.Point(13, 29);
             this.checkBox17.Name = "checkBox17";
             this.checkBox17.Size = new System.Drawing.Size(93, 17);
             this.checkBox17.TabIndex = 1;
@@ -1714,7 +1713,6 @@
             // 
             this.groupBox7.Controls.Add(this.textBox20);
             this.groupBox7.Controls.Add(this.checkBox29);
-            this.groupBox7.Controls.Add(this.textBox19);
             this.groupBox7.Controls.Add(this.checkBox27);
             this.groupBox7.Controls.Add(this.label30);
             this.groupBox7.Controls.Add(this.comboBox27);
@@ -1754,13 +1752,6 @@
             this.checkBox29.TabIndex = 17;
             this.checkBox29.Text = "Limit PACKET/SEC:";
             this.checkBox29.UseVisualStyleBackColor = true;
-            // 
-            // textBox19
-            // 
-            this.textBox19.Location = new System.Drawing.Point(153, 224);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(92, 20);
-            this.textBox19.TabIndex = 12;
             // 
             // checkBox27
             // 
@@ -3395,10 +3386,10 @@
             this.groupBox9.Controls.Add(this.button9);
             this.groupBox9.Location = new System.Drawing.Point(3, 3);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(269, 118);
+            this.groupBox9.Size = new System.Drawing.Size(264, 111);
             this.groupBox9.TabIndex = 0;
             this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "Exploit Test";
+            this.groupBox9.Text = "Packet Test";
             // 
             // textBox22
             // 
@@ -4452,7 +4443,6 @@
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox19;
         private System.Windows.Forms.CheckBox checkBox27;
         private System.Windows.Forms.CheckBox checkBox28;
         private System.Windows.Forms.Label label31;
