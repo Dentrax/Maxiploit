@@ -154,10 +154,5 @@ namespace Maxiploit.Forms
 
         #endregion
 
-
-        private void lbLog_SelectedIndexChanged(object sender, EventArgs e) {
-
-        }
-
     }
 }
