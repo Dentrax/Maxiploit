@@ -138,12 +138,17 @@
             this.checkBox15 = new System.Windows.Forms.CheckBox();
             this.checkBox17 = new System.Windows.Forms.CheckBox();
             this.tpAccount = new System.Windows.Forms.TabPage();
+            this.radioButton7 = new System.Windows.Forms.RadioButton();
             this.radioButton8 = new System.Windows.Forms.RadioButton();
             this.groupBox17 = new System.Windows.Forms.GroupBox();
+            this.checkBox48 = new System.Windows.Forms.CheckBox();
             this.checkBox47 = new System.Windows.Forms.CheckBox();
+            this.btnAccountBruteFileOutput = new System.Windows.Forms.Button();
             this.lblAccountBruteValid = new System.Windows.Forms.Label();
             this.checkBox46 = new System.Windows.Forms.CheckBox();
+            this.txtAccountBruteOutputFilePath = new System.Windows.Forms.TextBox();
             this.lblAccountProgressInfo = new System.Windows.Forms.Label();
+            this.lblAccountBruteOutputInfo = new System.Windows.Forms.Label();
             this.comboBox30 = new System.Windows.Forms.ComboBox();
             this.lblAccountBruteStatusInfo = new System.Windows.Forms.Label();
             this.textBox19 = new System.Windows.Forms.TextBox();
@@ -153,21 +158,22 @@
             this.lblAccountBruteProgress = new System.Windows.Forms.Label();
             this.lblAccountBruteStatus = new System.Windows.Forms.Label();
             this.gbBruteAccountSQL = new System.Windows.Forms.GroupBox();
+            this.btnAccountBruteStartStop = new System.Windows.Forms.Button();
+            this.comboBox35 = new System.Windows.Forms.ComboBox();
             this.textBox37 = new System.Windows.Forms.TextBox();
+            this.textBox38 = new System.Windows.Forms.TextBox();
             this.textBox36 = new System.Windows.Forms.TextBox();
             this.label60 = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.gbBruteAccountFile = new System.Windows.Forms.GroupBox();
-            this.btnAccountBruteStartStop = new System.Windows.Forms.Button();
-            this.btnAccountBruteFileOutput = new System.Windows.Forms.Button();
             this.btnAccountBruteFileInput = new System.Windows.Forms.Button();
-            this.txtAccountBruteOutputFilePath = new System.Windows.Forms.TextBox();
             this.txtAccountBruteFileInputPath = new System.Windows.Forms.TextBox();
-            this.lblAccountBruteOutputInfo = new System.Windows.Forms.Label();
             this.lblAccountBruteWLInfo = new System.Windows.Forms.Label();
             this.lblAccountBruteCount = new System.Windows.Forms.Label();
             this.lblAccountCountInfo = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.tpExploit = new System.Windows.Forms.TabPage();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.checkBox31 = new System.Windows.Forms.CheckBox();
@@ -389,12 +395,6 @@
             this.tpLog = new System.Windows.Forms.TabPage();
             this.lbLogDetail = new System.Windows.Forms.ListBox();
             this.lbLog = new System.Windows.Forms.ListBox();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.checkBox48 = new System.Windows.Forms.CheckBox();
-            this.label61 = new System.Windows.Forms.Label();
-            this.comboBox35 = new System.Windows.Forms.ComboBox();
-            this.label62 = new System.Windows.Forms.Label();
-            this.textBox38 = new System.Windows.Forms.TextBox();
             this.msMenu.SuspendLayout();
             this.tcMain.SuspendLayout();
             this.tpMain.SuspendLayout();
@@ -1158,7 +1158,7 @@
             this.gbServerCharacter.Controls.Add(this.txtServerAccountID);
             this.gbServerCharacter.Controls.Add(this.lblServerAccountPW);
             this.gbServerCharacter.Controls.Add(this.lblServerAccountID);
-            this.gbServerCharacter.Location = new System.Drawing.Point(654, 6);
+            this.gbServerCharacter.Location = new System.Drawing.Point(631, 3);
             this.gbServerCharacter.Name = "gbServerCharacter";
             this.gbServerCharacter.Size = new System.Drawing.Size(298, 282);
             this.gbServerCharacter.TabIndex = 1;
@@ -1539,6 +1539,17 @@
             this.tpAccount.Text = "Account";
             this.tpAccount.UseVisualStyleBackColor = true;
             // 
+            // radioButton7
+            // 
+            this.radioButton7.AutoSize = true;
+            this.radioButton7.Location = new System.Drawing.Point(6, 20);
+            this.radioButton7.Name = "radioButton7";
+            this.radioButton7.Size = new System.Drawing.Size(99, 17);
+            this.radioButton7.TabIndex = 5;
+            this.radioButton7.TabStop = true;
+            this.radioButton7.Text = "Worldlist Attack";
+            this.radioButton7.UseVisualStyleBackColor = true;
+            // 
             // radioButton8
             // 
             this.radioButton8.AutoSize = true;
@@ -1574,6 +1585,16 @@
             this.groupBox17.TabStop = false;
             this.groupBox17.Text = "Output";
             // 
+            // checkBox48
+            // 
+            this.checkBox48.AutoSize = true;
+            this.checkBox48.Location = new System.Drawing.Point(249, 130);
+            this.checkBox48.Name = "checkBox48";
+            this.checkBox48.Size = new System.Drawing.Size(123, 17);
+            this.checkBox48.TabIndex = 4;
+            this.checkBox48.Text = "Auto Decrypt If MD5";
+            this.checkBox48.UseVisualStyleBackColor = true;
+            // 
             // checkBox47
             // 
             this.checkBox47.AutoSize = true;
@@ -1583,6 +1604,16 @@
             this.checkBox47.TabIndex = 19;
             this.checkBox47.Text = "Max Tries per Acc:";
             this.checkBox47.UseVisualStyleBackColor = true;
+            // 
+            // btnAccountBruteFileOutput
+            // 
+            this.btnAccountBruteFileOutput.Location = new System.Drawing.Point(368, 22);
+            this.btnAccountBruteFileOutput.Name = "btnAccountBruteFileOutput";
+            this.btnAccountBruteFileOutput.Size = new System.Drawing.Size(42, 23);
+            this.btnAccountBruteFileOutput.TabIndex = 13;
+            this.btnAccountBruteFileOutput.Text = "...";
+            this.btnAccountBruteFileOutput.UseVisualStyleBackColor = true;
+            this.btnAccountBruteFileOutput.Click += new System.EventHandler(this.btnAccountBruteFileOutput_Click);
             // 
             // lblAccountBruteValid
             // 
@@ -1605,6 +1636,13 @@
             this.checkBox46.Text = "Max Tries per IP:";
             this.checkBox46.UseVisualStyleBackColor = true;
             // 
+            // txtAccountBruteOutputFilePath
+            // 
+            this.txtAccountBruteOutputFilePath.Location = new System.Drawing.Point(102, 24);
+            this.txtAccountBruteOutputFilePath.Name = "txtAccountBruteOutputFilePath";
+            this.txtAccountBruteOutputFilePath.Size = new System.Drawing.Size(260, 20);
+            this.txtAccountBruteOutputFilePath.TabIndex = 11;
+            // 
             // lblAccountProgressInfo
             // 
             this.lblAccountProgressInfo.AutoSize = true;
@@ -1613,6 +1651,15 @@
             this.lblAccountProgressInfo.Size = new System.Drawing.Size(51, 13);
             this.lblAccountProgressInfo.TabIndex = 1;
             this.lblAccountProgressInfo.Text = "Progress:";
+            // 
+            // lblAccountBruteOutputInfo
+            // 
+            this.lblAccountBruteOutputInfo.AutoSize = true;
+            this.lblAccountBruteOutputInfo.Location = new System.Drawing.Point(6, 27);
+            this.lblAccountBruteOutputInfo.Name = "lblAccountBruteOutputInfo";
+            this.lblAccountBruteOutputInfo.Size = new System.Drawing.Size(61, 13);
+            this.lblAccountBruteOutputInfo.TabIndex = 9;
+            this.lblAccountBruteOutputInfo.Text = "Output File:";
             // 
             // comboBox30
             // 
@@ -1708,12 +1755,37 @@
             this.gbBruteAccountSQL.TabStop = false;
             this.gbBruteAccountSQL.Text = "Database Attack";
             // 
+            // btnAccountBruteStartStop
+            // 
+            this.btnAccountBruteStartStop.Location = new System.Drawing.Point(15, 134);
+            this.btnAccountBruteStartStop.Name = "btnAccountBruteStartStop";
+            this.btnAccountBruteStartStop.Size = new System.Drawing.Size(200, 23);
+            this.btnAccountBruteStartStop.TabIndex = 14;
+            this.btnAccountBruteStartStop.Text = "Start";
+            this.btnAccountBruteStartStop.UseVisualStyleBackColor = true;
+            this.btnAccountBruteStartStop.Click += new System.EventHandler(this.btnAccountBruteStartStop_Click);
+            // 
+            // comboBox35
+            // 
+            this.comboBox35.FormattingEnabled = true;
+            this.comboBox35.Location = new System.Drawing.Point(115, 28);
+            this.comboBox35.Name = "comboBox35";
+            this.comboBox35.Size = new System.Drawing.Size(100, 21);
+            this.comboBox35.TabIndex = 4;
+            // 
             // textBox37
             // 
             this.textBox37.Location = new System.Drawing.Point(115, 110);
             this.textBox37.Name = "textBox37";
             this.textBox37.Size = new System.Drawing.Size(100, 20);
             this.textBox37.TabIndex = 3;
+            // 
+            // textBox38
+            // 
+            this.textBox38.Location = new System.Drawing.Point(115, 58);
+            this.textBox38.Name = "textBox38";
+            this.textBox38.Size = new System.Drawing.Size(100, 20);
+            this.textBox38.TabIndex = 3;
             // 
             // textBox36
             // 
@@ -1731,6 +1803,24 @@
             this.label60.TabIndex = 2;
             this.label60.Text = "PW Column Name:";
             // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Location = new System.Drawing.Point(12, 61);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(56, 13);
+            this.label62.TabIndex = 1;
+            this.label62.Text = "DB Name:";
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Location = new System.Drawing.Point(12, 31);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(31, 13);
+            this.label61.TabIndex = 1;
+            this.label61.Text = "SQL:";
+            // 
             // label33
             // 
             this.label33.AutoSize = true;
@@ -1739,15 +1829,6 @@
             this.label33.Size = new System.Drawing.Size(90, 13);
             this.label33.TabIndex = 1;
             this.label33.Text = "ID Column Name:";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(9, 134);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(157, 22);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Start";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // gbBruteAccountFile
             // 
@@ -1764,26 +1845,6 @@
             this.gbBruteAccountFile.TabStop = false;
             this.gbBruteAccountFile.Text = "Wordlist Attack";
             // 
-            // btnAccountBruteStartStop
-            // 
-            this.btnAccountBruteStartStop.Location = new System.Drawing.Point(15, 134);
-            this.btnAccountBruteStartStop.Name = "btnAccountBruteStartStop";
-            this.btnAccountBruteStartStop.Size = new System.Drawing.Size(200, 23);
-            this.btnAccountBruteStartStop.TabIndex = 14;
-            this.btnAccountBruteStartStop.Text = "Start";
-            this.btnAccountBruteStartStop.UseVisualStyleBackColor = true;
-            this.btnAccountBruteStartStop.Click += new System.EventHandler(this.btnAccountBruteStartStop_Click);
-            // 
-            // btnAccountBruteFileOutput
-            // 
-            this.btnAccountBruteFileOutput.Location = new System.Drawing.Point(368, 22);
-            this.btnAccountBruteFileOutput.Name = "btnAccountBruteFileOutput";
-            this.btnAccountBruteFileOutput.Size = new System.Drawing.Size(42, 23);
-            this.btnAccountBruteFileOutput.TabIndex = 13;
-            this.btnAccountBruteFileOutput.Text = "...";
-            this.btnAccountBruteFileOutput.UseVisualStyleBackColor = true;
-            this.btnAccountBruteFileOutput.Click += new System.EventHandler(this.btnAccountBruteFileOutput_Click);
-            // 
             // btnAccountBruteFileInput
             // 
             this.btnAccountBruteFileInput.Location = new System.Drawing.Point(368, 26);
@@ -1794,28 +1855,12 @@
             this.btnAccountBruteFileInput.UseVisualStyleBackColor = true;
             this.btnAccountBruteFileInput.Click += new System.EventHandler(this.btnAccountBruteFileInput_Click);
             // 
-            // txtAccountBruteOutputFilePath
-            // 
-            this.txtAccountBruteOutputFilePath.Location = new System.Drawing.Point(102, 24);
-            this.txtAccountBruteOutputFilePath.Name = "txtAccountBruteOutputFilePath";
-            this.txtAccountBruteOutputFilePath.Size = new System.Drawing.Size(260, 20);
-            this.txtAccountBruteOutputFilePath.TabIndex = 11;
-            // 
             // txtAccountBruteFileInputPath
             // 
             this.txtAccountBruteFileInputPath.Location = new System.Drawing.Point(102, 28);
             this.txtAccountBruteFileInputPath.Name = "txtAccountBruteFileInputPath";
             this.txtAccountBruteFileInputPath.Size = new System.Drawing.Size(260, 20);
             this.txtAccountBruteFileInputPath.TabIndex = 10;
-            // 
-            // lblAccountBruteOutputInfo
-            // 
-            this.lblAccountBruteOutputInfo.AutoSize = true;
-            this.lblAccountBruteOutputInfo.Location = new System.Drawing.Point(6, 27);
-            this.lblAccountBruteOutputInfo.Name = "lblAccountBruteOutputInfo";
-            this.lblAccountBruteOutputInfo.Size = new System.Drawing.Size(61, 13);
-            this.lblAccountBruteOutputInfo.TabIndex = 9;
-            this.lblAccountBruteOutputInfo.Text = "Output File:";
             // 
             // lblAccountBruteWLInfo
             // 
@@ -1843,6 +1888,15 @@
             this.lblAccountCountInfo.Size = new System.Drawing.Size(81, 13);
             this.lblAccountCountInfo.TabIndex = 0;
             this.lblAccountCountInfo.Text = "Valid Accounts:";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(9, 134);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(157, 22);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Start";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // tpExploit
             // 
@@ -3900,7 +3954,7 @@
             this.gbLivePacket.Controls.Add(this.groupBox1);
             this.gbLivePacket.Location = new System.Drawing.Point(3, 3);
             this.gbLivePacket.Name = "gbLivePacket";
-            this.gbLivePacket.Size = new System.Drawing.Size(921, 429);
+            this.gbLivePacket.Size = new System.Drawing.Size(971, 429);
             this.gbLivePacket.TabIndex = 0;
             this.gbLivePacket.TabStop = false;
             this.gbLivePacket.Text = "Packet Analyzer";
@@ -3928,9 +3982,9 @@
             this.groupBox13.Controls.Add(this.label48);
             this.groupBox13.Controls.Add(this.label47);
             this.groupBox13.Controls.Add(this.label23);
-            this.groupBox13.Location = new System.Drawing.Point(698, 16);
+            this.groupBox13.Location = new System.Drawing.Point(735, 16);
             this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Size = new System.Drawing.Size(217, 407);
+            this.groupBox13.Size = new System.Drawing.Size(226, 407);
             this.groupBox13.TabIndex = 2;
             this.groupBox13.TabStop = false;
             this.groupBox13.Text = "Packet Detail";
@@ -4435,60 +4489,6 @@
             this.lbLog.Name = "lbLog";
             this.lbLog.Size = new System.Drawing.Size(996, 134);
             this.lbLog.TabIndex = 2;
-            // 
-            // radioButton7
-            // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Location = new System.Drawing.Point(6, 20);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(99, 17);
-            this.radioButton7.TabIndex = 5;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "Worldlist Attack";
-            this.radioButton7.UseVisualStyleBackColor = true;
-            // 
-            // checkBox48
-            // 
-            this.checkBox48.AutoSize = true;
-            this.checkBox48.Location = new System.Drawing.Point(249, 130);
-            this.checkBox48.Name = "checkBox48";
-            this.checkBox48.Size = new System.Drawing.Size(123, 17);
-            this.checkBox48.TabIndex = 4;
-            this.checkBox48.Text = "Auto Decrypt If MD5";
-            this.checkBox48.UseVisualStyleBackColor = true;
-            // 
-            // label61
-            // 
-            this.label61.AutoSize = true;
-            this.label61.Location = new System.Drawing.Point(12, 31);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(31, 13);
-            this.label61.TabIndex = 1;
-            this.label61.Text = "SQL:";
-            // 
-            // comboBox35
-            // 
-            this.comboBox35.FormattingEnabled = true;
-            this.comboBox35.Location = new System.Drawing.Point(115, 28);
-            this.comboBox35.Name = "comboBox35";
-            this.comboBox35.Size = new System.Drawing.Size(100, 21);
-            this.comboBox35.TabIndex = 4;
-            // 
-            // label62
-            // 
-            this.label62.AutoSize = true;
-            this.label62.Location = new System.Drawing.Point(12, 61);
-            this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(56, 13);
-            this.label62.TabIndex = 1;
-            this.label62.Text = "DB Name:";
-            // 
-            // textBox38
-            // 
-            this.textBox38.Location = new System.Drawing.Point(115, 58);
-            this.textBox38.Name = "textBox38";
-            this.textBox38.Size = new System.Drawing.Size(100, 20);
-            this.textBox38.TabIndex = 3;
             // 
             // frmVSRO
             // 
