@@ -1580,7 +1580,7 @@
             this.groupBox17.Controls.Add(this.lblAccountBruteStatus);
             this.groupBox17.Location = new System.Drawing.Point(6, 240);
             this.groupBox17.Name = "groupBox17";
-            this.groupBox17.Size = new System.Drawing.Size(818, 151);
+            this.groupBox17.Size = new System.Drawing.Size(647, 151);
             this.groupBox17.TabIndex = 2;
             this.groupBox17.TabStop = false;
             this.groupBox17.Text = "Output";
