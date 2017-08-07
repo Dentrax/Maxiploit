@@ -3009,7 +3009,7 @@
             this.groupBox5.Size = new System.Drawing.Size(398, 398);
             this.groupBox5.TabIndex = 9;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Rule Creator";
+            this.groupBox5.Text = "Redirect Rule Creator";
             // 
             // label21
             // 
