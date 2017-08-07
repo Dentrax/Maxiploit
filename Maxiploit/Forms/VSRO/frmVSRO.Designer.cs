@@ -395,6 +395,7 @@
             this.tpLog = new System.Windows.Forms.TabPage();
             this.lbLogDetail = new System.Windows.Forms.ListBox();
             this.lbLog = new System.Windows.Forms.ListBox();
+            this.checkBox49 = new System.Windows.Forms.CheckBox();
             this.msMenu.SuspendLayout();
             this.tcMain.SuspendLayout();
             this.tpMain.SuspendLayout();
@@ -520,6 +521,7 @@
             // 
             // bpMainSetup
             // 
+            this.bpMainSetup.Controls.Add(this.checkBox49);
             this.bpMainSetup.Controls.Add(this.groupBox10);
             this.bpMainSetup.Controls.Add(this.groupBox11);
             this.bpMainSetup.Controls.Add(this.gbServerInfo);
@@ -4490,6 +4492,16 @@
             this.lbLog.Size = new System.Drawing.Size(996, 134);
             this.lbLog.TabIndex = 2;
             // 
+            // checkBox49
+            // 
+            this.checkBox49.AutoSize = true;
+            this.checkBox49.Location = new System.Drawing.Point(6, 347);
+            this.checkBox49.Name = "checkBox49";
+            this.checkBox49.Size = new System.Drawing.Size(181, 17);
+            this.checkBox49.TabIndex = 11;
+            this.checkBox49.Text = "CheckForIllegalCrossThreadCalls";
+            this.checkBox49.UseVisualStyleBackColor = true;
+            // 
             // frmVSRO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4513,6 +4525,7 @@
             this.tpMain.PerformLayout();
             this.tcMainSub.ResumeLayout(false);
             this.bpMainSetup.ResumeLayout(false);
+            this.bpMainSetup.PerformLayout();
             this.groupBox10.ResumeLayout(false);
             this.groupBox10.PerformLayout();
             this.groupBox11.ResumeLayout(false);
@@ -4952,5 +4965,6 @@
         private System.Windows.Forms.TextBox textBox38;
         private System.Windows.Forms.Label label62;
         private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.CheckBox checkBox49;
     }
 }
