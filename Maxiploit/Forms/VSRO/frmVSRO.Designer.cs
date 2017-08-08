@@ -36,6 +36,7 @@
             this.tpMain = new System.Windows.Forms.TabPage();
             this.tcMainSub = new System.Windows.Forms.TabControl();
             this.bpMainSetup = new System.Windows.Forms.TabPage();
+            this.checkBox49 = new System.Windows.Forms.CheckBox();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
             this.checkBox35 = new System.Windows.Forms.CheckBox();
             this.button10 = new System.Windows.Forms.Button();
@@ -200,6 +201,7 @@
             this.label26 = new System.Windows.Forms.Label();
             this.checkBox20 = new System.Windows.Forms.CheckBox();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.button21 = new System.Windows.Forms.Button();
             this.textBox20 = new System.Windows.Forms.TextBox();
             this.checkBox29 = new System.Windows.Forms.CheckBox();
             this.checkBox27 = new System.Windows.Forms.CheckBox();
@@ -395,7 +397,28 @@
             this.tpLog = new System.Windows.Forms.TabPage();
             this.lbLogDetail = new System.Windows.Forms.ListBox();
             this.lbLog = new System.Windows.Forms.ListBox();
-            this.checkBox49 = new System.Windows.Forms.CheckBox();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tpAdvancedPacketCreator = new System.Windows.Forms.TabPage();
+            this.tpAdvancedPacketRedictor = new System.Windows.Forms.TabPage();
+            this.tpAdvancedSocketCreator = new System.Windows.Forms.TabPage();
+            this.groupBox18 = new System.Windows.Forms.GroupBox();
+            this.comboBox38 = new System.Windows.Forms.ComboBox();
+            this.label66 = new System.Windows.Forms.Label();
+            this.comboBox37 = new System.Windows.Forms.ComboBox();
+            this.comboBox36 = new System.Windows.Forms.ComboBox();
+            this.label65 = new System.Windows.Forms.Label();
+            this.label64 = new System.Windows.Forms.Label();
+            this.hScrollBar1 = new System.Windows.Forms.HScrollBar();
+            this.label63 = new System.Windows.Forms.Label();
+            this.label67 = new System.Windows.Forms.Label();
+            this.textBox39 = new System.Windows.Forms.TextBox();
+            this.checkBox50 = new System.Windows.Forms.CheckBox();
+            this.checkBox51 = new System.Windows.Forms.CheckBox();
+            this.button22 = new System.Windows.Forms.Button();
+            this.comboBox39 = new System.Windows.Forms.ComboBox();
+            this.label68 = new System.Windows.Forms.Label();
+            this.comboBox40 = new System.Windows.Forms.ComboBox();
+            this.label69 = new System.Windows.Forms.Label();
             this.msMenu.SuspendLayout();
             this.tcMain.SuspendLayout();
             this.tpMain.SuspendLayout();
@@ -424,6 +447,7 @@
             this.tpExploit.SuspendLayout();
             this.groupBox8.SuspendLayout();
             this.groupBox7.SuspendLayout();
+            this.tpSyn.SuspendLayout();
             this.tpAdvanced.SuspendLayout();
             this.gbPacketCreator.SuspendLayout();
             this.gbPacketRestrictor.SuspendLayout();
@@ -443,6 +467,11 @@
             this.gbExploitName.SuspendLayout();
             this.tpAnalyzer.SuspendLayout();
             this.tpLog.SuspendLayout();
+            this.tabControl1.SuspendLayout();
+            this.tpAdvancedPacketCreator.SuspendLayout();
+            this.tpAdvancedPacketRedictor.SuspendLayout();
+            this.tpAdvancedSocketCreator.SuspendLayout();
+            this.groupBox18.SuspendLayout();
             this.SuspendLayout();
             // 
             // msMenu
@@ -491,7 +520,7 @@
             this.tcMain.Location = new System.Drawing.Point(12, 27);
             this.tcMain.Name = "tcMain";
             this.tcMain.SelectedIndex = 0;
-            this.tcMain.Size = new System.Drawing.Size(996, 461);
+            this.tcMain.Size = new System.Drawing.Size(996, 496);
             this.tcMain.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.tcMain.TabIndex = 0;
             // 
@@ -502,7 +531,7 @@
             this.tpMain.Location = new System.Drawing.Point(4, 22);
             this.tpMain.Name = "tpMain";
             this.tpMain.Padding = new System.Windows.Forms.Padding(3);
-            this.tpMain.Size = new System.Drawing.Size(988, 435);
+            this.tpMain.Size = new System.Drawing.Size(988, 470);
             this.tpMain.TabIndex = 0;
             this.tpMain.Text = "Main";
             this.tpMain.UseVisualStyleBackColor = true;
@@ -532,6 +561,16 @@
             this.bpMainSetup.TabIndex = 0;
             this.bpMainSetup.Text = "Setup";
             this.bpMainSetup.UseVisualStyleBackColor = true;
+            // 
+            // checkBox49
+            // 
+            this.checkBox49.AutoSize = true;
+            this.checkBox49.Location = new System.Drawing.Point(6, 347);
+            this.checkBox49.Name = "checkBox49";
+            this.checkBox49.Size = new System.Drawing.Size(181, 17);
+            this.checkBox49.TabIndex = 11;
+            this.checkBox49.Text = "CheckForIllegalCrossThreadCalls";
+            this.checkBox49.UseVisualStyleBackColor = true;
             // 
             // groupBox10
             // 
@@ -702,7 +741,7 @@
             this.groupBox11.Controls.Add(this.textBox33);
             this.groupBox11.Location = new System.Drawing.Point(432, 6);
             this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(205, 273);
+            this.groupBox11.Size = new System.Drawing.Size(186, 273);
             this.groupBox11.TabIndex = 10;
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "Add SQL";
@@ -1015,14 +1054,16 @@
             // groupBox16
             // 
             this.groupBox16.Controls.Add(this.label58);
+            this.groupBox16.Controls.Add(this.label68);
             this.groupBox16.Controls.Add(this.label59);
             this.groupBox16.Controls.Add(this.listBox9);
             this.groupBox16.Controls.Add(this.button19);
+            this.groupBox16.Controls.Add(this.comboBox39);
             this.groupBox16.Controls.Add(this.comboBox34);
             this.groupBox16.Controls.Add(this.button20);
             this.groupBox16.Location = new System.Drawing.Point(171, 6);
             this.groupBox16.Name = "groupBox16";
-            this.groupBox16.Size = new System.Drawing.Size(159, 243);
+            this.groupBox16.Size = new System.Drawing.Size(159, 296);
             this.groupBox16.TabIndex = 12;
             this.groupBox16.TabStop = false;
             this.groupBox16.Text = "Connect Server";
@@ -1055,11 +1096,11 @@
             // 
             // button19
             // 
-            this.button19.Location = new System.Drawing.Point(9, 211);
+            this.button19.Location = new System.Drawing.Point(9, 256);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(135, 23);
             this.button19.TabIndex = 9;
-            this.button19.Text = "REMOVE";
+            this.button19.Text = "DISCONNECT";
             this.button19.UseVisualStyleBackColor = true;
             // 
             // comboBox34
@@ -1072,24 +1113,26 @@
             // 
             // button20
             // 
-            this.button20.Location = new System.Drawing.Point(9, 182);
+            this.button20.Location = new System.Drawing.Point(9, 227);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(135, 23);
             this.button20.TabIndex = 8;
-            this.button20.Text = "ADD";
+            this.button20.Text = "CONNECT";
             this.button20.UseVisualStyleBackColor = true;
             // 
             // groupBox15
             // 
             this.groupBox15.Controls.Add(this.label56);
+            this.groupBox15.Controls.Add(this.label69);
             this.groupBox15.Controls.Add(this.label57);
             this.groupBox15.Controls.Add(this.listBox8);
             this.groupBox15.Controls.Add(this.button18);
+            this.groupBox15.Controls.Add(this.comboBox40);
             this.groupBox15.Controls.Add(this.comboBox33);
             this.groupBox15.Controls.Add(this.button17);
             this.groupBox15.Location = new System.Drawing.Point(6, 6);
             this.groupBox15.Name = "groupBox15";
-            this.groupBox15.Size = new System.Drawing.Size(159, 243);
+            this.groupBox15.Size = new System.Drawing.Size(159, 296);
             this.groupBox15.TabIndex = 11;
             this.groupBox15.TabStop = false;
             this.groupBox15.Text = "Connect SQL";
@@ -1122,11 +1165,11 @@
             // 
             // button18
             // 
-            this.button18.Location = new System.Drawing.Point(9, 211);
+            this.button18.Location = new System.Drawing.Point(9, 256);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(135, 23);
             this.button18.TabIndex = 9;
-            this.button18.Text = "REMOVE";
+            this.button18.Text = "DISCONNECT";
             this.button18.UseVisualStyleBackColor = true;
             // 
             // comboBox33
@@ -1139,11 +1182,11 @@
             // 
             // button17
             // 
-            this.button17.Location = new System.Drawing.Point(9, 182);
+            this.button17.Location = new System.Drawing.Point(9, 227);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(135, 23);
             this.button17.TabIndex = 8;
-            this.button17.Text = "ADD";
+            this.button17.Text = "CONNECT";
             this.button17.UseVisualStyleBackColor = true;
             // 
             // gbServerCharacter
@@ -1297,7 +1340,7 @@
             this.tpNetwork.Location = new System.Drawing.Point(4, 22);
             this.tpNetwork.Name = "tpNetwork";
             this.tpNetwork.Padding = new System.Windows.Forms.Padding(3);
-            this.tpNetwork.Size = new System.Drawing.Size(988, 435);
+            this.tpNetwork.Size = new System.Drawing.Size(988, 470);
             this.tpNetwork.TabIndex = 2;
             this.tpNetwork.Text = "Network";
             this.tpNetwork.UseVisualStyleBackColor = true;
@@ -1400,7 +1443,7 @@
             this.tpBruteForce.Location = new System.Drawing.Point(4, 22);
             this.tpBruteForce.Name = "tpBruteForce";
             this.tpBruteForce.Padding = new System.Windows.Forms.Padding(3);
-            this.tpBruteForce.Size = new System.Drawing.Size(988, 435);
+            this.tpBruteForce.Size = new System.Drawing.Size(988, 470);
             this.tpBruteForce.TabIndex = 1;
             this.tpBruteForce.Text = "Brute-Force";
             this.tpBruteForce.UseVisualStyleBackColor = true;
@@ -2174,6 +2217,7 @@
             // 
             // groupBox7
             // 
+            this.groupBox7.Controls.Add(this.button21);
             this.groupBox7.Controls.Add(this.textBox20);
             this.groupBox7.Controls.Add(this.checkBox29);
             this.groupBox7.Controls.Add(this.checkBox27);
@@ -2198,6 +2242,15 @@
             this.groupBox7.TabIndex = 5;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Custom Attack";
+            // 
+            // button21
+            // 
+            this.button21.Location = new System.Drawing.Point(144, 251);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(101, 23);
+            this.button21.TabIndex = 19;
+            this.button21.Text = "Insert After";
+            this.button21.UseVisualStyleBackColor = true;
             // 
             // textBox20
             // 
@@ -2374,6 +2427,8 @@
             // 
             // tpSyn
             // 
+            this.tpSyn.Controls.Add(this.hScrollBar1);
+            this.tpSyn.Controls.Add(this.label63);
             this.tpSyn.Location = new System.Drawing.Point(4, 22);
             this.tpSyn.Name = "tpSyn";
             this.tpSyn.Size = new System.Drawing.Size(968, 397);
@@ -2428,12 +2483,11 @@
             // 
             // tpAdvanced
             // 
-            this.tpAdvanced.Controls.Add(this.gbPacketCreator);
-            this.tpAdvanced.Controls.Add(this.gbPacketRestrictor);
+            this.tpAdvanced.Controls.Add(this.tabControl1);
             this.tpAdvanced.Location = new System.Drawing.Point(4, 22);
             this.tpAdvanced.Name = "tpAdvanced";
             this.tpAdvanced.Padding = new System.Windows.Forms.Padding(3);
-            this.tpAdvanced.Size = new System.Drawing.Size(988, 435);
+            this.tpAdvanced.Size = new System.Drawing.Size(988, 470);
             this.tpAdvanced.TabIndex = 3;
             this.tpAdvanced.Text = "Advanced";
             this.tpAdvanced.UseVisualStyleBackColor = true;
@@ -2480,7 +2534,7 @@
             this.gbPacketCreator.Controls.Add(this.txtPacketCreatorPacketWriter1);
             this.gbPacketCreator.Controls.Add(this.txtPacketCreatorPacketOpcode);
             this.gbPacketCreator.Controls.Add(this.lblPacketCreatorOpcode);
-            this.gbPacketCreator.Location = new System.Drawing.Point(749, 6);
+            this.gbPacketCreator.Location = new System.Drawing.Point(6, 3);
             this.gbPacketCreator.Name = "gbPacketCreator";
             this.gbPacketCreator.Size = new System.Drawing.Size(233, 423);
             this.gbPacketCreator.TabIndex = 1;
@@ -2893,9 +2947,9 @@
             this.gbPacketRestrictor.Controls.Add(this.button15);
             this.gbPacketRestrictor.Controls.Add(this.button14);
             this.gbPacketRestrictor.Controls.Add(this.groupBox5);
-            this.gbPacketRestrictor.Location = new System.Drawing.Point(6, 6);
+            this.gbPacketRestrictor.Location = new System.Drawing.Point(6, 3);
             this.gbPacketRestrictor.Name = "gbPacketRestrictor";
-            this.gbPacketRestrictor.Size = new System.Drawing.Size(737, 423);
+            this.gbPacketRestrictor.Size = new System.Drawing.Size(737, 417);
             this.gbPacketRestrictor.TabIndex = 0;
             this.gbPacketRestrictor.TabStop = false;
             this.gbPacketRestrictor.Text = "Packet Redirector";
@@ -2903,7 +2957,7 @@
             // groupBox12
             // 
             this.groupBox12.Controls.Add(this.listBox1);
-            this.groupBox12.Location = new System.Drawing.Point(6, 19);
+            this.groupBox12.Location = new System.Drawing.Point(6, 14);
             this.groupBox12.Name = "groupBox12";
             this.groupBox12.Size = new System.Drawing.Size(321, 330);
             this.groupBox12.TabIndex = 13;
@@ -3004,7 +3058,7 @@
             this.groupBox5.Controls.Add(this.textBox12);
             this.groupBox5.Controls.Add(this.textBox1);
             this.groupBox5.Controls.Add(this.button2);
-            this.groupBox5.Location = new System.Drawing.Point(333, 19);
+            this.groupBox5.Location = new System.Drawing.Point(333, 14);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(398, 398);
             this.groupBox5.TabIndex = 9;
@@ -4487,20 +4541,288 @@
             // lbLog
             // 
             this.lbLog.FormattingEnabled = true;
-            this.lbLog.Location = new System.Drawing.Point(12, 494);
+            this.lbLog.Location = new System.Drawing.Point(12, 520);
             this.lbLog.Name = "lbLog";
-            this.lbLog.Size = new System.Drawing.Size(996, 134);
+            this.lbLog.Size = new System.Drawing.Size(996, 108);
             this.lbLog.TabIndex = 2;
             // 
-            // checkBox49
+            // tabControl1
             // 
-            this.checkBox49.AutoSize = true;
-            this.checkBox49.Location = new System.Drawing.Point(6, 347);
-            this.checkBox49.Name = "checkBox49";
-            this.checkBox49.Size = new System.Drawing.Size(181, 17);
-            this.checkBox49.TabIndex = 11;
-            this.checkBox49.Text = "CheckForIllegalCrossThreadCalls";
-            this.checkBox49.UseVisualStyleBackColor = true;
+            this.tabControl1.Controls.Add(this.tpAdvancedPacketCreator);
+            this.tabControl1.Controls.Add(this.tpAdvancedPacketRedictor);
+            this.tabControl1.Controls.Add(this.tpAdvancedSocketCreator);
+            this.tabControl1.Location = new System.Drawing.Point(6, 6);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(976, 459);
+            this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.tabControl1.TabIndex = 14;
+            // 
+            // tpAdvancedPacketCreator
+            // 
+            this.tpAdvancedPacketCreator.Controls.Add(this.gbPacketCreator);
+            this.tpAdvancedPacketCreator.Location = new System.Drawing.Point(4, 22);
+            this.tpAdvancedPacketCreator.Name = "tpAdvancedPacketCreator";
+            this.tpAdvancedPacketCreator.Padding = new System.Windows.Forms.Padding(3);
+            this.tpAdvancedPacketCreator.Size = new System.Drawing.Size(968, 433);
+            this.tpAdvancedPacketCreator.TabIndex = 0;
+            this.tpAdvancedPacketCreator.Text = "Packet Creator";
+            this.tpAdvancedPacketCreator.UseVisualStyleBackColor = true;
+            // 
+            // tpAdvancedPacketRedictor
+            // 
+            this.tpAdvancedPacketRedictor.Controls.Add(this.gbPacketRestrictor);
+            this.tpAdvancedPacketRedictor.Location = new System.Drawing.Point(4, 22);
+            this.tpAdvancedPacketRedictor.Name = "tpAdvancedPacketRedictor";
+            this.tpAdvancedPacketRedictor.Padding = new System.Windows.Forms.Padding(3);
+            this.tpAdvancedPacketRedictor.Size = new System.Drawing.Size(968, 433);
+            this.tpAdvancedPacketRedictor.TabIndex = 1;
+            this.tpAdvancedPacketRedictor.Text = "Packet Redirector";
+            this.tpAdvancedPacketRedictor.UseVisualStyleBackColor = true;
+            // 
+            // tpAdvancedSocketCreator
+            // 
+            this.tpAdvancedSocketCreator.Controls.Add(this.groupBox18);
+            this.tpAdvancedSocketCreator.Location = new System.Drawing.Point(4, 22);
+            this.tpAdvancedSocketCreator.Name = "tpAdvancedSocketCreator";
+            this.tpAdvancedSocketCreator.Size = new System.Drawing.Size(968, 433);
+            this.tpAdvancedSocketCreator.TabIndex = 2;
+            this.tpAdvancedSocketCreator.Text = "Socket Creator";
+            this.tpAdvancedSocketCreator.UseVisualStyleBackColor = true;
+            // 
+            // groupBox18
+            // 
+            this.groupBox18.Controls.Add(this.button22);
+            this.groupBox18.Controls.Add(this.checkBox51);
+            this.groupBox18.Controls.Add(this.checkBox50);
+            this.groupBox18.Controls.Add(this.textBox39);
+            this.groupBox18.Controls.Add(this.label67);
+            this.groupBox18.Controls.Add(this.comboBox38);
+            this.groupBox18.Controls.Add(this.label66);
+            this.groupBox18.Controls.Add(this.comboBox37);
+            this.groupBox18.Controls.Add(this.comboBox36);
+            this.groupBox18.Controls.Add(this.label65);
+            this.groupBox18.Controls.Add(this.label64);
+            this.groupBox18.Location = new System.Drawing.Point(3, 3);
+            this.groupBox18.Name = "groupBox18";
+            this.groupBox18.Size = new System.Drawing.Size(239, 216);
+            this.groupBox18.TabIndex = 3;
+            this.groupBox18.TabStop = false;
+            this.groupBox18.Text = "Create Socket";
+            // 
+            // comboBox38
+            // 
+            this.comboBox38.FormattingEnabled = true;
+            this.comboBox38.Items.AddRange(new object[] {
+            "Unknown",
+            "Unspecified",
+            "Unix",
+            "InterNetwork",
+            "ImpLink",
+            "Pup",
+            "Chaos",
+            "NS",
+            "Ipx",
+            "Iso",
+            "Osi",
+            "Ecma,",
+            "DataKit",
+            "Ccitt",
+            "Sna",
+            "DecNet",
+            "DataLink",
+            "Lat",
+            "HyperChannel",
+            "AppleTalk",
+            "NetBios",
+            "VoiceView",
+            "FireFox",
+            "Banyan",
+            "Atm,",
+            "InterNetworkV6",
+            "Cluster",
+            "Ieee12844",
+            "Irda",
+            "NetworkDesigners",
+            "Max"});
+            this.comboBox38.Location = new System.Drawing.Point(105, 102);
+            this.comboBox38.Name = "comboBox38";
+            this.comboBox38.Size = new System.Drawing.Size(121, 21);
+            this.comboBox38.TabIndex = 7;
+            this.comboBox38.Text = "Inner Network";
+            // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.Location = new System.Drawing.Point(6, 105);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(80, 13);
+            this.label66.TabIndex = 6;
+            this.label66.Text = "Address Family:";
+            // 
+            // comboBox37
+            // 
+            this.comboBox37.FormattingEnabled = true;
+            this.comboBox37.Items.AddRange(new object[] {
+            "IP",
+            "IPv6HopByHopOptions",
+            "Icmp",
+            "Igmp",
+            "Ggp",
+            "IPv4",
+            "Tcp",
+            "Pup",
+            "Udp",
+            "Idp",
+            "IPv6",
+            "IPv6RoutingHeader",
+            "IPv6FragmentHeader",
+            "IPSecEncapsulatingSecurityPayload",
+            "IPSecAuthenticationHeader",
+            "IcmpV6",
+            "IPv6NoNextHeader",
+            "IPv6DestinationOptions",
+            "ND = 77",
+            "Raw = 255",
+            "Unspecified = 0",
+            "Ipx = 1000",
+            "Spx = 1256",
+            "SpxII",
+            "Unknown"});
+            this.comboBox37.Location = new System.Drawing.Point(105, 75);
+            this.comboBox37.Name = "comboBox37";
+            this.comboBox37.Size = new System.Drawing.Size(121, 21);
+            this.comboBox37.TabIndex = 5;
+            this.comboBox37.Text = "TCP";
+            // 
+            // comboBox36
+            // 
+            this.comboBox36.FormattingEnabled = true;
+            this.comboBox36.Items.AddRange(new object[] {
+            "Stream",
+            "Dgram",
+            "Raw",
+            "Rdm",
+            "Seqpacket",
+            "Unknown"});
+            this.comboBox36.Location = new System.Drawing.Point(105, 47);
+            this.comboBox36.Name = "comboBox36";
+            this.comboBox36.Size = new System.Drawing.Size(121, 21);
+            this.comboBox36.TabIndex = 4;
+            this.comboBox36.Text = "Raw";
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Location = new System.Drawing.Point(6, 78);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(76, 13);
+            this.label65.TabIndex = 3;
+            this.label65.Text = "Protocol Type:";
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Location = new System.Drawing.Point(6, 50);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(71, 13);
+            this.label64.TabIndex = 2;
+            this.label64.Text = "Socket Type:";
+            // 
+            // hScrollBar1
+            // 
+            this.hScrollBar1.Location = new System.Drawing.Point(498, 196);
+            this.hScrollBar1.Name = "hScrollBar1";
+            this.hScrollBar1.Size = new System.Drawing.Size(80, 17);
+            this.hScrollBar1.TabIndex = 3;
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Location = new System.Drawing.Point(390, 183);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(75, 13);
+            this.label63.TabIndex = 2;
+            this.label63.Text = "Thread Count:";
+            // 
+            // label67
+            // 
+            this.label67.AutoSize = true;
+            this.label67.Location = new System.Drawing.Point(6, 24);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(75, 13);
+            this.label67.TabIndex = 8;
+            this.label67.Text = "Socket Name:";
+            // 
+            // textBox39
+            // 
+            this.textBox39.Location = new System.Drawing.Point(105, 21);
+            this.textBox39.Name = "textBox39";
+            this.textBox39.Size = new System.Drawing.Size(121, 20);
+            this.textBox39.TabIndex = 9;
+            // 
+            // checkBox50
+            // 
+            this.checkBox50.AutoSize = true;
+            this.checkBox50.Location = new System.Drawing.Point(9, 132);
+            this.checkBox50.Name = "checkBox50";
+            this.checkBox50.Size = new System.Drawing.Size(70, 17);
+            this.checkBox50.TabIndex = 10;
+            this.checkBox50.Text = "No Delay";
+            this.checkBox50.UseVisualStyleBackColor = true;
+            // 
+            // checkBox51
+            // 
+            this.checkBox51.AutoSize = true;
+            this.checkBox51.Location = new System.Drawing.Point(9, 155);
+            this.checkBox51.Name = "checkBox51";
+            this.checkBox51.Size = new System.Drawing.Size(55, 17);
+            this.checkBox51.TabIndex = 11;
+            this.checkBox51.Text = "Async";
+            this.checkBox51.UseVisualStyleBackColor = true;
+            // 
+            // button22
+            // 
+            this.button22.Location = new System.Drawing.Point(9, 178);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(217, 23);
+            this.button22.TabIndex = 12;
+            this.button22.Text = "CREATE";
+            this.button22.UseVisualStyleBackColor = true;
+            // 
+            // comboBox39
+            // 
+            this.comboBox39.FormattingEnabled = true;
+            this.comboBox39.Location = new System.Drawing.Point(9, 202);
+            this.comboBox39.Name = "comboBox39";
+            this.comboBox39.Size = new System.Drawing.Size(135, 21);
+            this.comboBox39.TabIndex = 7;
+            // 
+            // label68
+            // 
+            this.label68.AutoSize = true;
+            this.label68.Location = new System.Drawing.Point(6, 182);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(77, 13);
+            this.label68.TabIndex = 10;
+            this.label68.Text = "Select Socket:";
+            // 
+            // comboBox40
+            // 
+            this.comboBox40.FormattingEnabled = true;
+            this.comboBox40.Location = new System.Drawing.Point(9, 202);
+            this.comboBox40.Name = "comboBox40";
+            this.comboBox40.Size = new System.Drawing.Size(135, 21);
+            this.comboBox40.TabIndex = 7;
+            // 
+            // label69
+            // 
+            this.label69.AutoSize = true;
+            this.label69.Location = new System.Drawing.Point(6, 182);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(76, 13);
+            this.label69.TabIndex = 10;
+            this.label69.Text = "Select Engine:";
             // 
             // frmVSRO
             // 
@@ -4515,7 +4837,7 @@
             this.MaximizeBox = false;
             this.Name = "frmVSRO";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Maxiploit for VSRO";
+            this.Text = "Maxiploit";
             this.TransparencyKey = System.Drawing.Color.Fuchsia;
             this.Load += new System.EventHandler(this.frmVSRO_Load);
             this.msMenu.ResumeLayout(false);
@@ -4564,6 +4886,8 @@
             this.groupBox8.PerformLayout();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
+            this.tpSyn.ResumeLayout(false);
+            this.tpSyn.PerformLayout();
             this.tpAdvanced.ResumeLayout(false);
             this.gbPacketCreator.ResumeLayout(false);
             this.gbPacketCreator.PerformLayout();
@@ -4591,6 +4915,12 @@
             this.gbExploitName.ResumeLayout(false);
             this.tpAnalyzer.ResumeLayout(false);
             this.tpLog.ResumeLayout(false);
+            this.tabControl1.ResumeLayout(false);
+            this.tpAdvancedPacketCreator.ResumeLayout(false);
+            this.tpAdvancedPacketRedictor.ResumeLayout(false);
+            this.tpAdvancedSocketCreator.ResumeLayout(false);
+            this.groupBox18.ResumeLayout(false);
+            this.groupBox18.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4966,5 +5296,28 @@
         private System.Windows.Forms.Label label62;
         private System.Windows.Forms.Label label61;
         private System.Windows.Forms.CheckBox checkBox49;
+        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tpAdvancedPacketCreator;
+        private System.Windows.Forms.TabPage tpAdvancedPacketRedictor;
+        private System.Windows.Forms.HScrollBar hScrollBar1;
+        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.TabPage tpAdvancedSocketCreator;
+        private System.Windows.Forms.GroupBox groupBox18;
+        private System.Windows.Forms.ComboBox comboBox38;
+        private System.Windows.Forms.Label label66;
+        private System.Windows.Forms.ComboBox comboBox37;
+        private System.Windows.Forms.ComboBox comboBox36;
+        private System.Windows.Forms.Label label65;
+        private System.Windows.Forms.Label label64;
+        private System.Windows.Forms.TextBox textBox39;
+        private System.Windows.Forms.Label label67;
+        private System.Windows.Forms.CheckBox checkBox51;
+        private System.Windows.Forms.CheckBox checkBox50;
+        private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.Label label68;
+        private System.Windows.Forms.ComboBox comboBox39;
+        private System.Windows.Forms.Label label69;
+        private System.Windows.Forms.ComboBox comboBox40;
     }
 }
