@@ -443,6 +443,7 @@
             this.textBox43 = new System.Windows.Forms.TextBox();
             this.checkBox55 = new System.Windows.Forms.CheckBox();
             this.textBox44 = new System.Windows.Forms.TextBox();
+            this.groupBox21 = new System.Windows.Forms.GroupBox();
             this.msMenu.SuspendLayout();
             this.tcMain.SuspendLayout();
             this.tpMain.SuspendLayout();
@@ -474,6 +475,7 @@
             this.groupBox7.SuspendLayout();
             this.tpSyn.SuspendLayout();
             this.groupBox19.SuspendLayout();
+            this.tpUdpIp.SuspendLayout();
             this.tpAdvanced.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tpAdvancedPacketCreator.SuspendLayout();
@@ -2686,6 +2688,7 @@
             // 
             // tpUdpIp
             // 
+            this.tpUdpIp.Controls.Add(this.groupBox21);
             this.tpUdpIp.Location = new System.Drawing.Point(4, 22);
             this.tpUdpIp.Name = "tpUdpIp";
             this.tpUdpIp.Size = new System.Drawing.Size(968, 397);
@@ -5081,6 +5084,15 @@
             this.textBox44.Size = new System.Drawing.Size(31, 20);
             this.textBox44.TabIndex = 11;
             // 
+            // groupBox21
+            // 
+            this.groupBox21.Location = new System.Drawing.Point(21, 18);
+            this.groupBox21.Name = "groupBox21";
+            this.groupBox21.Size = new System.Drawing.Size(200, 100);
+            this.groupBox21.TabIndex = 0;
+            this.groupBox21.TabStop = false;
+            this.groupBox21.Text = "groupBox21";
+            // 
             // frmVSRO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -5148,6 +5160,7 @@
             this.tpSyn.ResumeLayout(false);
             this.groupBox19.ResumeLayout(false);
             this.groupBox19.PerformLayout();
+            this.tpUdpIp.ResumeLayout(false);
             this.tpAdvanced.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tpAdvancedPacketCreator.ResumeLayout(false);
@@ -5604,5 +5617,6 @@
         private System.Windows.Forms.TextBox textBox43;
         private System.Windows.Forms.CheckBox checkBox55;
         private System.Windows.Forms.CheckBox checkBox54;
+        private System.Windows.Forms.GroupBox groupBox21;
     }
 }
