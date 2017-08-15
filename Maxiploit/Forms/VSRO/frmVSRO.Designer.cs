@@ -376,7 +376,6 @@
             this.comboBox36 = new System.Windows.Forms.ComboBox();
             this.label65 = new System.Windows.Forms.Label();
             this.label64 = new System.Windows.Forms.Label();
-            this.tpTest = new System.Windows.Forms.TabPage();
             this.tpLive = new System.Windows.Forms.TabPage();
             this.gbLivePacket = new System.Windows.Forms.GroupBox();
             this.groupBox13 = new System.Windows.Forms.GroupBox();
@@ -426,17 +425,17 @@
             this.gbExploitName = new System.Windows.Forms.GroupBox();
             this.lbExploitName = new System.Windows.Forms.ListBox();
             this.tpAnalyzer = new System.Windows.Forms.TabPage();
+            this.groupBox20 = new System.Windows.Forms.GroupBox();
+            this.comboBox43 = new System.Windows.Forms.ComboBox();
+            this.label75 = new System.Windows.Forms.Label();
+            this.button25 = new System.Windows.Forms.Button();
             this.groupBox14 = new System.Windows.Forms.GroupBox();
+            this.comboBox42 = new System.Windows.Forms.ComboBox();
+            this.label74 = new System.Windows.Forms.Label();
+            this.button24 = new System.Windows.Forms.Button();
             this.tpLog = new System.Windows.Forms.TabPage();
             this.lbLogDetail = new System.Windows.Forms.ListBox();
             this.lbLog = new System.Windows.Forms.ListBox();
-            this.button24 = new System.Windows.Forms.Button();
-            this.label74 = new System.Windows.Forms.Label();
-            this.comboBox42 = new System.Windows.Forms.ComboBox();
-            this.groupBox20 = new System.Windows.Forms.GroupBox();
-            this.label75 = new System.Windows.Forms.Label();
-            this.comboBox43 = new System.Windows.Forms.ComboBox();
-            this.button25 = new System.Windows.Forms.Button();
             this.msMenu.SuspendLayout();
             this.tcMain.SuspendLayout();
             this.tpMain.SuspendLayout();
@@ -489,9 +488,9 @@
             this.tableLayoutPanel1.SuspendLayout();
             this.gbExploitName.SuspendLayout();
             this.tpAnalyzer.SuspendLayout();
+            this.groupBox20.SuspendLayout();
             this.groupBox14.SuspendLayout();
             this.tpLog.SuspendLayout();
-            this.groupBox20.SuspendLayout();
             this.SuspendLayout();
             // 
             // msMenu
@@ -532,7 +531,6 @@
             this.tcMain.Controls.Add(this.tpNetwork);
             this.tcMain.Controls.Add(this.tpTests);
             this.tcMain.Controls.Add(this.tpAdvanced);
-            this.tcMain.Controls.Add(this.tpTest);
             this.tcMain.Controls.Add(this.tpLive);
             this.tcMain.Controls.Add(this.tpDatabase);
             this.tcMain.Controls.Add(this.tpAnalyzer);
@@ -4387,15 +4385,6 @@
             this.label64.TabIndex = 2;
             this.label64.Text = "Socket Type:";
             // 
-            // tpTest
-            // 
-            this.tpTest.Location = new System.Drawing.Point(4, 22);
-            this.tpTest.Name = "tpTest";
-            this.tpTest.Size = new System.Drawing.Size(988, 470);
-            this.tpTest.TabIndex = 7;
-            this.tpTest.Text = "Test";
-            this.tpTest.UseVisualStyleBackColor = true;
-            // 
             // tpLive
             // 
             this.tpLive.Controls.Add(this.gbLivePacket);
@@ -4914,6 +4903,44 @@
             this.tpAnalyzer.Text = "Analyzer";
             this.tpAnalyzer.UseVisualStyleBackColor = true;
             // 
+            // groupBox20
+            // 
+            this.groupBox20.Controls.Add(this.comboBox43);
+            this.groupBox20.Controls.Add(this.label75);
+            this.groupBox20.Controls.Add(this.button25);
+            this.groupBox20.Location = new System.Drawing.Point(224, 13);
+            this.groupBox20.Name = "groupBox20";
+            this.groupBox20.Size = new System.Drawing.Size(219, 121);
+            this.groupBox20.TabIndex = 1;
+            this.groupBox20.TabStop = false;
+            this.groupBox20.Text = "Analyze Database";
+            // 
+            // comboBox43
+            // 
+            this.comboBox43.FormattingEnabled = true;
+            this.comboBox43.Location = new System.Drawing.Point(83, 39);
+            this.comboBox43.Name = "comboBox43";
+            this.comboBox43.Size = new System.Drawing.Size(121, 21);
+            this.comboBox43.TabIndex = 1;
+            // 
+            // label75
+            // 
+            this.label75.AutoSize = true;
+            this.label75.Location = new System.Drawing.Point(6, 42);
+            this.label75.Name = "label75";
+            this.label75.Size = new System.Drawing.Size(56, 13);
+            this.label75.TabIndex = 0;
+            this.label75.Text = "Database:";
+            // 
+            // button25
+            // 
+            this.button25.Location = new System.Drawing.Point(21, 81);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(183, 23);
+            this.button25.TabIndex = 0;
+            this.button25.Text = "ANALYZE";
+            this.button25.UseVisualStyleBackColor = true;
+            // 
             // groupBox14
             // 
             this.groupBox14.Controls.Add(this.comboBox42);
@@ -4925,6 +4952,32 @@
             this.groupBox14.TabIndex = 0;
             this.groupBox14.TabStop = false;
             this.groupBox14.Text = "Analyze Server";
+            // 
+            // comboBox42
+            // 
+            this.comboBox42.FormattingEnabled = true;
+            this.comboBox42.Location = new System.Drawing.Point(68, 39);
+            this.comboBox42.Name = "comboBox42";
+            this.comboBox42.Size = new System.Drawing.Size(121, 21);
+            this.comboBox42.TabIndex = 2;
+            // 
+            // label74
+            // 
+            this.label74.AutoSize = true;
+            this.label74.Location = new System.Drawing.Point(6, 42);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(41, 13);
+            this.label74.TabIndex = 1;
+            this.label74.Text = "Server:";
+            // 
+            // button24
+            // 
+            this.button24.Location = new System.Drawing.Point(9, 81);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(180, 23);
+            this.button24.TabIndex = 0;
+            this.button24.Text = "ANALYZE";
+            this.button24.UseVisualStyleBackColor = true;
             // 
             // tpLog
             // 
@@ -4952,70 +5005,6 @@
             this.lbLog.Name = "lbLog";
             this.lbLog.Size = new System.Drawing.Size(996, 108);
             this.lbLog.TabIndex = 2;
-            // 
-            // button24
-            // 
-            this.button24.Location = new System.Drawing.Point(9, 81);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(180, 23);
-            this.button24.TabIndex = 0;
-            this.button24.Text = "ANALYZE";
-            this.button24.UseVisualStyleBackColor = true;
-            // 
-            // label74
-            // 
-            this.label74.AutoSize = true;
-            this.label74.Location = new System.Drawing.Point(6, 42);
-            this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(41, 13);
-            this.label74.TabIndex = 1;
-            this.label74.Text = "Server:";
-            // 
-            // comboBox42
-            // 
-            this.comboBox42.FormattingEnabled = true;
-            this.comboBox42.Location = new System.Drawing.Point(68, 39);
-            this.comboBox42.Name = "comboBox42";
-            this.comboBox42.Size = new System.Drawing.Size(121, 21);
-            this.comboBox42.TabIndex = 2;
-            // 
-            // groupBox20
-            // 
-            this.groupBox20.Controls.Add(this.comboBox43);
-            this.groupBox20.Controls.Add(this.label75);
-            this.groupBox20.Controls.Add(this.button25);
-            this.groupBox20.Location = new System.Drawing.Point(224, 13);
-            this.groupBox20.Name = "groupBox20";
-            this.groupBox20.Size = new System.Drawing.Size(219, 121);
-            this.groupBox20.TabIndex = 1;
-            this.groupBox20.TabStop = false;
-            this.groupBox20.Text = "Analyze Database";
-            // 
-            // label75
-            // 
-            this.label75.AutoSize = true;
-            this.label75.Location = new System.Drawing.Point(6, 42);
-            this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(56, 13);
-            this.label75.TabIndex = 0;
-            this.label75.Text = "Database:";
-            // 
-            // comboBox43
-            // 
-            this.comboBox43.FormattingEnabled = true;
-            this.comboBox43.Location = new System.Drawing.Point(83, 39);
-            this.comboBox43.Name = "comboBox43";
-            this.comboBox43.Size = new System.Drawing.Size(121, 21);
-            this.comboBox43.TabIndex = 1;
-            // 
-            // button25
-            // 
-            this.button25.Location = new System.Drawing.Point(21, 81);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(183, 23);
-            this.button25.TabIndex = 0;
-            this.button25.Text = "ANALYZE";
-            this.button25.UseVisualStyleBackColor = true;
             // 
             // frmVSRO
             // 
@@ -5113,11 +5102,11 @@
             this.tableLayoutPanel1.PerformLayout();
             this.gbExploitName.ResumeLayout(false);
             this.tpAnalyzer.ResumeLayout(false);
+            this.groupBox20.ResumeLayout(false);
+            this.groupBox20.PerformLayout();
             this.groupBox14.ResumeLayout(false);
             this.groupBox14.PerformLayout();
             this.tpLog.ResumeLayout(false);
-            this.groupBox20.ResumeLayout(false);
-            this.groupBox20.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -5187,7 +5176,6 @@
         private System.Windows.Forms.TabPage tpAccount;
         private System.Windows.Forms.TabPage tpExploit;
         private System.Windows.Forms.GroupBox gbPacketRestrictor;
-        private System.Windows.Forms.TabPage tpTest;
         private System.Windows.Forms.TabPage tpSyn;
         private System.Windows.Forms.TabPage tpUdpIp;
         private System.Windows.Forms.TabPage tpSmurf;
