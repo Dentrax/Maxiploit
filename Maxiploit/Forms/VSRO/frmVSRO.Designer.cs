@@ -2578,7 +2578,7 @@
             this.groupBox19.Controls.Add(this.label63);
             this.groupBox19.Location = new System.Drawing.Point(3, 3);
             this.groupBox19.Name = "groupBox19";
-            this.groupBox19.Size = new System.Drawing.Size(237, 253);
+            this.groupBox19.Size = new System.Drawing.Size(237, 221);
             this.groupBox19.TabIndex = 4;
             this.groupBox19.TabStop = false;
             this.groupBox19.Text = "SYN/TCP";
