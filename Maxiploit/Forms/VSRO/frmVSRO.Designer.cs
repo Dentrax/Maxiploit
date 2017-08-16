@@ -445,6 +445,10 @@
             this.lbLogDetail = new System.Windows.Forms.ListBox();
             this.lbLog = new System.Windows.Forms.ListBox();
             this.groupBox22 = new System.Windows.Forms.GroupBox();
+            this.groupBox23 = new System.Windows.Forms.GroupBox();
+            this.button26 = new System.Windows.Forms.Button();
+            this.label77 = new System.Windows.Forms.Label();
+            this.comboBox45 = new System.Windows.Forms.ComboBox();
             this.msMenu.SuspendLayout();
             this.tcMain.SuspendLayout();
             this.tpMain.SuspendLayout();
@@ -502,6 +506,7 @@
             this.groupBox20.SuspendLayout();
             this.groupBox14.SuspendLayout();
             this.tpLog.SuspendLayout();
+            this.groupBox23.SuspendLayout();
             this.SuspendLayout();
             // 
             // msMenu
@@ -4984,6 +4989,7 @@
             // 
             // tpAnalyzer
             // 
+            this.tpAnalyzer.Controls.Add(this.groupBox23);
             this.tpAnalyzer.Controls.Add(this.groupBox20);
             this.tpAnalyzer.Controls.Add(this.groupBox14);
             this.tpAnalyzer.Location = new System.Drawing.Point(4, 22);
@@ -5105,6 +5111,44 @@
             this.groupBox22.TabStop = false;
             this.groupBox22.Text = "Smurf";
             // 
+            // groupBox23
+            // 
+            this.groupBox23.Controls.Add(this.comboBox45);
+            this.groupBox23.Controls.Add(this.label77);
+            this.groupBox23.Controls.Add(this.button26);
+            this.groupBox23.Location = new System.Drawing.Point(449, 13);
+            this.groupBox23.Name = "groupBox23";
+            this.groupBox23.Size = new System.Drawing.Size(206, 121);
+            this.groupBox23.TabIndex = 2;
+            this.groupBox23.TabStop = false;
+            this.groupBox23.Text = "Analyze Client";
+            // 
+            // button26
+            // 
+            this.button26.Location = new System.Drawing.Point(9, 82);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(180, 23);
+            this.button26.TabIndex = 0;
+            this.button26.Text = "ANALYZE";
+            this.button26.UseVisualStyleBackColor = true;
+            // 
+            // label77
+            // 
+            this.label77.AutoSize = true;
+            this.label77.Location = new System.Drawing.Point(6, 43);
+            this.label77.Name = "label77";
+            this.label77.Size = new System.Drawing.Size(41, 13);
+            this.label77.TabIndex = 1;
+            this.label77.Text = "Server:";
+            // 
+            // comboBox45
+            // 
+            this.comboBox45.FormattingEnabled = true;
+            this.comboBox45.Location = new System.Drawing.Point(68, 40);
+            this.comboBox45.Name = "comboBox45";
+            this.comboBox45.Size = new System.Drawing.Size(121, 21);
+            this.comboBox45.TabIndex = 2;
+            // 
             // frmVSRO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -5208,6 +5252,8 @@
             this.groupBox14.ResumeLayout(false);
             this.groupBox14.PerformLayout();
             this.tpLog.ResumeLayout(false);
+            this.groupBox23.ResumeLayout(false);
+            this.groupBox23.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -5632,5 +5678,9 @@
         private System.Windows.Forms.CheckBox checkBox54;
         private System.Windows.Forms.GroupBox groupBox21;
         private System.Windows.Forms.GroupBox groupBox22;
+        private System.Windows.Forms.GroupBox groupBox23;
+        private System.Windows.Forms.ComboBox comboBox45;
+        private System.Windows.Forms.Label label77;
+        private System.Windows.Forms.Button button26;
     }
 }
