@@ -448,7 +448,8 @@
             this.groupBox23 = new System.Windows.Forms.GroupBox();
             this.button26 = new System.Windows.Forms.Button();
             this.label77 = new System.Windows.Forms.Label();
-            this.comboBox45 = new System.Windows.Forms.ComboBox();
+            this.button27 = new System.Windows.Forms.Button();
+            this.textBox45 = new System.Windows.Forms.TextBox();
             this.msMenu.SuspendLayout();
             this.tcMain.SuspendLayout();
             this.tpMain.SuspendLayout();
@@ -5030,9 +5031,9 @@
             // 
             // button25
             // 
-            this.button25.Location = new System.Drawing.Point(21, 81);
+            this.button25.Location = new System.Drawing.Point(9, 81);
             this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(183, 23);
+            this.button25.Size = new System.Drawing.Size(195, 23);
             this.button25.TabIndex = 0;
             this.button25.Text = "ANALYZE";
             this.button25.UseVisualStyleBackColor = true;
@@ -5113,21 +5114,22 @@
             // 
             // groupBox23
             // 
-            this.groupBox23.Controls.Add(this.comboBox45);
+            this.groupBox23.Controls.Add(this.textBox45);
+            this.groupBox23.Controls.Add(this.button27);
             this.groupBox23.Controls.Add(this.label77);
             this.groupBox23.Controls.Add(this.button26);
             this.groupBox23.Location = new System.Drawing.Point(449, 13);
             this.groupBox23.Name = "groupBox23";
-            this.groupBox23.Size = new System.Drawing.Size(206, 121);
+            this.groupBox23.Size = new System.Drawing.Size(219, 121);
             this.groupBox23.TabIndex = 2;
             this.groupBox23.TabStop = false;
             this.groupBox23.Text = "Analyze Client";
             // 
             // button26
             // 
-            this.button26.Location = new System.Drawing.Point(9, 82);
+            this.button26.Location = new System.Drawing.Point(9, 81);
             this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(180, 23);
+            this.button26.Size = new System.Drawing.Size(195, 23);
             this.button26.TabIndex = 0;
             this.button26.Text = "ANALYZE";
             this.button26.UseVisualStyleBackColor = true;
@@ -5135,19 +5137,27 @@
             // label77
             // 
             this.label77.AutoSize = true;
-            this.label77.Location = new System.Drawing.Point(6, 43);
+            this.label77.Location = new System.Drawing.Point(6, 42);
             this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(41, 13);
+            this.label77.Size = new System.Drawing.Size(36, 13);
             this.label77.TabIndex = 1;
-            this.label77.Text = "Server:";
+            this.label77.Text = "Client:";
             // 
-            // comboBox45
+            // button27
             // 
-            this.comboBox45.FormattingEnabled = true;
-            this.comboBox45.Location = new System.Drawing.Point(68, 40);
-            this.comboBox45.Name = "comboBox45";
-            this.comboBox45.Size = new System.Drawing.Size(121, 21);
-            this.comboBox45.TabIndex = 2;
+            this.button27.Location = new System.Drawing.Point(180, 39);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(24, 20);
+            this.button27.TabIndex = 2;
+            this.button27.Text = "...";
+            this.button27.UseVisualStyleBackColor = true;
+            // 
+            // textBox45
+            // 
+            this.textBox45.Location = new System.Drawing.Point(48, 39);
+            this.textBox45.Name = "textBox45";
+            this.textBox45.Size = new System.Drawing.Size(126, 20);
+            this.textBox45.TabIndex = 3;
             // 
             // frmVSRO
             // 
@@ -5679,8 +5689,9 @@
         private System.Windows.Forms.GroupBox groupBox21;
         private System.Windows.Forms.GroupBox groupBox22;
         private System.Windows.Forms.GroupBox groupBox23;
-        private System.Windows.Forms.ComboBox comboBox45;
         private System.Windows.Forms.Label label77;
         private System.Windows.Forms.Button button26;
+        private System.Windows.Forms.TextBox textBox45;
+        private System.Windows.Forms.Button button27;
     }
 }
