@@ -235,16 +235,24 @@
             this.label73 = new System.Windows.Forms.Label();
             this.button23 = new System.Windows.Forms.Button();
             this.label72 = new System.Windows.Forms.Label();
+            this.textBox44 = new System.Windows.Forms.TextBox();
+            this.textBox43 = new System.Windows.Forms.TextBox();
             this.textBox42 = new System.Windows.Forms.TextBox();
             this.textBox41 = new System.Windows.Forms.TextBox();
             this.label71 = new System.Windows.Forms.Label();
+            this.comboBox44 = new System.Windows.Forms.ComboBox();
+            this.label76 = new System.Windows.Forms.Label();
             this.comboBox41 = new System.Windows.Forms.ComboBox();
             this.label70 = new System.Windows.Forms.Label();
             this.textBox40 = new System.Windows.Forms.TextBox();
+            this.checkBox55 = new System.Windows.Forms.CheckBox();
+            this.checkBox54 = new System.Windows.Forms.CheckBox();
+            this.checkBox53 = new System.Windows.Forms.CheckBox();
             this.checkBox52 = new System.Windows.Forms.CheckBox();
             this.hScrollBar1 = new System.Windows.Forms.HScrollBar();
             this.label63 = new System.Windows.Forms.Label();
             this.tpUdpIp = new System.Windows.Forms.TabPage();
+            this.groupBox21 = new System.Windows.Forms.GroupBox();
             this.tpSmurf = new System.Windows.Forms.TabPage();
             this.tpArp = new System.Windows.Forms.TabPage();
             this.tpGuardDestroyer = new System.Windows.Forms.TabPage();
@@ -436,14 +444,7 @@
             this.tpLog = new System.Windows.Forms.TabPage();
             this.lbLogDetail = new System.Windows.Forms.ListBox();
             this.lbLog = new System.Windows.Forms.ListBox();
-            this.label76 = new System.Windows.Forms.Label();
-            this.comboBox44 = new System.Windows.Forms.ComboBox();
-            this.checkBox53 = new System.Windows.Forms.CheckBox();
-            this.checkBox54 = new System.Windows.Forms.CheckBox();
-            this.textBox43 = new System.Windows.Forms.TextBox();
-            this.checkBox55 = new System.Windows.Forms.CheckBox();
-            this.textBox44 = new System.Windows.Forms.TextBox();
-            this.groupBox21 = new System.Windows.Forms.GroupBox();
+            this.groupBox22 = new System.Windows.Forms.GroupBox();
             this.msMenu.SuspendLayout();
             this.tcMain.SuspendLayout();
             this.tpMain.SuspendLayout();
@@ -476,6 +477,7 @@
             this.tpSyn.SuspendLayout();
             this.groupBox19.SuspendLayout();
             this.tpUdpIp.SuspendLayout();
+            this.tpSmurf.SuspendLayout();
             this.tpAdvanced.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tpAdvancedPacketCreator.SuspendLayout();
@@ -2613,6 +2615,20 @@
             this.label72.TabIndex = 12;
             this.label72.Text = "to";
             // 
+            // textBox44
+            // 
+            this.textBox44.Location = new System.Drawing.Point(200, 132);
+            this.textBox44.Name = "textBox44";
+            this.textBox44.Size = new System.Drawing.Size(31, 20);
+            this.textBox44.TabIndex = 11;
+            // 
+            // textBox43
+            // 
+            this.textBox43.Location = new System.Drawing.Point(200, 109);
+            this.textBox43.Name = "textBox43";
+            this.textBox43.Size = new System.Drawing.Size(31, 20);
+            this.textBox43.TabIndex = 11;
+            // 
             // textBox42
             // 
             this.textBox42.Location = new System.Drawing.Point(182, 79);
@@ -2635,6 +2651,23 @@
             this.label71.Size = new System.Drawing.Size(64, 13);
             this.label71.TabIndex = 9;
             this.label71.Text = "Port Range:";
+            // 
+            // comboBox44
+            // 
+            this.comboBox44.FormattingEnabled = true;
+            this.comboBox44.Location = new System.Drawing.Point(96, 50);
+            this.comboBox44.Name = "comboBox44";
+            this.comboBox44.Size = new System.Drawing.Size(135, 21);
+            this.comboBox44.TabIndex = 8;
+            // 
+            // label76
+            // 
+            this.label76.AutoSize = true;
+            this.label76.Location = new System.Drawing.Point(6, 53);
+            this.label76.Name = "label76";
+            this.label76.Size = new System.Drawing.Size(77, 13);
+            this.label76.TabIndex = 7;
+            this.label76.Text = "Select Socket:";
             // 
             // comboBox41
             // 
@@ -2659,6 +2692,36 @@
             this.textBox40.Name = "textBox40";
             this.textBox40.Size = new System.Drawing.Size(49, 20);
             this.textBox40.TabIndex = 6;
+            // 
+            // checkBox55
+            // 
+            this.checkBox55.AutoSize = true;
+            this.checkBox55.Location = new System.Drawing.Point(151, 134);
+            this.checkBox55.Name = "checkBox55";
+            this.checkBox55.Size = new System.Drawing.Size(53, 17);
+            this.checkBox55.TabIndex = 5;
+            this.checkBox55.Text = "Every";
+            this.checkBox55.UseVisualStyleBackColor = true;
+            // 
+            // checkBox54
+            // 
+            this.checkBox54.AutoSize = true;
+            this.checkBox54.Location = new System.Drawing.Point(151, 111);
+            this.checkBox54.Name = "checkBox54";
+            this.checkBox54.Size = new System.Drawing.Size(53, 17);
+            this.checkBox54.TabIndex = 5;
+            this.checkBox54.Text = "Every";
+            this.checkBox54.UseVisualStyleBackColor = true;
+            // 
+            // checkBox53
+            // 
+            this.checkBox53.AutoSize = true;
+            this.checkBox53.Location = new System.Drawing.Point(9, 134);
+            this.checkBox53.Name = "checkBox53";
+            this.checkBox53.Size = new System.Drawing.Size(77, 17);
+            this.checkBox53.TabIndex = 5;
+            this.checkBox53.Text = "Use Proxy:";
+            this.checkBox53.UseVisualStyleBackColor = true;
             // 
             // checkBox52
             // 
@@ -2696,8 +2759,18 @@
             this.tpUdpIp.Text = "UDP/IP";
             this.tpUdpIp.UseVisualStyleBackColor = true;
             // 
+            // groupBox21
+            // 
+            this.groupBox21.Location = new System.Drawing.Point(14, 17);
+            this.groupBox21.Name = "groupBox21";
+            this.groupBox21.Size = new System.Drawing.Size(200, 100);
+            this.groupBox21.TabIndex = 0;
+            this.groupBox21.TabStop = false;
+            this.groupBox21.Text = "UDP/IP";
+            // 
             // tpSmurf
             // 
+            this.tpSmurf.Controls.Add(this.groupBox22);
             this.tpSmurf.Location = new System.Drawing.Point(4, 22);
             this.tpSmurf.Name = "tpSmurf";
             this.tpSmurf.Size = new System.Drawing.Size(968, 397);
@@ -5023,75 +5096,14 @@
             this.lbLog.Size = new System.Drawing.Size(996, 108);
             this.lbLog.TabIndex = 2;
             // 
-            // label76
+            // groupBox22
             // 
-            this.label76.AutoSize = true;
-            this.label76.Location = new System.Drawing.Point(6, 53);
-            this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(77, 13);
-            this.label76.TabIndex = 7;
-            this.label76.Text = "Select Socket:";
-            // 
-            // comboBox44
-            // 
-            this.comboBox44.FormattingEnabled = true;
-            this.comboBox44.Location = new System.Drawing.Point(96, 50);
-            this.comboBox44.Name = "comboBox44";
-            this.comboBox44.Size = new System.Drawing.Size(135, 21);
-            this.comboBox44.TabIndex = 8;
-            // 
-            // checkBox53
-            // 
-            this.checkBox53.AutoSize = true;
-            this.checkBox53.Location = new System.Drawing.Point(9, 134);
-            this.checkBox53.Name = "checkBox53";
-            this.checkBox53.Size = new System.Drawing.Size(77, 17);
-            this.checkBox53.TabIndex = 5;
-            this.checkBox53.Text = "Use Proxy:";
-            this.checkBox53.UseVisualStyleBackColor = true;
-            // 
-            // checkBox54
-            // 
-            this.checkBox54.AutoSize = true;
-            this.checkBox54.Location = new System.Drawing.Point(151, 111);
-            this.checkBox54.Name = "checkBox54";
-            this.checkBox54.Size = new System.Drawing.Size(53, 17);
-            this.checkBox54.TabIndex = 5;
-            this.checkBox54.Text = "Every";
-            this.checkBox54.UseVisualStyleBackColor = true;
-            // 
-            // textBox43
-            // 
-            this.textBox43.Location = new System.Drawing.Point(200, 109);
-            this.textBox43.Name = "textBox43";
-            this.textBox43.Size = new System.Drawing.Size(31, 20);
-            this.textBox43.TabIndex = 11;
-            // 
-            // checkBox55
-            // 
-            this.checkBox55.AutoSize = true;
-            this.checkBox55.Location = new System.Drawing.Point(151, 134);
-            this.checkBox55.Name = "checkBox55";
-            this.checkBox55.Size = new System.Drawing.Size(53, 17);
-            this.checkBox55.TabIndex = 5;
-            this.checkBox55.Text = "Every";
-            this.checkBox55.UseVisualStyleBackColor = true;
-            // 
-            // textBox44
-            // 
-            this.textBox44.Location = new System.Drawing.Point(200, 132);
-            this.textBox44.Name = "textBox44";
-            this.textBox44.Size = new System.Drawing.Size(31, 20);
-            this.textBox44.TabIndex = 11;
-            // 
-            // groupBox21
-            // 
-            this.groupBox21.Location = new System.Drawing.Point(21, 18);
-            this.groupBox21.Name = "groupBox21";
-            this.groupBox21.Size = new System.Drawing.Size(200, 100);
-            this.groupBox21.TabIndex = 0;
-            this.groupBox21.TabStop = false;
-            this.groupBox21.Text = "groupBox21";
+            this.groupBox22.Location = new System.Drawing.Point(3, 13);
+            this.groupBox22.Name = "groupBox22";
+            this.groupBox22.Size = new System.Drawing.Size(313, 199);
+            this.groupBox22.TabIndex = 0;
+            this.groupBox22.TabStop = false;
+            this.groupBox22.Text = "Smurf";
             // 
             // frmVSRO
             // 
@@ -5161,6 +5173,7 @@
             this.groupBox19.ResumeLayout(false);
             this.groupBox19.PerformLayout();
             this.tpUdpIp.ResumeLayout(false);
+            this.tpSmurf.ResumeLayout(false);
             this.tpAdvanced.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tpAdvancedPacketCreator.ResumeLayout(false);
@@ -5618,5 +5631,6 @@
         private System.Windows.Forms.CheckBox checkBox55;
         private System.Windows.Forms.CheckBox checkBox54;
         private System.Windows.Forms.GroupBox groupBox21;
+        private System.Windows.Forms.GroupBox groupBox22;
     }
 }
