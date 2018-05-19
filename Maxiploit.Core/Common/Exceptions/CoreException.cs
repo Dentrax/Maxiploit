@@ -7,18 +7,19 @@
 // ====================================================
 #endregion
 
-using Maxiploit.Core.Common.Exceptions;
+using System;
 
-namespace Maxiploit.Modules {
-    public abstract class ModuleException : MaxiploitException {
-        public ModuleException() : base() {
+namespace Maxiploit.Core.Common.Exceptions {
+    public abstract class CoreException : Exception {
+
+        public CoreException() : base() {
         }
 
-        public ModuleException(string msg) : base(msg) {
+        public CoreException(string msg) : base(msg) {
 
         }
 
-        public ModuleException(string msg, params object[] args) : base(string.Format(msg, args)) {
+        public CoreException(string msg, params object[] args) : base(string.Format(msg, args)) {
 
         }
     }

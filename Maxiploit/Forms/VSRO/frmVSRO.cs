@@ -37,13 +37,13 @@ namespace Maxiploit.Forms
             bool flag = true;
 
 
-            if (!IPUtils.ByteValidateIPv4(this.txtServerIP.Text) /*|| IPUtils.IPValidateIPv4(this.txtServerIP.Text)*/) {
+            if (!IPUtils.IPValidateIPv4(this.txtSetupServerIP.Text) /*|| IPUtils.IPValidateIPv4(this.txtServerIP.Text)*/) {
                 this.WriteToLogPanel("Invalid IP address");
                 flag = false;
             }
 
             int num2 = 0;
-            if (!int.TryParse(this.txtServerPort.Text, out num2) || num2 <= 0 || num2 >= 65535) {
+            if (!int.TryParse(this.txtSetupServerPort.Text, out num2) || num2 <= 0 || num2 >= 65535) {
                 this.WriteToLogPanel("Invalid port");
                 flag = false;
             }
@@ -58,12 +58,12 @@ namespace Maxiploit.Forms
                 flag = false;
             }
             int num5 = 0;
-            if (!int.TryParse(this.txtServerShardID.Text, out num5) || num5 <= 0) {
+            if (!int.TryParse(this.txtSetupServerIP.Text, out num5) || num5 <= 0) {
                 this.WriteToLogPanel("Invalid shard id");
                 flag = false;
             }
 
-            if (!cbServerInfoReady.Checked) {
+            if (!cbServerRemoteReady.Checked) {
                 this.WriteToLogPanel("Check ready");
                 flag = false;
             }
@@ -154,5 +154,40 @@ namespace Maxiploit.Forms
 
         #endregion
 
+        private void btnSetupServerAdd_Click(object sender, EventArgs e) {
+            if (string.IsNullOrEmpty(this.txtSetupServerName.Text)) {
+                //TODO: Add warning log
+                return;
+            }
+
+            if (string.IsNullOrEmpty(this.txtSetupServerIP.Text)) {
+                return;
+            } else {
+                if (!IPUtils.IsIPv4Input(this.txtSetupServerIP.Text)) {
+                    //TODO: Add warning log
+                    return;
+                }
+            }
+
+            if (string.IsNullOrEmpty(this.txtSetupServerPort.Text)) {
+                return;
+            } else {
+                int port;
+                if(int.TryParse(this.txtSetupServerPort.Text, out port)) {
+                    if(port < 1024 || port > 65535) {
+                        return;
+                    }
+                } else {
+                    return;
+                }
+            }
+
+
+            //add
+        }
+
+        private void btnSetupCreateSocket_Click(object sender, EventArgs e) {
+
+        }
     }
 }

@@ -70,15 +70,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Common\Exceptions\CoreException.cs" />
-    <Compile Include="Common\Exceptions\MaxiploitException.cs" />
-    <Compile Include="Common\Exceptions\ProgramException.cs" />
-    <Compile Include="Common\Log\Logger.cs" />
-    <Compile Include="Common\Log\LogLevel.cs" />
-    <Compile Include="Common\Log\ScopeLogger.cs" />
-    <Compile Include="Common\Log\ScopeLoggerSortOrder.cs" />
-    <Compile Include="Common\ServerGameType.cs" />
-    <Compile Include="Common\ServerProtectionType.cs" />
     <Compile Include="Forms\frmMain.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -11,8 +11,8 @@ using System;
 using System.IO;
 using System.Linq;
 using System.Collections.Generic;
-using Maxiploit.Common.Exceptions;
-using Maxiploit.Common.Log;
+using Maxiploit.Core.Common.Exceptions;
+using Maxiploit.Core.Common.Log;
 
 namespace Maxiploit.Core.IO {
     public sealed class SettingsReader {
@@ -88,7 +88,7 @@ namespace Maxiploit.Core.IO {
             T res = default(T);
             List<string> lines = GetSectionContent(section);
             if (lines == null) {
-                Logger.IO.Print(LogLevel.Error, "[SettingsReader::Read()::0xSR1A100] -> Could not get section data : " + section);
+                Logger.IO.Print(ELogLevelType.ERROR, "[SettingsReader::Read()::0xSR1A100] -> Could not get section data : " + section);
             }
 
             string[] split;
@@ -128,7 +128,7 @@ namespace Maxiploit.Core.IO {
             }
 
             if (!ok) {
-                Logger.IO.Print(LogLevel.Error, "[SettingsReader::Read()::0xSR1A101] -> Something went wrong file extracting key/value - invalid format, or unsupported type");
+                Logger.IO.Print(ELogLevelType.ERROR, "[SettingsReader::Read()::0xSR1A101] -> Something went wrong file extracting key/value - invalid format, or unsupported type");
             }
 
             return res;

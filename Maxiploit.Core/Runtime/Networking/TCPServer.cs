@@ -7,18 +7,12 @@
 // ====================================================
 #endregion
 
-using Maxiploit.Core.Common.Exceptions;
+namespace Maxiploit.Core.Runtime.Networking {
+    public abstract class TCPServer : AsyncServer {
 
-namespace Maxiploit.Modules {
-    public abstract class ModuleException : MaxiploitException {
-        public ModuleException() : base() {
-        }
+        //12345
 
-        public ModuleException(string msg) : base(msg) {
-
-        }
-
-        public ModuleException(string msg, params object[] args) : base(string.Format(msg, args)) {
+        public TCPServer(string ip, int port) : base(ip, port) {
 
         }
     }

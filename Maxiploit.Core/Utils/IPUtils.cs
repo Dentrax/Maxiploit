@@ -15,7 +15,7 @@ using System.Net;
 namespace Maxiploit.Core.Utils {
     public static class IPUtils {
 
-        public static bool ByteValidateIPv4(string ip) {
+        public static bool IsIPv4Input(string ip) {
             if (String.IsNullOrWhiteSpace(ip)) {
                 return false;
             }

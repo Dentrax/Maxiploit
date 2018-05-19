@@ -7,19 +7,18 @@
 // ====================================================
 #endregion
 
-using Maxiploit.Core.Common.Exceptions;
+namespace Maxiploit.Core.Runtime.Networking.Sessions {
+    public sealed class SessionBuffer {
 
-namespace Maxiploit.Modules {
-    public abstract class ModuleException : MaxiploitException {
-        public ModuleException() : base() {
-        }
+        public readonly object Locker = new object();
 
-        public ModuleException(string msg) : base(msg) {
+        public byte[] ClientBuffer { get; private set; }
 
-        }
+        public byte[] ModuleBuffer { get; private set; }
 
-        public ModuleException(string msg, params object[] args) : base(string.Format(msg, args)) {
-
+        public SessionBuffer(int size) {
+            this.ClientBuffer = new byte[size];
+            this.ModuleBuffer = new byte[size];
         }
     }
 }

@@ -7,19 +7,11 @@
 // ====================================================
 #endregion
 
-using Maxiploit.Core.Common.Exceptions;
-
-namespace Maxiploit.Modules {
-    public abstract class ModuleException : MaxiploitException {
-        public ModuleException() : base() {
-        }
-
-        public ModuleException(string msg) : base(msg) {
-
-        }
-
-        public ModuleException(string msg, params object[] args) : base(string.Format(msg, args)) {
-
-        }
+namespace Maxiploit.Core.Runtime.Networking.Securities {
+    public enum SecurityFlags {
+        None = 0,
+        Handshake = 1,
+        Blowfish = 2,
+        SecurityBytes = 4,
     }
 }
