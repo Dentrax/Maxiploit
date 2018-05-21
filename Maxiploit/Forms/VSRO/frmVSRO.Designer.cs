@@ -34,48 +34,106 @@
             this.ssStatus = new System.Windows.Forms.StatusStrip();
             this.tcMain = new System.Windows.Forms.TabControl();
             this.tpSetup = new System.Windows.Forms.TabPage();
-            this.checkBox49 = new System.Windows.Forms.CheckBox();
-            this.cbSetupServerUseProxy = new System.Windows.Forms.CheckBox();
-            this.txtSetupServerProxyPort = new System.Windows.Forms.TextBox();
-            this.txtSetupServerProxyIP = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.button13 = new System.Windows.Forms.Button();
-            this.checkBox34 = new System.Windows.Forms.CheckBox();
-            this.textBox35 = new System.Windows.Forms.TextBox();
+            this.groupBox18 = new System.Windows.Forms.GroupBox();
             this.comboBox31 = new System.Windows.Forms.ComboBox();
-            this.button12 = new System.Windows.Forms.Button();
-            this.textBox31 = new System.Windows.Forms.TextBox();
+            this.label78 = new System.Windows.Forms.Label();
+            this.btnSetupSocketClear = new System.Windows.Forms.Button();
+            this.cbSetupSocketReady = new System.Windows.Forms.CheckBox();
+            this.btnSetupSocketAdd = new System.Windows.Forms.Button();
+            this.cbSetupSocketAsync = new System.Windows.Forms.CheckBox();
+            this.cbSetupSocketNoDelay = new System.Windows.Forms.CheckBox();
+            this.txtSetupSocketName = new System.Windows.Forms.TextBox();
+            this.label67 = new System.Windows.Forms.Label();
+            this.cbSetupSocketAddressFamilyType = new System.Windows.Forms.ComboBox();
+            this.label66 = new System.Windows.Forms.Label();
+            this.cbSetupSocketProtocolType = new System.Windows.Forms.ComboBox();
+            this.cbSetupSocketType = new System.Windows.Forms.ComboBox();
+            this.label65 = new System.Windows.Forms.Label();
+            this.label64 = new System.Windows.Forms.Label();
+            this.checkBox49 = new System.Windows.Forms.CheckBox();
+            this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.txtSetupSQLPort = new System.Windows.Forms.TextBox();
+            this.txtSetupSQLHostname = new System.Windows.Forms.TextBox();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.btnSetupSQLClear = new System.Windows.Forms.Button();
+            this.cbSetupSQLReady = new System.Windows.Forms.CheckBox();
+            this.txtSetupSQLConnectionString = new System.Windows.Forms.TextBox();
+            this.cbSetupSQLType = new System.Windows.Forms.ComboBox();
+            this.btnSetupSQLAdd = new System.Windows.Forms.Button();
+            this.txtSetupSQLName = new System.Windows.Forms.TextBox();
             this.label41 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
-            this.textBox32 = new System.Windows.Forms.TextBox();
+            this.txtSetupSQLDBName = new System.Windows.Forms.TextBox();
             this.label42 = new System.Windows.Forms.Label();
             this.label43 = new System.Windows.Forms.Label();
-            this.textBox34 = new System.Windows.Forms.TextBox();
+            this.txtSetupSQLPW = new System.Windows.Forms.TextBox();
             this.label45 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
-            this.textBox33 = new System.Windows.Forms.TextBox();
+            this.txtSetupSQLID = new System.Windows.Forms.TextBox();
+            this.cbCopyrightsEnable = new System.Windows.Forms.CheckBox();
             this.gbServerInfo = new System.Windows.Forms.GroupBox();
+            this.label80 = new System.Windows.Forms.Label();
+            this.comboBox36 = new System.Windows.Forms.ComboBox();
+            this.label79 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.cbSetupServerUseProxy = new System.Windows.Forms.CheckBox();
+            this.cbSetupServerType = new System.Windows.Forms.ComboBox();
             this.btnSetupServerClear = new System.Windows.Forms.Button();
-            this.cbServerRemoteReady = new System.Windows.Forms.CheckBox();
+            this.cbSetupServerReady = new System.Windows.Forms.CheckBox();
             this.btnSetupServerAdd = new System.Windows.Forms.Button();
             this.txtSetupServerName = new System.Windows.Forms.TextBox();
             this.label39 = new System.Windows.Forms.Label();
-            this.cbEnableXTrap = new System.Windows.Forms.CheckBox();
-            this.txtServerVersion = new System.Windows.Forms.TextBox();
-            this.txtServerLocale = new System.Windows.Forms.TextBox();
+            this.txtSetupServerProxyPort = new System.Windows.Forms.TextBox();
+            this.txtSetupServerProxyIP = new System.Windows.Forms.TextBox();
             this.txtSetupServerPort = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
             this.txtSetupServerIP = new System.Windows.Forms.TextBox();
-            this.lblShardID = new System.Windows.Forms.Label();
-            this.lblServerVersion = new System.Windows.Forms.Label();
-            this.lblServerLocale = new System.Windows.Forms.Label();
             this.lblServerPort = new System.Windows.Forms.Label();
             this.lblServerIP = new System.Windows.Forms.Label();
-            this.cbCopyrightsEnable = new System.Windows.Forms.CheckBox();
             this.tpConnect = new System.Windows.Forms.TabPage();
+            this.groupBox16 = new System.Windows.Forms.GroupBox();
+            this.label58 = new System.Windows.Forms.Label();
+            this.label68 = new System.Windows.Forms.Label();
+            this.label59 = new System.Windows.Forms.Label();
+            this.lbConnectServerList = new System.Windows.Forms.ListBox();
+            this.btnCoonectServerDisconnect = new System.Windows.Forms.Button();
+            this.cbConnectServerSelectSQL = new System.Windows.Forms.ComboBox();
+            this.cbConnectServerSelect = new System.Windows.Forms.ComboBox();
+            this.btnConnectServerConnect = new System.Windows.Forms.Button();
+            this.groupBox15 = new System.Windows.Forms.GroupBox();
+            this.label56 = new System.Windows.Forms.Label();
+            this.label69 = new System.Windows.Forms.Label();
+            this.label57 = new System.Windows.Forms.Label();
+            this.lbConnectSQLList = new System.Windows.Forms.ListBox();
+            this.btnConnectSQLDisconnect = new System.Windows.Forms.Button();
+            this.cbConnectSQLSelectEngine = new System.Windows.Forms.ComboBox();
+            this.cbConnectSQLSelect = new System.Windows.Forms.ComboBox();
+            this.btnConnectSQLConnect = new System.Windows.Forms.Button();
+            this.tpAnalyze = new System.Windows.Forms.TabPage();
+            this.tcNetwork = new System.Windows.Forms.TabControl();
+            this.tpNetworkModel = new System.Windows.Forms.TabPage();
+            this.tpNetworkCertification = new System.Windows.Forms.TabPage();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.btnCertificationAnalyze = new System.Windows.Forms.Button();
+            this.tpNetworkAgent = new System.Windows.Forms.TabPage();
+            this.tpNetworkGatewayServer = new System.Windows.Forms.TabPage();
+            this.tpNetworkSMC = new System.Windows.Forms.TabPage();
+            this.groupBox23 = new System.Windows.Forms.GroupBox();
+            this.textBox45 = new System.Windows.Forms.TextBox();
+            this.button27 = new System.Windows.Forms.Button();
+            this.label77 = new System.Windows.Forms.Label();
+            this.button26 = new System.Windows.Forms.Button();
+            this.groupBox20 = new System.Windows.Forms.GroupBox();
+            this.comboBox43 = new System.Windows.Forms.ComboBox();
+            this.label75 = new System.Windows.Forms.Label();
+            this.button25 = new System.Windows.Forms.Button();
+            this.groupBox14 = new System.Windows.Forms.GroupBox();
+            this.comboBox42 = new System.Windows.Forms.ComboBox();
+            this.label74 = new System.Windows.Forms.Label();
+            this.button24 = new System.Windows.Forms.Button();
             this.tpTests = new System.Windows.Forms.TabPage();
             this.tcBruteForce = new System.Windows.Forms.TabControl();
             this.tpGeneral = new System.Windows.Forms.TabPage();
@@ -89,6 +147,19 @@
             this.checkBox15 = new System.Windows.Forms.CheckBox();
             this.checkBox17 = new System.Windows.Forms.CheckBox();
             this.tpAccount = new System.Windows.Forms.TabPage();
+            this.gbServerCharacter = new System.Windows.Forms.GroupBox();
+            this.btnServerAccountLogin = new System.Windows.Forms.Button();
+            this.btnCharacterLoginSend = new System.Windows.Forms.Button();
+            this.btnServerSendCaptcha = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.lblServerCharacter = new System.Windows.Forms.Label();
+            this.lblServerCaptcha = new System.Windows.Forms.Label();
+            this.txtServerCaptcha = new System.Windows.Forms.TextBox();
+            this.gbServerCaptcha = new System.Windows.Forms.GroupBox();
+            this.txtServerAccountPW = new System.Windows.Forms.TextBox();
+            this.txtServerAccountID = new System.Windows.Forms.TextBox();
+            this.lblServerAccountPW = new System.Windows.Forms.Label();
+            this.lblServerAccountID = new System.Windows.Forms.Label();
             this.radioButton7 = new System.Windows.Forms.RadioButton();
             this.radioButton8 = new System.Windows.Forms.RadioButton();
             this.groupBox17 = new System.Windows.Forms.GroupBox();
@@ -364,89 +435,53 @@
             this.lblExploitFounder = new System.Windows.Forms.Label();
             this.gbExploitName = new System.Windows.Forms.GroupBox();
             this.lbExploitName = new System.Windows.Forms.ListBox();
-            this.tpAnalyze = new System.Windows.Forms.TabPage();
-            this.groupBox23 = new System.Windows.Forms.GroupBox();
-            this.textBox45 = new System.Windows.Forms.TextBox();
-            this.button27 = new System.Windows.Forms.Button();
-            this.label77 = new System.Windows.Forms.Label();
-            this.button26 = new System.Windows.Forms.Button();
-            this.groupBox20 = new System.Windows.Forms.GroupBox();
-            this.comboBox43 = new System.Windows.Forms.ComboBox();
-            this.label75 = new System.Windows.Forms.Label();
-            this.button25 = new System.Windows.Forms.Button();
-            this.groupBox14 = new System.Windows.Forms.GroupBox();
-            this.comboBox42 = new System.Windows.Forms.ComboBox();
-            this.label74 = new System.Windows.Forms.Label();
-            this.button24 = new System.Windows.Forms.Button();
             this.tpLog = new System.Windows.Forms.TabPage();
             this.lbLogDetail = new System.Windows.Forms.ListBox();
-            this.lbLog = new System.Windows.Forms.ListBox();
-            this.groupBox16 = new System.Windows.Forms.GroupBox();
-            this.label58 = new System.Windows.Forms.Label();
-            this.label68 = new System.Windows.Forms.Label();
-            this.label59 = new System.Windows.Forms.Label();
-            this.listBox9 = new System.Windows.Forms.ListBox();
-            this.button19 = new System.Windows.Forms.Button();
-            this.comboBox39 = new System.Windows.Forms.ComboBox();
-            this.comboBox34 = new System.Windows.Forms.ComboBox();
-            this.button20 = new System.Windows.Forms.Button();
-            this.groupBox15 = new System.Windows.Forms.GroupBox();
-            this.label56 = new System.Windows.Forms.Label();
-            this.label69 = new System.Windows.Forms.Label();
-            this.label57 = new System.Windows.Forms.Label();
-            this.listBox8 = new System.Windows.Forms.ListBox();
-            this.button18 = new System.Windows.Forms.Button();
-            this.comboBox40 = new System.Windows.Forms.ComboBox();
-            this.comboBox33 = new System.Windows.Forms.ComboBox();
-            this.button17 = new System.Windows.Forms.Button();
-            this.tcNetwork = new System.Windows.Forms.TabControl();
-            this.tpNetworkModel = new System.Windows.Forms.TabPage();
-            this.tpNetworkCertification = new System.Windows.Forms.TabPage();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.btnCertificationAnalyze = new System.Windows.Forms.Button();
-            this.tpNetworkAgent = new System.Windows.Forms.TabPage();
-            this.tpNetworkGatewayServer = new System.Windows.Forms.TabPage();
-            this.tpNetworkSMC = new System.Windows.Forms.TabPage();
-            this.groupBox18 = new System.Windows.Forms.GroupBox();
-            this.btnSetupCreateSocket = new System.Windows.Forms.Button();
-            this.cbSetupSocketAsync = new System.Windows.Forms.CheckBox();
-            this.cbSetupSocketNoDelay = new System.Windows.Forms.CheckBox();
-            this.txtSetupSocketName = new System.Windows.Forms.TextBox();
-            this.label67 = new System.Windows.Forms.Label();
-            this.cbSetupSocketAddressFamilyType = new System.Windows.Forms.ComboBox();
-            this.label66 = new System.Windows.Forms.Label();
-            this.cbSetupSocketProtocolType = new System.Windows.Forms.ComboBox();
-            this.cbSetupSocketType = new System.Windows.Forms.ComboBox();
-            this.label65 = new System.Windows.Forms.Label();
-            this.label64 = new System.Windows.Forms.Label();
-            this.gbServerCharacter = new System.Windows.Forms.GroupBox();
-            this.btnServerAccountLogin = new System.Windows.Forms.Button();
-            this.btnCharacterLoginSend = new System.Windows.Forms.Button();
-            this.btnServerSendCaptcha = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.lblServerCharacter = new System.Windows.Forms.Label();
-            this.lblServerCaptcha = new System.Windows.Forms.Label();
-            this.txtServerCaptcha = new System.Windows.Forms.TextBox();
-            this.gbServerCaptcha = new System.Windows.Forms.GroupBox();
-            this.txtServerAccountPW = new System.Windows.Forms.TextBox();
-            this.txtServerAccountID = new System.Windows.Forms.TextBox();
-            this.lblServerAccountPW = new System.Windows.Forms.Label();
-            this.lblServerAccountID = new System.Windows.Forms.Label();
-            this.cbSetupServerType = new System.Windows.Forms.ComboBox();
-            this.label34 = new System.Windows.Forms.Label();
+            this.lvLog = new System.Windows.Forms.ListView();
+            this.label81 = new System.Windows.Forms.Label();
+            this.comboBox37 = new System.Windows.Forms.ComboBox();
+            this.label82 = new System.Windows.Forms.Label();
+            this.label83 = new System.Windows.Forms.Label();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.label84 = new System.Windows.Forms.Label();
+            this.label85 = new System.Windows.Forms.Label();
+            this.label86 = new System.Windows.Forms.Label();
+            this.label87 = new System.Windows.Forms.Label();
+            this.label88 = new System.Windows.Forms.Label();
+            this.label89 = new System.Windows.Forms.Label();
+            this.groupBox24 = new System.Windows.Forms.GroupBox();
+            this.label90 = new System.Windows.Forms.Label();
+            this.label91 = new System.Windows.Forms.Label();
+            this.label92 = new System.Windows.Forms.Label();
+            this.label93 = new System.Windows.Forms.Label();
+            this.label94 = new System.Windows.Forms.Label();
+            this.label95 = new System.Windows.Forms.Label();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.msMenu.SuspendLayout();
             this.tcMain.SuspendLayout();
             this.tpSetup.SuspendLayout();
+            this.groupBox18.SuspendLayout();
             this.groupBox11.SuspendLayout();
             this.gbServerInfo.SuspendLayout();
             this.tpConnect.SuspendLayout();
+            this.groupBox16.SuspendLayout();
+            this.groupBox15.SuspendLayout();
+            this.tpAnalyze.SuspendLayout();
+            this.tcNetwork.SuspendLayout();
+            this.tpNetworkCertification.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox23.SuspendLayout();
+            this.groupBox20.SuspendLayout();
+            this.groupBox14.SuspendLayout();
             this.tpTests.SuspendLayout();
             this.tcBruteForce.SuspendLayout();
             this.tpGeneral.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.tpAccount.SuspendLayout();
+            this.gbServerCharacter.SuspendLayout();
             this.groupBox17.SuspendLayout();
             this.gbBruteAccountSQL.SuspendLayout();
             this.gbBruteAccountFile.SuspendLayout();
@@ -476,24 +511,17 @@
             this.gbExploitInfo.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.gbExploitName.SuspendLayout();
-            this.tpAnalyze.SuspendLayout();
-            this.groupBox23.SuspendLayout();
-            this.groupBox20.SuspendLayout();
-            this.groupBox14.SuspendLayout();
             this.tpLog.SuspendLayout();
-            this.groupBox16.SuspendLayout();
-            this.groupBox15.SuspendLayout();
-            this.tcNetwork.SuspendLayout();
-            this.tpNetworkCertification.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox18.SuspendLayout();
-            this.gbServerCharacter.SuspendLayout();
+            this.groupBox10.SuspendLayout();
+            this.groupBox24.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // msMenu
             // 
             this.msMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.applicationToolStripMenuItem});
+            this.applicationToolStripMenuItem,
+            this.helpToolStripMenuItem});
             this.msMenu.Location = new System.Drawing.Point(0, 0);
             this.msMenu.Name = "msMenu";
             this.msMenu.Size = new System.Drawing.Size(1020, 24);
@@ -541,6 +569,7 @@
             // 
             // tpSetup
             // 
+            this.tpSetup.Controls.Add(this.numericUpDown1);
             this.tpSetup.Controls.Add(this.groupBox18);
             this.tpSetup.Controls.Add(this.checkBox49);
             this.tpSetup.Controls.Add(this.groupBox11);
@@ -554,150 +583,372 @@
             this.tpSetup.Text = "1.Setup";
             this.tpSetup.UseVisualStyleBackColor = true;
             // 
+            // groupBox18
+            // 
+            this.groupBox18.Controls.Add(this.comboBox31);
+            this.groupBox18.Controls.Add(this.label78);
+            this.groupBox18.Controls.Add(this.btnSetupSocketClear);
+            this.groupBox18.Controls.Add(this.cbSetupSocketReady);
+            this.groupBox18.Controls.Add(this.btnSetupSocketAdd);
+            this.groupBox18.Controls.Add(this.cbSetupSocketAsync);
+            this.groupBox18.Controls.Add(this.cbSetupSocketNoDelay);
+            this.groupBox18.Controls.Add(this.txtSetupSocketName);
+            this.groupBox18.Controls.Add(this.label67);
+            this.groupBox18.Controls.Add(this.cbSetupSocketAddressFamilyType);
+            this.groupBox18.Controls.Add(this.label66);
+            this.groupBox18.Controls.Add(this.cbSetupSocketProtocolType);
+            this.groupBox18.Controls.Add(this.cbSetupSocketType);
+            this.groupBox18.Controls.Add(this.label65);
+            this.groupBox18.Controls.Add(this.label64);
+            this.groupBox18.Location = new System.Drawing.Point(6, 18);
+            this.groupBox18.Name = "groupBox18";
+            this.groupBox18.Size = new System.Drawing.Size(239, 344);
+            this.groupBox18.TabIndex = 12;
+            this.groupBox18.TabStop = false;
+            this.groupBox18.Text = "Setup Socket";
+            // 
+            // comboBox31
+            // 
+            this.comboBox31.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox31.FormattingEnabled = true;
+            this.comboBox31.Location = new System.Drawing.Point(105, 20);
+            this.comboBox31.Name = "comboBox31";
+            this.comboBox31.Size = new System.Drawing.Size(121, 21);
+            this.comboBox31.TabIndex = 14;
+            // 
+            // label78
+            // 
+            this.label78.AutoSize = true;
+            this.label78.Location = new System.Drawing.Point(6, 26);
+            this.label78.Name = "label78";
+            this.label78.Size = new System.Drawing.Size(63, 13);
+            this.label78.TabIndex = 13;
+            this.label78.Text = "Socket List:";
+            // 
+            // btnSetupSocketClear
+            // 
+            this.btnSetupSocketClear.Enabled = false;
+            this.btnSetupSocketClear.Location = new System.Drawing.Point(9, 268);
+            this.btnSetupSocketClear.Name = "btnSetupSocketClear";
+            this.btnSetupSocketClear.Size = new System.Drawing.Size(80, 20);
+            this.btnSetupSocketClear.TabIndex = 11;
+            this.btnSetupSocketClear.Text = "CLEAR";
+            this.btnSetupSocketClear.UseVisualStyleBackColor = true;
+            this.btnSetupSocketClear.Click += new System.EventHandler(this.btnSetupSocketClear_Click);
+            // 
+            // cbSetupSocketReady
+            // 
+            this.cbSetupSocketReady.AutoSize = true;
+            this.cbSetupSocketReady.Location = new System.Drawing.Point(9, 204);
+            this.cbSetupSocketReady.Name = "cbSetupSocketReady";
+            this.cbSetupSocketReady.Size = new System.Drawing.Size(57, 17);
+            this.cbSetupSocketReady.TabIndex = 11;
+            this.cbSetupSocketReady.Text = "Ready";
+            this.cbSetupSocketReady.UseVisualStyleBackColor = true;
+            // 
+            // btnSetupSocketAdd
+            // 
+            this.btnSetupSocketAdd.Location = new System.Drawing.Point(9, 234);
+            this.btnSetupSocketAdd.Name = "btnSetupSocketAdd";
+            this.btnSetupSocketAdd.Size = new System.Drawing.Size(217, 23);
+            this.btnSetupSocketAdd.TabIndex = 12;
+            this.btnSetupSocketAdd.Text = "CREATE";
+            this.btnSetupSocketAdd.UseVisualStyleBackColor = true;
+            this.btnSetupSocketAdd.Click += new System.EventHandler(this.btnSetupSocketAdd_Click);
+            // 
+            // cbSetupSocketAsync
+            // 
+            this.cbSetupSocketAsync.AutoSize = true;
+            this.cbSetupSocketAsync.Location = new System.Drawing.Point(9, 181);
+            this.cbSetupSocketAsync.Name = "cbSetupSocketAsync";
+            this.cbSetupSocketAsync.Size = new System.Drawing.Size(55, 17);
+            this.cbSetupSocketAsync.TabIndex = 11;
+            this.cbSetupSocketAsync.Text = "Async";
+            this.cbSetupSocketAsync.UseVisualStyleBackColor = true;
+            // 
+            // cbSetupSocketNoDelay
+            // 
+            this.cbSetupSocketNoDelay.AutoSize = true;
+            this.cbSetupSocketNoDelay.Location = new System.Drawing.Point(9, 158);
+            this.cbSetupSocketNoDelay.Name = "cbSetupSocketNoDelay";
+            this.cbSetupSocketNoDelay.Size = new System.Drawing.Size(70, 17);
+            this.cbSetupSocketNoDelay.TabIndex = 10;
+            this.cbSetupSocketNoDelay.Text = "No Delay";
+            this.cbSetupSocketNoDelay.UseVisualStyleBackColor = true;
+            // 
+            // txtSetupSocketName
+            // 
+            this.txtSetupSocketName.Location = new System.Drawing.Point(105, 47);
+            this.txtSetupSocketName.Name = "txtSetupSocketName";
+            this.txtSetupSocketName.Size = new System.Drawing.Size(121, 20);
+            this.txtSetupSocketName.TabIndex = 9;
+            // 
+            // label67
+            // 
+            this.label67.AutoSize = true;
+            this.label67.Location = new System.Drawing.Point(6, 50);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(75, 13);
+            this.label67.TabIndex = 8;
+            this.label67.Text = "Socket Name:";
+            // 
+            // cbSetupSocketAddressFamilyType
+            // 
+            this.cbSetupSocketAddressFamilyType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbSetupSocketAddressFamilyType.FormattingEnabled = true;
+            this.cbSetupSocketAddressFamilyType.Items.AddRange(new object[] {
+            "Unknown",
+            "Unspecified",
+            "Unix",
+            "InterNetwork",
+            "ImpLink",
+            "Pup",
+            "Chaos",
+            "NS",
+            "Ipx",
+            "Iso",
+            "Osi",
+            "Ecma,",
+            "DataKit",
+            "Ccitt",
+            "Sna",
+            "DecNet",
+            "DataLink",
+            "Lat",
+            "HyperChannel",
+            "AppleTalk",
+            "NetBios",
+            "VoiceView",
+            "FireFox",
+            "Banyan",
+            "Atm,",
+            "InterNetworkV6",
+            "Cluster",
+            "Ieee12844",
+            "Irda",
+            "NetworkDesigners",
+            "Max"});
+            this.cbSetupSocketAddressFamilyType.Location = new System.Drawing.Point(105, 128);
+            this.cbSetupSocketAddressFamilyType.Name = "cbSetupSocketAddressFamilyType";
+            this.cbSetupSocketAddressFamilyType.Size = new System.Drawing.Size(121, 21);
+            this.cbSetupSocketAddressFamilyType.TabIndex = 7;
+            // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.Location = new System.Drawing.Point(6, 131);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(80, 13);
+            this.label66.TabIndex = 6;
+            this.label66.Text = "Address Family:";
+            // 
+            // cbSetupSocketProtocolType
+            // 
+            this.cbSetupSocketProtocolType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbSetupSocketProtocolType.FormattingEnabled = true;
+            this.cbSetupSocketProtocolType.Items.AddRange(new object[] {
+            "IP",
+            "IPv6HopByHopOptions",
+            "Icmp",
+            "Igmp",
+            "Ggp",
+            "IPv4",
+            "Tcp",
+            "Pup",
+            "Udp",
+            "Idp",
+            "IPv6",
+            "IPv6RoutingHeader",
+            "IPv6FragmentHeader",
+            "IPSecEncapsulatingSecurityPayload",
+            "IPSecAuthenticationHeader",
+            "IcmpV6",
+            "IPv6NoNextHeader",
+            "IPv6DestinationOptions",
+            "ND = 77",
+            "Raw = 255",
+            "Unspecified = 0",
+            "Ipx = 1000",
+            "Spx = 1256",
+            "SpxII",
+            "Unknown"});
+            this.cbSetupSocketProtocolType.Location = new System.Drawing.Point(105, 101);
+            this.cbSetupSocketProtocolType.Name = "cbSetupSocketProtocolType";
+            this.cbSetupSocketProtocolType.Size = new System.Drawing.Size(121, 21);
+            this.cbSetupSocketProtocolType.TabIndex = 5;
+            // 
+            // cbSetupSocketType
+            // 
+            this.cbSetupSocketType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbSetupSocketType.FormattingEnabled = true;
+            this.cbSetupSocketType.Items.AddRange(new object[] {
+            "Stream",
+            "Dgram",
+            "Raw",
+            "Rdm",
+            "Seqpacket",
+            "Unknown"});
+            this.cbSetupSocketType.Location = new System.Drawing.Point(105, 73);
+            this.cbSetupSocketType.Name = "cbSetupSocketType";
+            this.cbSetupSocketType.Size = new System.Drawing.Size(121, 21);
+            this.cbSetupSocketType.TabIndex = 4;
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Location = new System.Drawing.Point(6, 104);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(76, 13);
+            this.label65.TabIndex = 3;
+            this.label65.Text = "Protocol Type:";
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Location = new System.Drawing.Point(6, 76);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(71, 13);
+            this.label64.TabIndex = 2;
+            this.label64.Text = "Socket Type:";
+            // 
             // checkBox49
             // 
             this.checkBox49.AutoSize = true;
-            this.checkBox49.Location = new System.Drawing.Point(15, 318);
+            this.checkBox49.Location = new System.Drawing.Point(15, 407);
             this.checkBox49.Name = "checkBox49";
             this.checkBox49.Size = new System.Drawing.Size(181, 17);
             this.checkBox49.TabIndex = 11;
             this.checkBox49.Text = "CheckForIllegalCrossThreadCalls";
             this.checkBox49.UseVisualStyleBackColor = true;
             // 
-            // cbSetupServerUseProxy
-            // 
-            this.cbSetupServerUseProxy.AutoSize = true;
-            this.cbSetupServerUseProxy.Location = new System.Drawing.Point(13, 132);
-            this.cbSetupServerUseProxy.Name = "cbSetupServerUseProxy";
-            this.cbSetupServerUseProxy.Size = new System.Drawing.Size(74, 17);
-            this.cbSetupServerUseProxy.TabIndex = 9;
-            this.cbSetupServerUseProxy.Text = "Use Proxy";
-            this.cbSetupServerUseProxy.UseVisualStyleBackColor = true;
-            // 
-            // txtSetupServerProxyPort
-            // 
-            this.txtSetupServerProxyPort.Location = new System.Drawing.Point(88, 178);
-            this.txtSetupServerProxyPort.Name = "txtSetupServerProxyPort";
-            this.txtSetupServerProxyPort.Size = new System.Drawing.Size(100, 20);
-            this.txtSetupServerProxyPort.TabIndex = 5;
-            // 
-            // txtSetupServerProxyIP
-            // 
-            this.txtSetupServerProxyIP.Location = new System.Drawing.Point(88, 152);
-            this.txtSetupServerProxyIP.Name = "txtSetupServerProxyIP";
-            this.txtSetupServerProxyIP.Size = new System.Drawing.Size(100, 20);
-            this.txtSetupServerProxyIP.TabIndex = 5;
-            // 
-            // textBox24
-            // 
-            this.textBox24.Location = new System.Drawing.Point(142, 365);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(100, 20);
-            this.textBox24.TabIndex = 5;
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(10, 187);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(29, 13);
-            this.label35.TabIndex = 3;
-            this.label35.Text = "Port:";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(10, 159);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(20, 13);
-            this.label36.TabIndex = 2;
-            this.label36.Text = "IP:";
-            // 
             // groupBox11
             // 
-            this.groupBox11.Controls.Add(this.button13);
-            this.groupBox11.Controls.Add(this.checkBox34);
-            this.groupBox11.Controls.Add(this.textBox35);
-            this.groupBox11.Controls.Add(this.comboBox31);
-            this.groupBox11.Controls.Add(this.button12);
-            this.groupBox11.Controls.Add(this.textBox31);
+            this.groupBox11.Controls.Add(this.label82);
+            this.groupBox11.Controls.Add(this.txtSetupSQLPort);
+            this.groupBox11.Controls.Add(this.comboBox37);
+            this.groupBox11.Controls.Add(this.txtSetupSQLHostname);
+            this.groupBox11.Controls.Add(this.label81);
+            this.groupBox11.Controls.Add(this.label38);
+            this.groupBox11.Controls.Add(this.label37);
+            this.groupBox11.Controls.Add(this.btnSetupSQLClear);
+            this.groupBox11.Controls.Add(this.cbSetupSQLReady);
+            this.groupBox11.Controls.Add(this.txtSetupSQLConnectionString);
+            this.groupBox11.Controls.Add(this.cbSetupSQLType);
+            this.groupBox11.Controls.Add(this.btnSetupSQLAdd);
+            this.groupBox11.Controls.Add(this.txtSetupSQLName);
             this.groupBox11.Controls.Add(this.label41);
             this.groupBox11.Controls.Add(this.label40);
-            this.groupBox11.Controls.Add(this.textBox32);
+            this.groupBox11.Controls.Add(this.txtSetupSQLDBName);
             this.groupBox11.Controls.Add(this.label42);
             this.groupBox11.Controls.Add(this.label43);
-            this.groupBox11.Controls.Add(this.textBox34);
+            this.groupBox11.Controls.Add(this.txtSetupSQLPW);
             this.groupBox11.Controls.Add(this.label45);
             this.groupBox11.Controls.Add(this.label44);
-            this.groupBox11.Controls.Add(this.textBox33);
-            this.groupBox11.Location = new System.Drawing.Point(768, 18);
+            this.groupBox11.Controls.Add(this.txtSetupSQLID);
+            this.groupBox11.Location = new System.Drawing.Point(464, 18);
             this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(186, 273);
+            this.groupBox11.Size = new System.Drawing.Size(211, 366);
             this.groupBox11.TabIndex = 10;
             this.groupBox11.TabStop = false;
-            this.groupBox11.Text = "Add SQL";
+            this.groupBox11.Text = "Setup SQL";
             // 
-            // button13
+            // txtSetupSQLPort
             // 
-            this.button13.Enabled = false;
-            this.button13.Location = new System.Drawing.Point(9, 246);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(80, 20);
-            this.button13.TabIndex = 7;
-            this.button13.Text = "CLEAR";
-            this.button13.UseVisualStyleBackColor = true;
+            this.txtSetupSQLPort.Location = new System.Drawing.Point(70, 151);
+            this.txtSetupSQLPort.Name = "txtSetupSQLPort";
+            this.txtSetupSQLPort.Size = new System.Drawing.Size(100, 20);
+            this.txtSetupSQLPort.TabIndex = 12;
+            this.txtSetupSQLPort.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSetupSQLPort_KeyPress);
             // 
-            // checkBox34
+            // txtSetupSQLHostname
             // 
-            this.checkBox34.AutoSize = true;
-            this.checkBox34.Location = new System.Drawing.Point(9, 182);
-            this.checkBox34.Name = "checkBox34";
-            this.checkBox34.Size = new System.Drawing.Size(57, 17);
-            this.checkBox34.TabIndex = 8;
-            this.checkBox34.Text = "Ready";
-            this.checkBox34.UseVisualStyleBackColor = true;
+            this.txtSetupSQLHostname.Location = new System.Drawing.Point(70, 125);
+            this.txtSetupSQLHostname.Name = "txtSetupSQLHostname";
+            this.txtSetupSQLHostname.Size = new System.Drawing.Size(100, 20);
+            this.txtSetupSQLHostname.TabIndex = 11;
             // 
-            // textBox35
+            // label38
             // 
-            this.textBox35.Location = new System.Drawing.Point(70, 156);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(100, 20);
-            this.textBox35.TabIndex = 7;
-            this.textBox35.Text = "Provider=SQLOLEDB;Data Source=DESKTOP-LOA7QB9;Initial Catalog={db};User ID={id};P" +
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(6, 156);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(29, 13);
+            this.label38.TabIndex = 10;
+            this.label38.Text = "Port:";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(6, 129);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(58, 13);
+            this.label37.TabIndex = 9;
+            this.label37.Text = "Hostname:";
+            // 
+            // btnSetupSQLClear
+            // 
+            this.btnSetupSQLClear.Enabled = false;
+            this.btnSetupSQLClear.Location = new System.Drawing.Point(5, 326);
+            this.btnSetupSQLClear.Name = "btnSetupSQLClear";
+            this.btnSetupSQLClear.Size = new System.Drawing.Size(80, 20);
+            this.btnSetupSQLClear.TabIndex = 7;
+            this.btnSetupSQLClear.Text = "CLEAR";
+            this.btnSetupSQLClear.UseVisualStyleBackColor = true;
+            this.btnSetupSQLClear.Click += new System.EventHandler(this.btnSetupSQLClear_Click);
+            // 
+            // cbSetupSQLReady
+            // 
+            this.cbSetupSQLReady.AutoSize = true;
+            this.cbSetupSQLReady.Location = new System.Drawing.Point(9, 263);
+            this.cbSetupSQLReady.Name = "cbSetupSQLReady";
+            this.cbSetupSQLReady.Size = new System.Drawing.Size(57, 17);
+            this.cbSetupSQLReady.TabIndex = 8;
+            this.cbSetupSQLReady.Text = "Ready";
+            this.cbSetupSQLReady.UseVisualStyleBackColor = true;
+            // 
+            // txtSetupSQLConnectionString
+            // 
+            this.txtSetupSQLConnectionString.Location = new System.Drawing.Point(70, 233);
+            this.txtSetupSQLConnectionString.Name = "txtSetupSQLConnectionString";
+            this.txtSetupSQLConnectionString.Size = new System.Drawing.Size(100, 20);
+            this.txtSetupSQLConnectionString.TabIndex = 7;
+            this.txtSetupSQLConnectionString.Text = "Provider=SQLOLEDB;Data Source=DESKTOP-LOA7QB9;Initial Catalog={db};User ID={id};P" +
     "assword={pw};";
             // 
-            // comboBox31
+            // cbSetupSQLType
             // 
-            this.comboBox31.FormattingEnabled = true;
-            this.comboBox31.Items.AddRange(new object[] {
+            this.cbSetupSQLType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbSetupSQLType.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cbSetupSQLType.FormattingEnabled = true;
+            this.cbSetupSQLType.Items.AddRange(new object[] {
             "MSSQL",
             "MySQL"});
-            this.comboBox31.Location = new System.Drawing.Point(70, 49);
-            this.comboBox31.Name = "comboBox31";
-            this.comboBox31.Size = new System.Drawing.Size(100, 21);
-            this.comboBox31.TabIndex = 6;
-            this.comboBox31.Text = "MSSQL";
+            this.cbSetupSQLType.Location = new System.Drawing.Point(70, 73);
+            this.cbSetupSQLType.Name = "cbSetupSQLType";
+            this.cbSetupSQLType.Size = new System.Drawing.Size(100, 21);
+            this.cbSetupSQLType.TabIndex = 6;
             // 
-            // button12
+            // btnSetupSQLAdd
             // 
-            this.button12.Location = new System.Drawing.Point(9, 206);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(161, 34);
-            this.button12.TabIndex = 7;
-            this.button12.Text = "ADD";
-            this.button12.UseVisualStyleBackColor = true;
+            this.btnSetupSQLAdd.Location = new System.Drawing.Point(5, 286);
+            this.btnSetupSQLAdd.Name = "btnSetupSQLAdd";
+            this.btnSetupSQLAdd.Size = new System.Drawing.Size(161, 34);
+            this.btnSetupSQLAdd.TabIndex = 7;
+            this.btnSetupSQLAdd.Text = "ADD";
+            this.btnSetupSQLAdd.UseVisualStyleBackColor = true;
+            this.btnSetupSQLAdd.Click += new System.EventHandler(this.btnSetupSQLAdd_Click);
             // 
-            // textBox31
+            // txtSetupSQLName
             // 
-            this.textBox31.Location = new System.Drawing.Point(70, 23);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(100, 20);
-            this.textBox31.TabIndex = 5;
+            this.txtSetupSQLName.Location = new System.Drawing.Point(70, 47);
+            this.txtSetupSQLName.Name = "txtSetupSQLName";
+            this.txtSetupSQLName.Size = new System.Drawing.Size(100, 20);
+            this.txtSetupSQLName.TabIndex = 5;
             // 
             // label41
             // 
             this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(6, 26);
+            this.label41.Location = new System.Drawing.Point(6, 50);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(62, 13);
             this.label41.TabIndex = 0;
@@ -706,23 +957,23 @@
             // label40
             // 
             this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(6, 52);
+            this.label40.Location = new System.Drawing.Point(6, 76);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(34, 13);
+            this.label40.Size = new System.Drawing.Size(58, 13);
             this.label40.TabIndex = 0;
-            this.label40.Text = "Type:";
+            this.label40.Text = "SQL Type:";
             // 
-            // textBox32
+            // txtSetupSQLDBName
             // 
-            this.textBox32.Location = new System.Drawing.Point(70, 75);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(100, 20);
-            this.textBox32.TabIndex = 5;
+            this.txtSetupSQLDBName.Location = new System.Drawing.Point(70, 99);
+            this.txtSetupSQLDBName.Name = "txtSetupSQLDBName";
+            this.txtSetupSQLDBName.Size = new System.Drawing.Size(100, 20);
+            this.txtSetupSQLDBName.TabIndex = 5;
             // 
             // label42
             // 
             this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(6, 78);
+            this.label42.Location = new System.Drawing.Point(6, 102);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(56, 13);
             this.label42.TabIndex = 0;
@@ -731,23 +982,23 @@
             // label43
             // 
             this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(6, 104);
+            this.label43.Location = new System.Drawing.Point(6, 157);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(21, 13);
             this.label43.TabIndex = 1;
             this.label43.Text = "ID:";
             // 
-            // textBox34
+            // txtSetupSQLPW
             // 
-            this.textBox34.Location = new System.Drawing.Point(70, 127);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(100, 20);
-            this.textBox34.TabIndex = 5;
+            this.txtSetupSQLPW.Location = new System.Drawing.Point(70, 204);
+            this.txtSetupSQLPW.Name = "txtSetupSQLPW";
+            this.txtSetupSQLPW.Size = new System.Drawing.Size(100, 20);
+            this.txtSetupSQLPW.TabIndex = 5;
             // 
             // label45
             // 
             this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(6, 159);
+            this.label45.Location = new System.Drawing.Point(6, 236);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(62, 13);
             this.label45.TabIndex = 2;
@@ -756,77 +1007,143 @@
             // label44
             // 
             this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(6, 130);
+            this.label44.Location = new System.Drawing.Point(6, 207);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(28, 13);
             this.label44.TabIndex = 2;
             this.label44.Text = "PW:";
             // 
-            // textBox33
+            // txtSetupSQLID
             // 
-            this.textBox33.Location = new System.Drawing.Point(70, 102);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(100, 20);
-            this.textBox33.TabIndex = 5;
+            this.txtSetupSQLID.Location = new System.Drawing.Point(70, 179);
+            this.txtSetupSQLID.Name = "txtSetupSQLID";
+            this.txtSetupSQLID.Size = new System.Drawing.Size(100, 20);
+            this.txtSetupSQLID.TabIndex = 5;
+            // 
+            // cbCopyrightsEnable
+            // 
+            this.cbCopyrightsEnable.AutoSize = true;
+            this.cbCopyrightsEnable.Location = new System.Drawing.Point(13, 430);
+            this.cbCopyrightsEnable.Name = "cbCopyrightsEnable";
+            this.cbCopyrightsEnable.Size = new System.Drawing.Size(70, 17);
+            this.cbCopyrightsEnable.TabIndex = 2;
+            this.cbCopyrightsEnable.Text = "Copytight";
+            this.cbCopyrightsEnable.UseVisualStyleBackColor = true;
             // 
             // gbServerInfo
             // 
+            this.gbServerInfo.Controls.Add(this.label83);
+            this.gbServerInfo.Controls.Add(this.label80);
+            this.gbServerInfo.Controls.Add(this.comboBox36);
+            this.gbServerInfo.Controls.Add(this.label79);
             this.gbServerInfo.Controls.Add(this.label34);
             this.gbServerInfo.Controls.Add(this.cbSetupServerUseProxy);
             this.gbServerInfo.Controls.Add(this.cbSetupServerType);
             this.gbServerInfo.Controls.Add(this.btnSetupServerClear);
-            this.gbServerInfo.Controls.Add(this.cbServerRemoteReady);
-            this.gbServerInfo.Controls.Add(this.lblServerLocale);
+            this.gbServerInfo.Controls.Add(this.cbSetupServerReady);
             this.gbServerInfo.Controls.Add(this.btnSetupServerAdd);
-            this.gbServerInfo.Controls.Add(this.lblServerVersion);
             this.gbServerInfo.Controls.Add(this.txtSetupServerName);
-            this.gbServerInfo.Controls.Add(this.lblShardID);
             this.gbServerInfo.Controls.Add(this.label39);
-            this.gbServerInfo.Controls.Add(this.textBox28);
             this.gbServerInfo.Controls.Add(this.txtSetupServerProxyPort);
-            this.gbServerInfo.Controls.Add(this.txtServerLocale);
-            this.gbServerInfo.Controls.Add(this.txtServerVersion);
-            this.gbServerInfo.Controls.Add(this.cbEnableXTrap);
             this.gbServerInfo.Controls.Add(this.txtSetupServerProxyIP);
-            this.gbServerInfo.Controls.Add(this.textBox24);
             this.gbServerInfo.Controls.Add(this.txtSetupServerPort);
             this.gbServerInfo.Controls.Add(this.label35);
             this.gbServerInfo.Controls.Add(this.label36);
             this.gbServerInfo.Controls.Add(this.txtSetupServerIP);
             this.gbServerInfo.Controls.Add(this.lblServerPort);
             this.gbServerInfo.Controls.Add(this.lblServerIP);
-            this.gbServerInfo.Location = new System.Drawing.Point(261, 18);
+            this.gbServerInfo.Location = new System.Drawing.Point(251, 18);
             this.gbServerInfo.Name = "gbServerInfo";
-            this.gbServerInfo.Size = new System.Drawing.Size(242, 405);
+            this.gbServerInfo.Size = new System.Drawing.Size(207, 344);
             this.gbServerInfo.TabIndex = 0;
             this.gbServerInfo.TabStop = false;
-            this.gbServerInfo.Text = "Create Server ";
+            this.gbServerInfo.Text = "Setup Server ";
+            // 
+            // label80
+            // 
+            this.label80.AutoSize = true;
+            this.label80.Location = new System.Drawing.Point(7, 183);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(20, 13);
+            this.label80.TabIndex = 13;
+            this.label80.Text = "IP:";
+            // 
+            // comboBox36
+            // 
+            this.comboBox36.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox36.FormattingEnabled = true;
+            this.comboBox36.Location = new System.Drawing.Point(85, 20);
+            this.comboBox36.Name = "comboBox36";
+            this.comboBox36.Size = new System.Drawing.Size(100, 21);
+            this.comboBox36.TabIndex = 12;
+            // 
+            // label79
+            // 
+            this.label79.AutoSize = true;
+            this.label79.Location = new System.Drawing.Point(7, 26);
+            this.label79.Name = "label79";
+            this.label79.Size = new System.Drawing.Size(60, 13);
+            this.label79.TabIndex = 11;
+            this.label79.Text = "Server List:";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(7, 74);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(68, 13);
+            this.label34.TabIndex = 10;
+            this.label34.Text = "Server Type:";
+            // 
+            // cbSetupServerUseProxy
+            // 
+            this.cbSetupServerUseProxy.AutoSize = true;
+            this.cbSetupServerUseProxy.Location = new System.Drawing.Point(10, 156);
+            this.cbSetupServerUseProxy.Name = "cbSetupServerUseProxy";
+            this.cbSetupServerUseProxy.Size = new System.Drawing.Size(74, 17);
+            this.cbSetupServerUseProxy.TabIndex = 9;
+            this.cbSetupServerUseProxy.Text = "Use Proxy";
+            this.cbSetupServerUseProxy.UseVisualStyleBackColor = true;
+            this.cbSetupServerUseProxy.CheckedChanged += new System.EventHandler(this.cbSetupServerUseProxy_CheckedChanged);
+            // 
+            // cbSetupServerType
+            // 
+            this.cbSetupServerType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbSetupServerType.FormattingEnabled = true;
+            this.cbSetupServerType.Items.AddRange(new object[] {
+            "LOCAL",
+            "REMOTE"});
+            this.cbSetupServerType.Location = new System.Drawing.Point(85, 73);
+            this.cbSetupServerType.Name = "cbSetupServerType";
+            this.cbSetupServerType.Size = new System.Drawing.Size(100, 21);
+            this.cbSetupServerType.TabIndex = 9;
             // 
             // btnSetupServerClear
             // 
             this.btnSetupServerClear.Enabled = false;
-            this.btnSetupServerClear.Location = new System.Drawing.Point(13, 364);
+            this.btnSetupServerClear.Location = new System.Drawing.Point(6, 308);
             this.btnSetupServerClear.Name = "btnSetupServerClear";
             this.btnSetupServerClear.Size = new System.Drawing.Size(80, 20);
             this.btnSetupServerClear.TabIndex = 7;
             this.btnSetupServerClear.Text = "CLEAR";
             this.btnSetupServerClear.UseVisualStyleBackColor = true;
+            this.btnSetupServerClear.Click += new System.EventHandler(this.btnSetupServerClear_Click);
             // 
-            // cbServerRemoteReady
+            // cbSetupServerReady
             // 
-            this.cbServerRemoteReady.AutoSize = true;
-            this.cbServerRemoteReady.Location = new System.Drawing.Point(13, 300);
-            this.cbServerRemoteReady.Name = "cbServerRemoteReady";
-            this.cbServerRemoteReady.Size = new System.Drawing.Size(57, 17);
-            this.cbServerRemoteReady.TabIndex = 8;
-            this.cbServerRemoteReady.Text = "Ready";
-            this.cbServerRemoteReady.UseVisualStyleBackColor = true;
+            this.cbSetupServerReady.AutoSize = true;
+            this.cbSetupServerReady.Location = new System.Drawing.Point(10, 238);
+            this.cbSetupServerReady.Name = "cbSetupServerReady";
+            this.cbSetupServerReady.Size = new System.Drawing.Size(57, 17);
+            this.cbSetupServerReady.TabIndex = 8;
+            this.cbSetupServerReady.Text = "Ready";
+            this.cbSetupServerReady.UseVisualStyleBackColor = true;
             // 
             // btnSetupServerAdd
             // 
-            this.btnSetupServerAdd.Location = new System.Drawing.Point(13, 324);
+            this.btnSetupServerAdd.Location = new System.Drawing.Point(6, 268);
             this.btnSetupServerAdd.Name = "btnSetupServerAdd";
-            this.btnSetupServerAdd.Size = new System.Drawing.Size(156, 34);
+            this.btnSetupServerAdd.Size = new System.Drawing.Size(175, 34);
             this.btnSetupServerAdd.TabIndex = 7;
             this.btnSetupServerAdd.Text = "ADD";
             this.btnSetupServerAdd.UseVisualStyleBackColor = true;
@@ -834,7 +1151,7 @@
             // 
             // txtSetupServerName
             // 
-            this.txtSetupServerName.Location = new System.Drawing.Point(88, 21);
+            this.txtSetupServerName.Location = new System.Drawing.Point(85, 47);
             this.txtSetupServerName.Name = "txtSetupServerName";
             this.txtSetupServerName.Size = new System.Drawing.Size(100, 20);
             this.txtSetupServerName.TabIndex = 5;
@@ -842,88 +1159,66 @@
             // label39
             // 
             this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(10, 24);
+            this.label39.Location = new System.Drawing.Point(7, 50);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(72, 13);
             this.label39.TabIndex = 3;
             this.label39.Text = "Server Name:";
             // 
-            // cbEnableXTrap
+            // txtSetupServerProxyPort
             // 
-            this.cbEnableXTrap.AutoSize = true;
-            this.cbEnableXTrap.Location = new System.Drawing.Point(104, 300);
-            this.cbEnableXTrap.Name = "cbEnableXTrap";
-            this.cbEnableXTrap.Size = new System.Drawing.Size(65, 17);
-            this.cbEnableXTrap.TabIndex = 6;
-            this.cbEnableXTrap.Text = "X-TRAP";
-            this.cbEnableXTrap.UseVisualStyleBackColor = true;
+            this.txtSetupServerProxyPort.Enabled = false;
+            this.txtSetupServerProxyPort.Location = new System.Drawing.Point(85, 202);
+            this.txtSetupServerProxyPort.Name = "txtSetupServerProxyPort";
+            this.txtSetupServerProxyPort.Size = new System.Drawing.Size(100, 20);
+            this.txtSetupServerProxyPort.TabIndex = 5;
             // 
-            // txtServerVersion
+            // txtSetupServerProxyIP
             // 
-            this.txtServerVersion.Location = new System.Drawing.Point(88, 237);
-            this.txtServerVersion.Name = "txtServerVersion";
-            this.txtServerVersion.Size = new System.Drawing.Size(100, 20);
-            this.txtServerVersion.TabIndex = 5;
-            // 
-            // txtServerLocale
-            // 
-            this.txtServerLocale.Location = new System.Drawing.Point(88, 211);
-            this.txtServerLocale.Name = "txtServerLocale";
-            this.txtServerLocale.Size = new System.Drawing.Size(100, 20);
-            this.txtServerLocale.TabIndex = 5;
+            this.txtSetupServerProxyIP.Enabled = false;
+            this.txtSetupServerProxyIP.Location = new System.Drawing.Point(85, 176);
+            this.txtSetupServerProxyIP.Name = "txtSetupServerProxyIP";
+            this.txtSetupServerProxyIP.Size = new System.Drawing.Size(100, 20);
+            this.txtSetupServerProxyIP.TabIndex = 5;
             // 
             // txtSetupServerPort
             // 
-            this.txtSetupServerPort.Location = new System.Drawing.Point(88, 100);
+            this.txtSetupServerPort.Location = new System.Drawing.Point(85, 126);
+            this.txtSetupServerPort.MaxLength = 5;
             this.txtSetupServerPort.Name = "txtSetupServerPort";
             this.txtSetupServerPort.Size = new System.Drawing.Size(100, 20);
             this.txtSetupServerPort.TabIndex = 5;
+            this.txtSetupServerPort.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSetupServerPort_KeyPress);
             // 
-            // textBox28
+            // label35
             // 
-            this.textBox28.Location = new System.Drawing.Point(88, 265);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(100, 20);
-            this.textBox28.TabIndex = 5;
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(7, 211);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(29, 13);
+            this.label35.TabIndex = 3;
+            this.label35.Text = "Port:";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(10, 154);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(20, 13);
+            this.label36.TabIndex = 2;
+            this.label36.Text = "IP:";
             // 
             // txtSetupServerIP
             // 
-            this.txtSetupServerIP.Location = new System.Drawing.Point(88, 74);
+            this.txtSetupServerIP.Location = new System.Drawing.Point(85, 100);
             this.txtSetupServerIP.Name = "txtSetupServerIP";
             this.txtSetupServerIP.Size = new System.Drawing.Size(100, 20);
             this.txtSetupServerIP.TabIndex = 5;
             // 
-            // lblShardID
-            // 
-            this.lblShardID.AutoSize = true;
-            this.lblShardID.Location = new System.Drawing.Point(10, 268);
-            this.lblShardID.Name = "lblShardID";
-            this.lblShardID.Size = new System.Drawing.Size(52, 13);
-            this.lblShardID.TabIndex = 4;
-            this.lblShardID.Text = "Shard ID:";
-            // 
-            // lblServerVersion
-            // 
-            this.lblServerVersion.AutoSize = true;
-            this.lblServerVersion.Location = new System.Drawing.Point(10, 240);
-            this.lblServerVersion.Name = "lblServerVersion";
-            this.lblServerVersion.Size = new System.Drawing.Size(45, 13);
-            this.lblServerVersion.TabIndex = 3;
-            this.lblServerVersion.Text = "Version:";
-            // 
-            // lblServerLocale
-            // 
-            this.lblServerLocale.AutoSize = true;
-            this.lblServerLocale.Location = new System.Drawing.Point(10, 213);
-            this.lblServerLocale.Name = "lblServerLocale";
-            this.lblServerLocale.Size = new System.Drawing.Size(42, 13);
-            this.lblServerLocale.TabIndex = 2;
-            this.lblServerLocale.Text = "Locale:";
-            // 
             // lblServerPort
             // 
             this.lblServerPort.AutoSize = true;
-            this.lblServerPort.Location = new System.Drawing.Point(10, 105);
+            this.lblServerPort.Location = new System.Drawing.Point(7, 128);
             this.lblServerPort.Name = "lblServerPort";
             this.lblServerPort.Size = new System.Drawing.Size(29, 13);
             this.lblServerPort.TabIndex = 1;
@@ -932,21 +1227,11 @@
             // lblServerIP
             // 
             this.lblServerIP.AutoSize = true;
-            this.lblServerIP.Location = new System.Drawing.Point(10, 78);
+            this.lblServerIP.Location = new System.Drawing.Point(10, 73);
             this.lblServerIP.Name = "lblServerIP";
             this.lblServerIP.Size = new System.Drawing.Size(20, 13);
             this.lblServerIP.TabIndex = 0;
             this.lblServerIP.Text = "IP:";
-            // 
-            // cbCopyrightsEnable
-            // 
-            this.cbCopyrightsEnable.AutoSize = true;
-            this.cbCopyrightsEnable.Location = new System.Drawing.Point(15, 375);
-            this.cbCopyrightsEnable.Name = "cbCopyrightsEnable";
-            this.cbCopyrightsEnable.Size = new System.Drawing.Size(70, 17);
-            this.cbCopyrightsEnable.TabIndex = 2;
-            this.cbCopyrightsEnable.Text = "Copytight";
-            this.cbCopyrightsEnable.UseVisualStyleBackColor = true;
             // 
             // tpConnect
             // 
@@ -959,6 +1244,413 @@
             this.tpConnect.TabIndex = 2;
             this.tpConnect.Text = "2.Connect";
             this.tpConnect.UseVisualStyleBackColor = true;
+            // 
+            // groupBox16
+            // 
+            this.groupBox16.Controls.Add(this.label58);
+            this.groupBox16.Controls.Add(this.groupBox24);
+            this.groupBox16.Controls.Add(this.label68);
+            this.groupBox16.Controls.Add(this.label59);
+            this.groupBox16.Controls.Add(this.lbConnectServerList);
+            this.groupBox16.Controls.Add(this.btnCoonectServerDisconnect);
+            this.groupBox16.Controls.Add(this.cbConnectServerSelectSQL);
+            this.groupBox16.Controls.Add(this.cbConnectServerSelect);
+            this.groupBox16.Controls.Add(this.btnConnectServerConnect);
+            this.groupBox16.Location = new System.Drawing.Point(416, 13);
+            this.groupBox16.Name = "groupBox16";
+            this.groupBox16.Size = new System.Drawing.Size(365, 296);
+            this.groupBox16.TabIndex = 12;
+            this.groupBox16.TabStop = false;
+            this.groupBox16.Text = "Connect Server";
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Location = new System.Drawing.Point(6, 22);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(115, 13);
+            this.label58.TabIndex = 5;
+            this.label58.Text = "Connected Server List:";
+            // 
+            // label68
+            // 
+            this.label68.AutoSize = true;
+            this.label68.Location = new System.Drawing.Point(6, 182);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(77, 13);
+            this.label68.TabIndex = 10;
+            this.label68.Text = "Select Socket:";
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Location = new System.Drawing.Point(6, 136);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(74, 13);
+            this.label59.TabIndex = 10;
+            this.label59.Text = "Select Server:";
+            // 
+            // lbConnectServerList
+            // 
+            this.lbConnectServerList.FormattingEnabled = true;
+            this.lbConnectServerList.Location = new System.Drawing.Point(9, 38);
+            this.lbConnectServerList.Name = "lbConnectServerList";
+            this.lbConnectServerList.Size = new System.Drawing.Size(135, 95);
+            this.lbConnectServerList.TabIndex = 6;
+            // 
+            // btnCoonectServerDisconnect
+            // 
+            this.btnCoonectServerDisconnect.Location = new System.Drawing.Point(9, 256);
+            this.btnCoonectServerDisconnect.Name = "btnCoonectServerDisconnect";
+            this.btnCoonectServerDisconnect.Size = new System.Drawing.Size(135, 23);
+            this.btnCoonectServerDisconnect.TabIndex = 9;
+            this.btnCoonectServerDisconnect.Text = "DISCONNECT";
+            this.btnCoonectServerDisconnect.UseVisualStyleBackColor = true;
+            // 
+            // cbConnectServerSelectSQL
+            // 
+            this.cbConnectServerSelectSQL.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbConnectServerSelectSQL.FormattingEnabled = true;
+            this.cbConnectServerSelectSQL.Location = new System.Drawing.Point(9, 202);
+            this.cbConnectServerSelectSQL.Name = "cbConnectServerSelectSQL";
+            this.cbConnectServerSelectSQL.Size = new System.Drawing.Size(135, 21);
+            this.cbConnectServerSelectSQL.TabIndex = 7;
+            // 
+            // cbConnectServerSelect
+            // 
+            this.cbConnectServerSelect.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbConnectServerSelect.FormattingEnabled = true;
+            this.cbConnectServerSelect.Location = new System.Drawing.Point(9, 155);
+            this.cbConnectServerSelect.Name = "cbConnectServerSelect";
+            this.cbConnectServerSelect.Size = new System.Drawing.Size(135, 21);
+            this.cbConnectServerSelect.TabIndex = 7;
+            // 
+            // btnConnectServerConnect
+            // 
+            this.btnConnectServerConnect.Location = new System.Drawing.Point(9, 227);
+            this.btnConnectServerConnect.Name = "btnConnectServerConnect";
+            this.btnConnectServerConnect.Size = new System.Drawing.Size(135, 23);
+            this.btnConnectServerConnect.TabIndex = 8;
+            this.btnConnectServerConnect.Text = "CONNECT";
+            this.btnConnectServerConnect.UseVisualStyleBackColor = true;
+            // 
+            // groupBox15
+            // 
+            this.groupBox15.Controls.Add(this.label84);
+            this.groupBox15.Controls.Add(this.groupBox10);
+            this.groupBox15.Controls.Add(this.label56);
+            this.groupBox15.Controls.Add(this.label69);
+            this.groupBox15.Controls.Add(this.label57);
+            this.groupBox15.Controls.Add(this.lbConnectSQLList);
+            this.groupBox15.Controls.Add(this.btnConnectSQLDisconnect);
+            this.groupBox15.Controls.Add(this.cbConnectSQLSelectEngine);
+            this.groupBox15.Controls.Add(this.cbConnectSQLSelect);
+            this.groupBox15.Controls.Add(this.btnConnectSQLConnect);
+            this.groupBox15.Location = new System.Drawing.Point(6, 13);
+            this.groupBox15.Name = "groupBox15";
+            this.groupBox15.Size = new System.Drawing.Size(374, 296);
+            this.groupBox15.TabIndex = 11;
+            this.groupBox15.TabStop = false;
+            this.groupBox15.Text = "Connect SQL";
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Location = new System.Drawing.Point(6, 22);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(105, 13);
+            this.label56.TabIndex = 5;
+            this.label56.Text = "Connected SQL List:";
+            // 
+            // label69
+            // 
+            this.label69.AutoSize = true;
+            this.label69.Location = new System.Drawing.Point(6, 182);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(76, 13);
+            this.label69.TabIndex = 10;
+            this.label69.Text = "Select Engine:";
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Location = new System.Drawing.Point(6, 136);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(64, 13);
+            this.label57.TabIndex = 10;
+            this.label57.Text = "Select SQL:";
+            // 
+            // lbConnectSQLList
+            // 
+            this.lbConnectSQLList.FormattingEnabled = true;
+            this.lbConnectSQLList.Location = new System.Drawing.Point(9, 38);
+            this.lbConnectSQLList.Name = "lbConnectSQLList";
+            this.lbConnectSQLList.Size = new System.Drawing.Size(135, 95);
+            this.lbConnectSQLList.TabIndex = 6;
+            // 
+            // btnConnectSQLDisconnect
+            // 
+            this.btnConnectSQLDisconnect.Location = new System.Drawing.Point(9, 256);
+            this.btnConnectSQLDisconnect.Name = "btnConnectSQLDisconnect";
+            this.btnConnectSQLDisconnect.Size = new System.Drawing.Size(135, 23);
+            this.btnConnectSQLDisconnect.TabIndex = 9;
+            this.btnConnectSQLDisconnect.Text = "DISCONNECT";
+            this.btnConnectSQLDisconnect.UseVisualStyleBackColor = true;
+            // 
+            // cbConnectSQLSelectEngine
+            // 
+            this.cbConnectSQLSelectEngine.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbConnectSQLSelectEngine.FormattingEnabled = true;
+            this.cbConnectSQLSelectEngine.Location = new System.Drawing.Point(9, 202);
+            this.cbConnectSQLSelectEngine.Name = "cbConnectSQLSelectEngine";
+            this.cbConnectSQLSelectEngine.Size = new System.Drawing.Size(135, 21);
+            this.cbConnectSQLSelectEngine.TabIndex = 7;
+            // 
+            // cbConnectSQLSelect
+            // 
+            this.cbConnectSQLSelect.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbConnectSQLSelect.FormattingEnabled = true;
+            this.cbConnectSQLSelect.Location = new System.Drawing.Point(9, 155);
+            this.cbConnectSQLSelect.Name = "cbConnectSQLSelect";
+            this.cbConnectSQLSelect.Size = new System.Drawing.Size(135, 21);
+            this.cbConnectSQLSelect.TabIndex = 7;
+            // 
+            // btnConnectSQLConnect
+            // 
+            this.btnConnectSQLConnect.Location = new System.Drawing.Point(9, 227);
+            this.btnConnectSQLConnect.Name = "btnConnectSQLConnect";
+            this.btnConnectSQLConnect.Size = new System.Drawing.Size(135, 23);
+            this.btnConnectSQLConnect.TabIndex = 8;
+            this.btnConnectSQLConnect.Text = "CONNECT";
+            this.btnConnectSQLConnect.UseVisualStyleBackColor = true;
+            // 
+            // tpAnalyze
+            // 
+            this.tpAnalyze.Controls.Add(this.tcNetwork);
+            this.tpAnalyze.Controls.Add(this.groupBox23);
+            this.tpAnalyze.Controls.Add(this.groupBox20);
+            this.tpAnalyze.Controls.Add(this.groupBox14);
+            this.tpAnalyze.Location = new System.Drawing.Point(4, 22);
+            this.tpAnalyze.Name = "tpAnalyze";
+            this.tpAnalyze.Size = new System.Drawing.Size(988, 470);
+            this.tpAnalyze.TabIndex = 9;
+            this.tpAnalyze.Text = "3.Analyze";
+            this.tpAnalyze.UseVisualStyleBackColor = true;
+            // 
+            // tcNetwork
+            // 
+            this.tcNetwork.Controls.Add(this.tpNetworkModel);
+            this.tcNetwork.Controls.Add(this.tpNetworkCertification);
+            this.tcNetwork.Controls.Add(this.tpNetworkAgent);
+            this.tcNetwork.Controls.Add(this.tpNetworkGatewayServer);
+            this.tcNetwork.Controls.Add(this.tpNetworkSMC);
+            this.tcNetwork.Location = new System.Drawing.Point(12, 140);
+            this.tcNetwork.Name = "tcNetwork";
+            this.tcNetwork.SelectedIndex = 0;
+            this.tcNetwork.Size = new System.Drawing.Size(915, 286);
+            this.tcNetwork.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.tcNetwork.TabIndex = 3;
+            // 
+            // tpNetworkModel
+            // 
+            this.tpNetworkModel.Location = new System.Drawing.Point(4, 22);
+            this.tpNetworkModel.Name = "tpNetworkModel";
+            this.tpNetworkModel.Padding = new System.Windows.Forms.Padding(3);
+            this.tpNetworkModel.Size = new System.Drawing.Size(907, 260);
+            this.tpNetworkModel.TabIndex = 0;
+            this.tpNetworkModel.Text = "Server Model";
+            this.tpNetworkModel.UseVisualStyleBackColor = true;
+            // 
+            // tpNetworkCertification
+            // 
+            this.tpNetworkCertification.Controls.Add(this.groupBox3);
+            this.tpNetworkCertification.Location = new System.Drawing.Point(4, 22);
+            this.tpNetworkCertification.Name = "tpNetworkCertification";
+            this.tpNetworkCertification.Padding = new System.Windows.Forms.Padding(3);
+            this.tpNetworkCertification.Size = new System.Drawing.Size(907, 260);
+            this.tpNetworkCertification.TabIndex = 1;
+            this.tpNetworkCertification.Text = "Certification";
+            this.tpNetworkCertification.UseVisualStyleBackColor = true;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.checkBox1);
+            this.groupBox3.Controls.Add(this.btnCertificationAnalyze);
+            this.groupBox3.Location = new System.Drawing.Point(16, 12);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(276, 152);
+            this.groupBox3.TabIndex = 0;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Certification Server";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(52, 42);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(80, 17);
+            this.checkBox1.TabIndex = 1;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // btnCertificationAnalyze
+            // 
+            this.btnCertificationAnalyze.Location = new System.Drawing.Point(113, 79);
+            this.btnCertificationAnalyze.Name = "btnCertificationAnalyze";
+            this.btnCertificationAnalyze.Size = new System.Drawing.Size(75, 23);
+            this.btnCertificationAnalyze.TabIndex = 0;
+            this.btnCertificationAnalyze.Text = "ANALYZE";
+            this.btnCertificationAnalyze.UseVisualStyleBackColor = true;
+            // 
+            // tpNetworkAgent
+            // 
+            this.tpNetworkAgent.Location = new System.Drawing.Point(4, 22);
+            this.tpNetworkAgent.Name = "tpNetworkAgent";
+            this.tpNetworkAgent.Size = new System.Drawing.Size(907, 260);
+            this.tpNetworkAgent.TabIndex = 2;
+            this.tpNetworkAgent.Text = "Agent Server";
+            this.tpNetworkAgent.UseVisualStyleBackColor = true;
+            // 
+            // tpNetworkGatewayServer
+            // 
+            this.tpNetworkGatewayServer.Location = new System.Drawing.Point(4, 22);
+            this.tpNetworkGatewayServer.Name = "tpNetworkGatewayServer";
+            this.tpNetworkGatewayServer.Size = new System.Drawing.Size(907, 260);
+            this.tpNetworkGatewayServer.TabIndex = 3;
+            this.tpNetworkGatewayServer.Text = "Gateway Server";
+            this.tpNetworkGatewayServer.UseVisualStyleBackColor = true;
+            // 
+            // tpNetworkSMC
+            // 
+            this.tpNetworkSMC.Location = new System.Drawing.Point(4, 22);
+            this.tpNetworkSMC.Name = "tpNetworkSMC";
+            this.tpNetworkSMC.Size = new System.Drawing.Size(907, 260);
+            this.tpNetworkSMC.TabIndex = 4;
+            this.tpNetworkSMC.Text = "SMC";
+            this.tpNetworkSMC.UseVisualStyleBackColor = true;
+            // 
+            // groupBox23
+            // 
+            this.groupBox23.Controls.Add(this.textBox45);
+            this.groupBox23.Controls.Add(this.button27);
+            this.groupBox23.Controls.Add(this.label77);
+            this.groupBox23.Controls.Add(this.button26);
+            this.groupBox23.Location = new System.Drawing.Point(449, 13);
+            this.groupBox23.Name = "groupBox23";
+            this.groupBox23.Size = new System.Drawing.Size(219, 121);
+            this.groupBox23.TabIndex = 2;
+            this.groupBox23.TabStop = false;
+            this.groupBox23.Text = "Analyze Client";
+            // 
+            // textBox45
+            // 
+            this.textBox45.Location = new System.Drawing.Point(48, 39);
+            this.textBox45.Name = "textBox45";
+            this.textBox45.Size = new System.Drawing.Size(126, 20);
+            this.textBox45.TabIndex = 3;
+            // 
+            // button27
+            // 
+            this.button27.Location = new System.Drawing.Point(180, 39);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(24, 20);
+            this.button27.TabIndex = 2;
+            this.button27.Text = "...";
+            this.button27.UseVisualStyleBackColor = true;
+            // 
+            // label77
+            // 
+            this.label77.AutoSize = true;
+            this.label77.Location = new System.Drawing.Point(6, 42);
+            this.label77.Name = "label77";
+            this.label77.Size = new System.Drawing.Size(36, 13);
+            this.label77.TabIndex = 1;
+            this.label77.Text = "Client:";
+            // 
+            // button26
+            // 
+            this.button26.Location = new System.Drawing.Point(9, 81);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(195, 23);
+            this.button26.TabIndex = 0;
+            this.button26.Text = "ANALYZE";
+            this.button26.UseVisualStyleBackColor = true;
+            // 
+            // groupBox20
+            // 
+            this.groupBox20.Controls.Add(this.comboBox43);
+            this.groupBox20.Controls.Add(this.label75);
+            this.groupBox20.Controls.Add(this.button25);
+            this.groupBox20.Location = new System.Drawing.Point(224, 13);
+            this.groupBox20.Name = "groupBox20";
+            this.groupBox20.Size = new System.Drawing.Size(219, 121);
+            this.groupBox20.TabIndex = 1;
+            this.groupBox20.TabStop = false;
+            this.groupBox20.Text = "Analyze Database";
+            // 
+            // comboBox43
+            // 
+            this.comboBox43.FormattingEnabled = true;
+            this.comboBox43.Location = new System.Drawing.Point(83, 39);
+            this.comboBox43.Name = "comboBox43";
+            this.comboBox43.Size = new System.Drawing.Size(121, 21);
+            this.comboBox43.TabIndex = 1;
+            // 
+            // label75
+            // 
+            this.label75.AutoSize = true;
+            this.label75.Location = new System.Drawing.Point(6, 42);
+            this.label75.Name = "label75";
+            this.label75.Size = new System.Drawing.Size(56, 13);
+            this.label75.TabIndex = 0;
+            this.label75.Text = "Database:";
+            // 
+            // button25
+            // 
+            this.button25.Location = new System.Drawing.Point(9, 81);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(195, 23);
+            this.button25.TabIndex = 0;
+            this.button25.Text = "ANALYZE";
+            this.button25.UseVisualStyleBackColor = true;
+            // 
+            // groupBox14
+            // 
+            this.groupBox14.Controls.Add(this.comboBox42);
+            this.groupBox14.Controls.Add(this.label74);
+            this.groupBox14.Controls.Add(this.button24);
+            this.groupBox14.Location = new System.Drawing.Point(12, 13);
+            this.groupBox14.Name = "groupBox14";
+            this.groupBox14.Size = new System.Drawing.Size(206, 121);
+            this.groupBox14.TabIndex = 0;
+            this.groupBox14.TabStop = false;
+            this.groupBox14.Text = "Analyze Server";
+            // 
+            // comboBox42
+            // 
+            this.comboBox42.FormattingEnabled = true;
+            this.comboBox42.Location = new System.Drawing.Point(68, 39);
+            this.comboBox42.Name = "comboBox42";
+            this.comboBox42.Size = new System.Drawing.Size(121, 21);
+            this.comboBox42.TabIndex = 2;
+            // 
+            // label74
+            // 
+            this.label74.AutoSize = true;
+            this.label74.Location = new System.Drawing.Point(6, 42);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(41, 13);
+            this.label74.TabIndex = 1;
+            this.label74.Text = "Server:";
+            // 
+            // button24
+            // 
+            this.button24.Location = new System.Drawing.Point(9, 81);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(180, 23);
+            this.button24.TabIndex = 0;
+            this.button24.Text = "ANALYZE";
+            this.button24.UseVisualStyleBackColor = true;
             // 
             // tpTests
             // 
@@ -1105,6 +1797,132 @@
             this.tpAccount.TabIndex = 0;
             this.tpAccount.Text = "Account";
             this.tpAccount.UseVisualStyleBackColor = true;
+            // 
+            // gbServerCharacter
+            // 
+            this.gbServerCharacter.Controls.Add(this.btnServerAccountLogin);
+            this.gbServerCharacter.Controls.Add(this.btnCharacterLoginSend);
+            this.gbServerCharacter.Controls.Add(this.btnServerSendCaptcha);
+            this.gbServerCharacter.Controls.Add(this.comboBox1);
+            this.gbServerCharacter.Controls.Add(this.lblServerCharacter);
+            this.gbServerCharacter.Controls.Add(this.lblServerCaptcha);
+            this.gbServerCharacter.Controls.Add(this.txtServerCaptcha);
+            this.gbServerCharacter.Controls.Add(this.gbServerCaptcha);
+            this.gbServerCharacter.Controls.Add(this.txtServerAccountPW);
+            this.gbServerCharacter.Controls.Add(this.txtServerAccountID);
+            this.gbServerCharacter.Controls.Add(this.lblServerAccountPW);
+            this.gbServerCharacter.Controls.Add(this.lblServerAccountID);
+            this.gbServerCharacter.Location = new System.Drawing.Point(659, 30);
+            this.gbServerCharacter.Name = "gbServerCharacter";
+            this.gbServerCharacter.Size = new System.Drawing.Size(298, 282);
+            this.gbServerCharacter.TabIndex = 6;
+            this.gbServerCharacter.TabStop = false;
+            this.gbServerCharacter.Text = "Character Login";
+            // 
+            // btnServerAccountLogin
+            // 
+            this.btnServerAccountLogin.Location = new System.Drawing.Point(212, 23);
+            this.btnServerAccountLogin.Name = "btnServerAccountLogin";
+            this.btnServerAccountLogin.Size = new System.Drawing.Size(75, 46);
+            this.btnServerAccountLogin.TabIndex = 9;
+            this.btnServerAccountLogin.Text = "Login";
+            this.btnServerAccountLogin.UseVisualStyleBackColor = true;
+            // 
+            // btnCharacterLoginSend
+            // 
+            this.btnCharacterLoginSend.Enabled = false;
+            this.btnCharacterLoginSend.Location = new System.Drawing.Point(212, 101);
+            this.btnCharacterLoginSend.Name = "btnCharacterLoginSend";
+            this.btnCharacterLoginSend.Size = new System.Drawing.Size(75, 20);
+            this.btnCharacterLoginSend.TabIndex = 5;
+            this.btnCharacterLoginSend.Text = "Select";
+            this.btnCharacterLoginSend.UseVisualStyleBackColor = true;
+            // 
+            // btnServerSendCaptcha
+            // 
+            this.btnServerSendCaptcha.Enabled = false;
+            this.btnServerSendCaptcha.Location = new System.Drawing.Point(212, 75);
+            this.btnServerSendCaptcha.Name = "btnServerSendCaptcha";
+            this.btnServerSendCaptcha.Size = new System.Drawing.Size(75, 20);
+            this.btnServerSendCaptcha.TabIndex = 5;
+            this.btnServerSendCaptcha.Text = "Send";
+            this.btnServerSendCaptcha.UseVisualStyleBackColor = true;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Enabled = false;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(85, 101);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 0;
+            // 
+            // lblServerCharacter
+            // 
+            this.lblServerCharacter.AutoSize = true;
+            this.lblServerCharacter.Location = new System.Drawing.Point(6, 104);
+            this.lblServerCharacter.Name = "lblServerCharacter";
+            this.lblServerCharacter.Size = new System.Drawing.Size(56, 13);
+            this.lblServerCharacter.TabIndex = 8;
+            this.lblServerCharacter.Text = "Character:";
+            // 
+            // lblServerCaptcha
+            // 
+            this.lblServerCaptcha.AutoSize = true;
+            this.lblServerCaptcha.Location = new System.Drawing.Point(6, 78);
+            this.lblServerCaptcha.Name = "lblServerCaptcha";
+            this.lblServerCaptcha.Size = new System.Drawing.Size(50, 13);
+            this.lblServerCaptcha.TabIndex = 7;
+            this.lblServerCaptcha.Text = "Captcha:";
+            // 
+            // txtServerCaptcha
+            // 
+            this.txtServerCaptcha.Enabled = false;
+            this.txtServerCaptcha.Location = new System.Drawing.Point(85, 75);
+            this.txtServerCaptcha.Name = "txtServerCaptcha";
+            this.txtServerCaptcha.Size = new System.Drawing.Size(121, 20);
+            this.txtServerCaptcha.TabIndex = 6;
+            // 
+            // gbServerCaptcha
+            // 
+            this.gbServerCaptcha.Location = new System.Drawing.Point(9, 148);
+            this.gbServerCaptcha.Name = "gbServerCaptcha";
+            this.gbServerCaptcha.Size = new System.Drawing.Size(278, 125);
+            this.gbServerCaptcha.TabIndex = 4;
+            this.gbServerCaptcha.TabStop = false;
+            this.gbServerCaptcha.Text = "Chaptcha";
+            // 
+            // txtServerAccountPW
+            // 
+            this.txtServerAccountPW.Location = new System.Drawing.Point(85, 49);
+            this.txtServerAccountPW.Name = "txtServerAccountPW";
+            this.txtServerAccountPW.Size = new System.Drawing.Size(121, 20);
+            this.txtServerAccountPW.TabIndex = 3;
+            // 
+            // txtServerAccountID
+            // 
+            this.txtServerAccountID.Location = new System.Drawing.Point(85, 23);
+            this.txtServerAccountID.Name = "txtServerAccountID";
+            this.txtServerAccountID.Size = new System.Drawing.Size(121, 20);
+            this.txtServerAccountID.TabIndex = 2;
+            // 
+            // lblServerAccountPW
+            // 
+            this.lblServerAccountPW.AutoSize = true;
+            this.lblServerAccountPW.Location = new System.Drawing.Point(6, 52);
+            this.lblServerAccountPW.Name = "lblServerAccountPW";
+            this.lblServerAccountPW.Size = new System.Drawing.Size(71, 13);
+            this.lblServerAccountPW.TabIndex = 1;
+            this.lblServerAccountPW.Text = "Account PW:";
+            // 
+            // lblServerAccountID
+            // 
+            this.lblServerAccountID.AutoSize = true;
+            this.lblServerAccountID.Location = new System.Drawing.Point(6, 26);
+            this.lblServerAccountID.Name = "lblServerAccountID";
+            this.lblServerAccountID.Size = new System.Drawing.Size(64, 13);
+            this.lblServerAccountID.TabIndex = 0;
+            this.lblServerAccountID.Text = "Account ID:";
             // 
             // radioButton7
             // 
@@ -4237,142 +5055,6 @@
             this.lbExploitName.Size = new System.Drawing.Size(239, 329);
             this.lbExploitName.TabIndex = 0;
             // 
-            // tpAnalyze
-            // 
-            this.tpAnalyze.Controls.Add(this.tcNetwork);
-            this.tpAnalyze.Controls.Add(this.groupBox23);
-            this.tpAnalyze.Controls.Add(this.groupBox20);
-            this.tpAnalyze.Controls.Add(this.groupBox14);
-            this.tpAnalyze.Location = new System.Drawing.Point(4, 22);
-            this.tpAnalyze.Name = "tpAnalyze";
-            this.tpAnalyze.Size = new System.Drawing.Size(988, 470);
-            this.tpAnalyze.TabIndex = 9;
-            this.tpAnalyze.Text = "3.Analyze";
-            this.tpAnalyze.UseVisualStyleBackColor = true;
-            // 
-            // groupBox23
-            // 
-            this.groupBox23.Controls.Add(this.textBox45);
-            this.groupBox23.Controls.Add(this.button27);
-            this.groupBox23.Controls.Add(this.label77);
-            this.groupBox23.Controls.Add(this.button26);
-            this.groupBox23.Location = new System.Drawing.Point(449, 13);
-            this.groupBox23.Name = "groupBox23";
-            this.groupBox23.Size = new System.Drawing.Size(219, 121);
-            this.groupBox23.TabIndex = 2;
-            this.groupBox23.TabStop = false;
-            this.groupBox23.Text = "Analyze Client";
-            // 
-            // textBox45
-            // 
-            this.textBox45.Location = new System.Drawing.Point(48, 39);
-            this.textBox45.Name = "textBox45";
-            this.textBox45.Size = new System.Drawing.Size(126, 20);
-            this.textBox45.TabIndex = 3;
-            // 
-            // button27
-            // 
-            this.button27.Location = new System.Drawing.Point(180, 39);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(24, 20);
-            this.button27.TabIndex = 2;
-            this.button27.Text = "...";
-            this.button27.UseVisualStyleBackColor = true;
-            // 
-            // label77
-            // 
-            this.label77.AutoSize = true;
-            this.label77.Location = new System.Drawing.Point(6, 42);
-            this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(36, 13);
-            this.label77.TabIndex = 1;
-            this.label77.Text = "Client:";
-            // 
-            // button26
-            // 
-            this.button26.Location = new System.Drawing.Point(9, 81);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(195, 23);
-            this.button26.TabIndex = 0;
-            this.button26.Text = "ANALYZE";
-            this.button26.UseVisualStyleBackColor = true;
-            // 
-            // groupBox20
-            // 
-            this.groupBox20.Controls.Add(this.comboBox43);
-            this.groupBox20.Controls.Add(this.label75);
-            this.groupBox20.Controls.Add(this.button25);
-            this.groupBox20.Location = new System.Drawing.Point(224, 13);
-            this.groupBox20.Name = "groupBox20";
-            this.groupBox20.Size = new System.Drawing.Size(219, 121);
-            this.groupBox20.TabIndex = 1;
-            this.groupBox20.TabStop = false;
-            this.groupBox20.Text = "Analyze Database";
-            // 
-            // comboBox43
-            // 
-            this.comboBox43.FormattingEnabled = true;
-            this.comboBox43.Location = new System.Drawing.Point(83, 39);
-            this.comboBox43.Name = "comboBox43";
-            this.comboBox43.Size = new System.Drawing.Size(121, 21);
-            this.comboBox43.TabIndex = 1;
-            // 
-            // label75
-            // 
-            this.label75.AutoSize = true;
-            this.label75.Location = new System.Drawing.Point(6, 42);
-            this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(56, 13);
-            this.label75.TabIndex = 0;
-            this.label75.Text = "Database:";
-            // 
-            // button25
-            // 
-            this.button25.Location = new System.Drawing.Point(9, 81);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(195, 23);
-            this.button25.TabIndex = 0;
-            this.button25.Text = "ANALYZE";
-            this.button25.UseVisualStyleBackColor = true;
-            // 
-            // groupBox14
-            // 
-            this.groupBox14.Controls.Add(this.comboBox42);
-            this.groupBox14.Controls.Add(this.label74);
-            this.groupBox14.Controls.Add(this.button24);
-            this.groupBox14.Location = new System.Drawing.Point(12, 13);
-            this.groupBox14.Name = "groupBox14";
-            this.groupBox14.Size = new System.Drawing.Size(206, 121);
-            this.groupBox14.TabIndex = 0;
-            this.groupBox14.TabStop = false;
-            this.groupBox14.Text = "Analyze Server";
-            // 
-            // comboBox42
-            // 
-            this.comboBox42.FormattingEnabled = true;
-            this.comboBox42.Location = new System.Drawing.Point(68, 39);
-            this.comboBox42.Name = "comboBox42";
-            this.comboBox42.Size = new System.Drawing.Size(121, 21);
-            this.comboBox42.TabIndex = 2;
-            // 
-            // label74
-            // 
-            this.label74.AutoSize = true;
-            this.label74.Location = new System.Drawing.Point(6, 42);
-            this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(41, 13);
-            this.label74.TabIndex = 1;
-            this.label74.Text = "Server:";
-            // 
-            // button24
-            // 
-            this.button24.Location = new System.Drawing.Point(9, 81);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(180, 23);
-            this.button24.TabIndex = 0;
-            this.button24.Text = "ANALYZE";
-            this.button24.UseVisualStyleBackColor = true;
-            // 
             // tpLog
             // 
             this.tpLog.Controls.Add(this.lbLogDetail);
@@ -4392,609 +5074,208 @@
             this.lbLogDetail.Size = new System.Drawing.Size(915, 355);
             this.lbLogDetail.TabIndex = 0;
             // 
-            // lbLog
-            // 
-            this.lbLog.FormattingEnabled = true;
-            this.lbLog.Location = new System.Drawing.Point(12, 520);
-            this.lbLog.Name = "lbLog";
-            this.lbLog.Size = new System.Drawing.Size(996, 108);
-            this.lbLog.TabIndex = 2;
-            // 
-            // groupBox16
-            // 
-            this.groupBox16.Controls.Add(this.label58);
-            this.groupBox16.Controls.Add(this.label68);
-            this.groupBox16.Controls.Add(this.label59);
-            this.groupBox16.Controls.Add(this.listBox9);
-            this.groupBox16.Controls.Add(this.button19);
-            this.groupBox16.Controls.Add(this.comboBox39);
-            this.groupBox16.Controls.Add(this.comboBox34);
-            this.groupBox16.Controls.Add(this.button20);
-            this.groupBox16.Location = new System.Drawing.Point(171, 13);
-            this.groupBox16.Name = "groupBox16";
-            this.groupBox16.Size = new System.Drawing.Size(159, 296);
-            this.groupBox16.TabIndex = 12;
-            this.groupBox16.TabStop = false;
-            this.groupBox16.Text = "Connect Server";
-            // 
-            // label58
-            // 
-            this.label58.AutoSize = true;
-            this.label58.Location = new System.Drawing.Point(6, 22);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(115, 13);
-            this.label58.TabIndex = 5;
-            this.label58.Text = "Connected Server List:";
-            // 
-            // label68
-            // 
-            this.label68.AutoSize = true;
-            this.label68.Location = new System.Drawing.Point(6, 182);
-            this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(77, 13);
-            this.label68.TabIndex = 10;
-            this.label68.Text = "Select Socket:";
-            // 
-            // label59
-            // 
-            this.label59.AutoSize = true;
-            this.label59.Location = new System.Drawing.Point(6, 136);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(74, 13);
-            this.label59.TabIndex = 10;
-            this.label59.Text = "Select Server:";
-            // 
-            // listBox9
-            // 
-            this.listBox9.FormattingEnabled = true;
-            this.listBox9.Location = new System.Drawing.Point(9, 38);
-            this.listBox9.Name = "listBox9";
-            this.listBox9.Size = new System.Drawing.Size(135, 95);
-            this.listBox9.TabIndex = 6;
-            // 
-            // button19
-            // 
-            this.button19.Location = new System.Drawing.Point(9, 256);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(135, 23);
-            this.button19.TabIndex = 9;
-            this.button19.Text = "DISCONNECT";
-            this.button19.UseVisualStyleBackColor = true;
-            // 
-            // comboBox39
-            // 
-            this.comboBox39.FormattingEnabled = true;
-            this.comboBox39.Location = new System.Drawing.Point(9, 202);
-            this.comboBox39.Name = "comboBox39";
-            this.comboBox39.Size = new System.Drawing.Size(135, 21);
-            this.comboBox39.TabIndex = 7;
-            // 
-            // comboBox34
-            // 
-            this.comboBox34.FormattingEnabled = true;
-            this.comboBox34.Location = new System.Drawing.Point(9, 155);
-            this.comboBox34.Name = "comboBox34";
-            this.comboBox34.Size = new System.Drawing.Size(135, 21);
-            this.comboBox34.TabIndex = 7;
-            // 
-            // button20
-            // 
-            this.button20.Location = new System.Drawing.Point(9, 227);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(135, 23);
-            this.button20.TabIndex = 8;
-            this.button20.Text = "CONNECT";
-            this.button20.UseVisualStyleBackColor = true;
-            // 
-            // groupBox15
-            // 
-            this.groupBox15.Controls.Add(this.label56);
-            this.groupBox15.Controls.Add(this.label69);
-            this.groupBox15.Controls.Add(this.label57);
-            this.groupBox15.Controls.Add(this.listBox8);
-            this.groupBox15.Controls.Add(this.button18);
-            this.groupBox15.Controls.Add(this.comboBox40);
-            this.groupBox15.Controls.Add(this.comboBox33);
-            this.groupBox15.Controls.Add(this.button17);
-            this.groupBox15.Location = new System.Drawing.Point(6, 13);
-            this.groupBox15.Name = "groupBox15";
-            this.groupBox15.Size = new System.Drawing.Size(159, 296);
-            this.groupBox15.TabIndex = 11;
-            this.groupBox15.TabStop = false;
-            this.groupBox15.Text = "Connect SQL";
-            // 
-            // label56
-            // 
-            this.label56.AutoSize = true;
-            this.label56.Location = new System.Drawing.Point(6, 22);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(105, 13);
-            this.label56.TabIndex = 5;
-            this.label56.Text = "Connected SQL List:";
-            // 
-            // label69
-            // 
-            this.label69.AutoSize = true;
-            this.label69.Location = new System.Drawing.Point(6, 182);
-            this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(76, 13);
-            this.label69.TabIndex = 10;
-            this.label69.Text = "Select Engine:";
-            // 
-            // label57
-            // 
-            this.label57.AutoSize = true;
-            this.label57.Location = new System.Drawing.Point(6, 136);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(64, 13);
-            this.label57.TabIndex = 10;
-            this.label57.Text = "Select SQL:";
-            // 
-            // listBox8
-            // 
-            this.listBox8.FormattingEnabled = true;
-            this.listBox8.Location = new System.Drawing.Point(9, 38);
-            this.listBox8.Name = "listBox8";
-            this.listBox8.Size = new System.Drawing.Size(135, 95);
-            this.listBox8.TabIndex = 6;
-            // 
-            // button18
-            // 
-            this.button18.Location = new System.Drawing.Point(9, 256);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(135, 23);
-            this.button18.TabIndex = 9;
-            this.button18.Text = "DISCONNECT";
-            this.button18.UseVisualStyleBackColor = true;
-            // 
-            // comboBox40
-            // 
-            this.comboBox40.FormattingEnabled = true;
-            this.comboBox40.Location = new System.Drawing.Point(9, 202);
-            this.comboBox40.Name = "comboBox40";
-            this.comboBox40.Size = new System.Drawing.Size(135, 21);
-            this.comboBox40.TabIndex = 7;
-            // 
-            // comboBox33
-            // 
-            this.comboBox33.FormattingEnabled = true;
-            this.comboBox33.Location = new System.Drawing.Point(9, 155);
-            this.comboBox33.Name = "comboBox33";
-            this.comboBox33.Size = new System.Drawing.Size(135, 21);
-            this.comboBox33.TabIndex = 7;
-            // 
-            // button17
-            // 
-            this.button17.Location = new System.Drawing.Point(9, 227);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(135, 23);
-            this.button17.TabIndex = 8;
-            this.button17.Text = "CONNECT";
-            this.button17.UseVisualStyleBackColor = true;
-            // 
-            // tcNetwork
-            // 
-            this.tcNetwork.Controls.Add(this.tpNetworkModel);
-            this.tcNetwork.Controls.Add(this.tpNetworkCertification);
-            this.tcNetwork.Controls.Add(this.tpNetworkAgent);
-            this.tcNetwork.Controls.Add(this.tpNetworkGatewayServer);
-            this.tcNetwork.Controls.Add(this.tpNetworkSMC);
-            this.tcNetwork.Location = new System.Drawing.Point(12, 140);
-            this.tcNetwork.Name = "tcNetwork";
-            this.tcNetwork.SelectedIndex = 0;
-            this.tcNetwork.Size = new System.Drawing.Size(915, 286);
-            this.tcNetwork.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.tcNetwork.TabIndex = 3;
-            // 
-            // tpNetworkModel
-            // 
-            this.tpNetworkModel.Location = new System.Drawing.Point(4, 22);
-            this.tpNetworkModel.Name = "tpNetworkModel";
-            this.tpNetworkModel.Padding = new System.Windows.Forms.Padding(3);
-            this.tpNetworkModel.Size = new System.Drawing.Size(907, 260);
-            this.tpNetworkModel.TabIndex = 0;
-            this.tpNetworkModel.Text = "Server Model";
-            this.tpNetworkModel.UseVisualStyleBackColor = true;
-            // 
-            // tpNetworkCertification
-            // 
-            this.tpNetworkCertification.Controls.Add(this.groupBox3);
-            this.tpNetworkCertification.Location = new System.Drawing.Point(4, 22);
-            this.tpNetworkCertification.Name = "tpNetworkCertification";
-            this.tpNetworkCertification.Padding = new System.Windows.Forms.Padding(3);
-            this.tpNetworkCertification.Size = new System.Drawing.Size(907, 397);
-            this.tpNetworkCertification.TabIndex = 1;
-            this.tpNetworkCertification.Text = "Certification";
-            this.tpNetworkCertification.UseVisualStyleBackColor = true;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.checkBox1);
-            this.groupBox3.Controls.Add(this.btnCertificationAnalyze);
-            this.groupBox3.Location = new System.Drawing.Point(16, 12);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(276, 152);
-            this.groupBox3.TabIndex = 0;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Certification Server";
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(52, 42);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
-            this.checkBox1.TabIndex = 1;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // btnCertificationAnalyze
-            // 
-            this.btnCertificationAnalyze.Location = new System.Drawing.Point(113, 79);
-            this.btnCertificationAnalyze.Name = "btnCertificationAnalyze";
-            this.btnCertificationAnalyze.Size = new System.Drawing.Size(75, 23);
-            this.btnCertificationAnalyze.TabIndex = 0;
-            this.btnCertificationAnalyze.Text = "ANALYZE";
-            this.btnCertificationAnalyze.UseVisualStyleBackColor = true;
-            // 
-            // tpNetworkAgent
-            // 
-            this.tpNetworkAgent.Location = new System.Drawing.Point(4, 22);
-            this.tpNetworkAgent.Name = "tpNetworkAgent";
-            this.tpNetworkAgent.Size = new System.Drawing.Size(907, 397);
-            this.tpNetworkAgent.TabIndex = 2;
-            this.tpNetworkAgent.Text = "Agent Server";
-            this.tpNetworkAgent.UseVisualStyleBackColor = true;
-            // 
-            // tpNetworkGatewayServer
-            // 
-            this.tpNetworkGatewayServer.Location = new System.Drawing.Point(4, 22);
-            this.tpNetworkGatewayServer.Name = "tpNetworkGatewayServer";
-            this.tpNetworkGatewayServer.Size = new System.Drawing.Size(907, 397);
-            this.tpNetworkGatewayServer.TabIndex = 3;
-            this.tpNetworkGatewayServer.Text = "Gateway Server";
-            this.tpNetworkGatewayServer.UseVisualStyleBackColor = true;
-            // 
-            // tpNetworkSMC
-            // 
-            this.tpNetworkSMC.Location = new System.Drawing.Point(4, 22);
-            this.tpNetworkSMC.Name = "tpNetworkSMC";
-            this.tpNetworkSMC.Size = new System.Drawing.Size(907, 397);
-            this.tpNetworkSMC.TabIndex = 4;
-            this.tpNetworkSMC.Text = "SMC";
-            this.tpNetworkSMC.UseVisualStyleBackColor = true;
-            // 
-            // groupBox18
-            // 
-            this.groupBox18.Controls.Add(this.btnSetupCreateSocket);
-            this.groupBox18.Controls.Add(this.cbSetupSocketAsync);
-            this.groupBox18.Controls.Add(this.cbSetupSocketNoDelay);
-            this.groupBox18.Controls.Add(this.txtSetupSocketName);
-            this.groupBox18.Controls.Add(this.label67);
-            this.groupBox18.Controls.Add(this.cbSetupSocketAddressFamilyType);
-            this.groupBox18.Controls.Add(this.label66);
-            this.groupBox18.Controls.Add(this.cbSetupSocketProtocolType);
-            this.groupBox18.Controls.Add(this.cbSetupSocketType);
-            this.groupBox18.Controls.Add(this.label65);
-            this.groupBox18.Controls.Add(this.label64);
-            this.groupBox18.Location = new System.Drawing.Point(6, 18);
-            this.groupBox18.Name = "groupBox18";
-            this.groupBox18.Size = new System.Drawing.Size(239, 216);
-            this.groupBox18.TabIndex = 12;
-            this.groupBox18.TabStop = false;
-            this.groupBox18.Text = "Create Socket";
-            // 
-            // btnSetupCreateSocket
-            // 
-            this.btnSetupCreateSocket.Location = new System.Drawing.Point(9, 178);
-            this.btnSetupCreateSocket.Name = "btnSetupCreateSocket";
-            this.btnSetupCreateSocket.Size = new System.Drawing.Size(217, 23);
-            this.btnSetupCreateSocket.TabIndex = 12;
-            this.btnSetupCreateSocket.Text = "CREATE";
-            this.btnSetupCreateSocket.UseVisualStyleBackColor = true;
-            this.btnSetupCreateSocket.Click += new System.EventHandler(this.btnSetupCreateSocket_Click);
-            // 
-            // cbSetupSocketAsync
-            // 
-            this.cbSetupSocketAsync.AutoSize = true;
-            this.cbSetupSocketAsync.Location = new System.Drawing.Point(9, 155);
-            this.cbSetupSocketAsync.Name = "cbSetupSocketAsync";
-            this.cbSetupSocketAsync.Size = new System.Drawing.Size(55, 17);
-            this.cbSetupSocketAsync.TabIndex = 11;
-            this.cbSetupSocketAsync.Text = "Async";
-            this.cbSetupSocketAsync.UseVisualStyleBackColor = true;
-            // 
-            // cbSetupSocketNoDelay
-            // 
-            this.cbSetupSocketNoDelay.AutoSize = true;
-            this.cbSetupSocketNoDelay.Location = new System.Drawing.Point(9, 132);
-            this.cbSetupSocketNoDelay.Name = "cbSetupSocketNoDelay";
-            this.cbSetupSocketNoDelay.Size = new System.Drawing.Size(70, 17);
-            this.cbSetupSocketNoDelay.TabIndex = 10;
-            this.cbSetupSocketNoDelay.Text = "No Delay";
-            this.cbSetupSocketNoDelay.UseVisualStyleBackColor = true;
-            // 
-            // txtSetupSocketName
-            // 
-            this.txtSetupSocketName.Location = new System.Drawing.Point(105, 21);
-            this.txtSetupSocketName.Name = "txtSetupSocketName";
-            this.txtSetupSocketName.Size = new System.Drawing.Size(121, 20);
-            this.txtSetupSocketName.TabIndex = 9;
-            // 
-            // label67
-            // 
-            this.label67.AutoSize = true;
-            this.label67.Location = new System.Drawing.Point(6, 24);
-            this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(75, 13);
-            this.label67.TabIndex = 8;
-            this.label67.Text = "Socket Name:";
-            // 
-            // cbSetupSocketAddressFamilyType
-            // 
-            this.cbSetupSocketAddressFamilyType.FormattingEnabled = true;
-            this.cbSetupSocketAddressFamilyType.Items.AddRange(new object[] {
-            "Unknown",
-            "Unspecified",
-            "Unix",
-            "InterNetwork",
-            "ImpLink",
-            "Pup",
-            "Chaos",
-            "NS",
-            "Ipx",
-            "Iso",
-            "Osi",
-            "Ecma,",
-            "DataKit",
-            "Ccitt",
-            "Sna",
-            "DecNet",
-            "DataLink",
-            "Lat",
-            "HyperChannel",
-            "AppleTalk",
-            "NetBios",
-            "VoiceView",
-            "FireFox",
-            "Banyan",
-            "Atm,",
-            "InterNetworkV6",
-            "Cluster",
-            "Ieee12844",
-            "Irda",
-            "NetworkDesigners",
-            "Max"});
-            this.cbSetupSocketAddressFamilyType.Location = new System.Drawing.Point(105, 102);
-            this.cbSetupSocketAddressFamilyType.Name = "cbSetupSocketAddressFamilyType";
-            this.cbSetupSocketAddressFamilyType.Size = new System.Drawing.Size(121, 21);
-            this.cbSetupSocketAddressFamilyType.TabIndex = 7;
-            this.cbSetupSocketAddressFamilyType.Text = "Inner Network";
-            // 
-            // label66
-            // 
-            this.label66.AutoSize = true;
-            this.label66.Location = new System.Drawing.Point(6, 105);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(80, 13);
-            this.label66.TabIndex = 6;
-            this.label66.Text = "Address Family:";
-            // 
-            // cbSetupSocketProtocolType
-            // 
-            this.cbSetupSocketProtocolType.FormattingEnabled = true;
-            this.cbSetupSocketProtocolType.Items.AddRange(new object[] {
-            "IP",
-            "IPv6HopByHopOptions",
-            "Icmp",
-            "Igmp",
-            "Ggp",
-            "IPv4",
-            "Tcp",
-            "Pup",
-            "Udp",
-            "Idp",
-            "IPv6",
-            "IPv6RoutingHeader",
-            "IPv6FragmentHeader",
-            "IPSecEncapsulatingSecurityPayload",
-            "IPSecAuthenticationHeader",
-            "IcmpV6",
-            "IPv6NoNextHeader",
-            "IPv6DestinationOptions",
-            "ND = 77",
-            "Raw = 255",
-            "Unspecified = 0",
-            "Ipx = 1000",
-            "Spx = 1256",
-            "SpxII",
-            "Unknown"});
-            this.cbSetupSocketProtocolType.Location = new System.Drawing.Point(105, 75);
-            this.cbSetupSocketProtocolType.Name = "cbSetupSocketProtocolType";
-            this.cbSetupSocketProtocolType.Size = new System.Drawing.Size(121, 21);
-            this.cbSetupSocketProtocolType.TabIndex = 5;
-            this.cbSetupSocketProtocolType.Text = "TCP";
-            // 
-            // cbSetupSocketType
-            // 
-            this.cbSetupSocketType.FormattingEnabled = true;
-            this.cbSetupSocketType.Items.AddRange(new object[] {
-            "Stream",
-            "Dgram",
-            "Raw",
-            "Rdm",
-            "Seqpacket",
-            "Unknown"});
-            this.cbSetupSocketType.Location = new System.Drawing.Point(105, 47);
-            this.cbSetupSocketType.Name = "cbSetupSocketType";
-            this.cbSetupSocketType.Size = new System.Drawing.Size(121, 21);
-            this.cbSetupSocketType.TabIndex = 4;
-            this.cbSetupSocketType.Text = "Raw";
-            // 
-            // label65
-            // 
-            this.label65.AutoSize = true;
-            this.label65.Location = new System.Drawing.Point(6, 78);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(76, 13);
-            this.label65.TabIndex = 3;
-            this.label65.Text = "Protocol Type:";
-            // 
-            // label64
-            // 
-            this.label64.AutoSize = true;
-            this.label64.Location = new System.Drawing.Point(6, 50);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(71, 13);
-            this.label64.TabIndex = 2;
-            this.label64.Text = "Socket Type:";
-            // 
-            // gbServerCharacter
-            // 
-            this.gbServerCharacter.Controls.Add(this.btnServerAccountLogin);
-            this.gbServerCharacter.Controls.Add(this.btnCharacterLoginSend);
-            this.gbServerCharacter.Controls.Add(this.btnServerSendCaptcha);
-            this.gbServerCharacter.Controls.Add(this.comboBox1);
-            this.gbServerCharacter.Controls.Add(this.lblServerCharacter);
-            this.gbServerCharacter.Controls.Add(this.lblServerCaptcha);
-            this.gbServerCharacter.Controls.Add(this.txtServerCaptcha);
-            this.gbServerCharacter.Controls.Add(this.gbServerCaptcha);
-            this.gbServerCharacter.Controls.Add(this.txtServerAccountPW);
-            this.gbServerCharacter.Controls.Add(this.txtServerAccountID);
-            this.gbServerCharacter.Controls.Add(this.lblServerAccountPW);
-            this.gbServerCharacter.Controls.Add(this.lblServerAccountID);
-            this.gbServerCharacter.Location = new System.Drawing.Point(659, 30);
-            this.gbServerCharacter.Name = "gbServerCharacter";
-            this.gbServerCharacter.Size = new System.Drawing.Size(298, 282);
-            this.gbServerCharacter.TabIndex = 6;
-            this.gbServerCharacter.TabStop = false;
-            this.gbServerCharacter.Text = "Character Login";
-            // 
-            // btnServerAccountLogin
-            // 
-            this.btnServerAccountLogin.Location = new System.Drawing.Point(212, 23);
-            this.btnServerAccountLogin.Name = "btnServerAccountLogin";
-            this.btnServerAccountLogin.Size = new System.Drawing.Size(75, 46);
-            this.btnServerAccountLogin.TabIndex = 9;
-            this.btnServerAccountLogin.Text = "Login";
-            this.btnServerAccountLogin.UseVisualStyleBackColor = true;
-            // 
-            // btnCharacterLoginSend
-            // 
-            this.btnCharacterLoginSend.Enabled = false;
-            this.btnCharacterLoginSend.Location = new System.Drawing.Point(212, 101);
-            this.btnCharacterLoginSend.Name = "btnCharacterLoginSend";
-            this.btnCharacterLoginSend.Size = new System.Drawing.Size(75, 20);
-            this.btnCharacterLoginSend.TabIndex = 5;
-            this.btnCharacterLoginSend.Text = "Select";
-            this.btnCharacterLoginSend.UseVisualStyleBackColor = true;
-            // 
-            // btnServerSendCaptcha
-            // 
-            this.btnServerSendCaptcha.Enabled = false;
-            this.btnServerSendCaptcha.Location = new System.Drawing.Point(212, 75);
-            this.btnServerSendCaptcha.Name = "btnServerSendCaptcha";
-            this.btnServerSendCaptcha.Size = new System.Drawing.Size(75, 20);
-            this.btnServerSendCaptcha.TabIndex = 5;
-            this.btnServerSendCaptcha.Text = "Send";
-            this.btnServerSendCaptcha.UseVisualStyleBackColor = true;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Enabled = false;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(85, 101);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 0;
-            // 
-            // lblServerCharacter
-            // 
-            this.lblServerCharacter.AutoSize = true;
-            this.lblServerCharacter.Location = new System.Drawing.Point(6, 104);
-            this.lblServerCharacter.Name = "lblServerCharacter";
-            this.lblServerCharacter.Size = new System.Drawing.Size(56, 13);
-            this.lblServerCharacter.TabIndex = 8;
-            this.lblServerCharacter.Text = "Character:";
-            // 
-            // lblServerCaptcha
-            // 
-            this.lblServerCaptcha.AutoSize = true;
-            this.lblServerCaptcha.Location = new System.Drawing.Point(6, 78);
-            this.lblServerCaptcha.Name = "lblServerCaptcha";
-            this.lblServerCaptcha.Size = new System.Drawing.Size(50, 13);
-            this.lblServerCaptcha.TabIndex = 7;
-            this.lblServerCaptcha.Text = "Captcha:";
-            // 
-            // txtServerCaptcha
-            // 
-            this.txtServerCaptcha.Enabled = false;
-            this.txtServerCaptcha.Location = new System.Drawing.Point(85, 75);
-            this.txtServerCaptcha.Name = "txtServerCaptcha";
-            this.txtServerCaptcha.Size = new System.Drawing.Size(121, 20);
-            this.txtServerCaptcha.TabIndex = 6;
-            // 
-            // gbServerCaptcha
-            // 
-            this.gbServerCaptcha.Location = new System.Drawing.Point(9, 148);
-            this.gbServerCaptcha.Name = "gbServerCaptcha";
-            this.gbServerCaptcha.Size = new System.Drawing.Size(278, 125);
-            this.gbServerCaptcha.TabIndex = 4;
-            this.gbServerCaptcha.TabStop = false;
-            this.gbServerCaptcha.Text = "Chaptcha";
-            // 
-            // txtServerAccountPW
-            // 
-            this.txtServerAccountPW.Location = new System.Drawing.Point(85, 49);
-            this.txtServerAccountPW.Name = "txtServerAccountPW";
-            this.txtServerAccountPW.Size = new System.Drawing.Size(121, 20);
-            this.txtServerAccountPW.TabIndex = 3;
-            // 
-            // txtServerAccountID
-            // 
-            this.txtServerAccountID.Location = new System.Drawing.Point(85, 23);
-            this.txtServerAccountID.Name = "txtServerAccountID";
-            this.txtServerAccountID.Size = new System.Drawing.Size(121, 20);
-            this.txtServerAccountID.TabIndex = 2;
-            // 
-            // lblServerAccountPW
-            // 
-            this.lblServerAccountPW.AutoSize = true;
-            this.lblServerAccountPW.Location = new System.Drawing.Point(6, 52);
-            this.lblServerAccountPW.Name = "lblServerAccountPW";
-            this.lblServerAccountPW.Size = new System.Drawing.Size(71, 13);
-            this.lblServerAccountPW.TabIndex = 1;
-            this.lblServerAccountPW.Text = "Account PW:";
-            // 
-            // lblServerAccountID
-            // 
-            this.lblServerAccountID.AutoSize = true;
-            this.lblServerAccountID.Location = new System.Drawing.Point(6, 26);
-            this.lblServerAccountID.Name = "lblServerAccountID";
-            this.lblServerAccountID.Size = new System.Drawing.Size(64, 13);
-            this.lblServerAccountID.TabIndex = 0;
-            this.lblServerAccountID.Text = "Account ID:";
-            // 
-            // cbSetupServerType
-            // 
-            this.cbSetupServerType.FormattingEnabled = true;
-            this.cbSetupServerType.Items.AddRange(new object[] {
-            "LOCAL",
-            "REMOTE"});
-            this.cbSetupServerType.Location = new System.Drawing.Point(88, 47);
-            this.cbSetupServerType.Name = "cbSetupServerType";
-            this.cbSetupServerType.Size = new System.Drawing.Size(100, 21);
-            this.cbSetupServerType.TabIndex = 9;
-            this.cbSetupServerType.Text = "LOCAL";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(10, 50);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(68, 13);
-            this.label34.TabIndex = 10;
-            this.label34.Text = "Server Type:";
+            // lvLog
+            // 
+            this.lvLog.Location = new System.Drawing.Point(12, 525);
+            this.lvLog.Name = "lvLog";
+            this.lvLog.Size = new System.Drawing.Size(996, 97);
+            this.lvLog.TabIndex = 2;
+            this.lvLog.UseCompatibleStateImageBehavior = false;
+            this.lvLog.View = System.Windows.Forms.View.Details;
+            // 
+            // label81
+            // 
+            this.label81.AutoSize = true;
+            this.label81.Location = new System.Drawing.Point(6, 26);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(50, 13);
+            this.label81.TabIndex = 11;
+            this.label81.Text = "SQL List:";
+            // 
+            // comboBox37
+            // 
+            this.comboBox37.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox37.FormattingEnabled = true;
+            this.comboBox37.Location = new System.Drawing.Point(70, 23);
+            this.comboBox37.Name = "comboBox37";
+            this.comboBox37.Size = new System.Drawing.Size(100, 21);
+            this.comboBox37.TabIndex = 12;
+            // 
+            // label82
+            // 
+            this.label82.AutoSize = true;
+            this.label82.Location = new System.Drawing.Point(6, 182);
+            this.label82.Name = "label82";
+            this.label82.Size = new System.Drawing.Size(20, 13);
+            this.label82.TabIndex = 13;
+            this.label82.Text = "IP:";
+            // 
+            // label83
+            // 
+            this.label83.AutoSize = true;
+            this.label83.Location = new System.Drawing.Point(7, 103);
+            this.label83.Name = "label83";
+            this.label83.Size = new System.Drawing.Size(20, 13);
+            this.label83.TabIndex = 13;
+            this.label83.Text = "IP:";
+            // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aboutToolStripMenuItem});
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Text = "Help";
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aboutToolStripMenuItem.Text = "About";
+            // 
+            // groupBox10
+            // 
+            this.groupBox10.Controls.Add(this.label89);
+            this.groupBox10.Controls.Add(this.label88);
+            this.groupBox10.Controls.Add(this.label87);
+            this.groupBox10.Controls.Add(this.label86);
+            this.groupBox10.Controls.Add(this.label85);
+            this.groupBox10.Location = new System.Drawing.Point(182, 22);
+            this.groupBox10.Name = "groupBox10";
+            this.groupBox10.Size = new System.Drawing.Size(169, 257);
+            this.groupBox10.TabIndex = 11;
+            this.groupBox10.TabStop = false;
+            this.groupBox10.Text = "Info";
+            // 
+            // label84
+            // 
+            this.label84.AutoSize = true;
+            this.label84.Location = new System.Drawing.Point(151, 64);
+            this.label84.Name = "label84";
+            this.label84.Size = new System.Drawing.Size(22, 13);
+            this.label84.TabIndex = 12;
+            this.label84.Text = "--->";
+            // 
+            // label85
+            // 
+            this.label85.AutoSize = true;
+            this.label85.Location = new System.Drawing.Point(7, 20);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(62, 13);
+            this.label85.TabIndex = 0;
+            this.label85.Text = "SQL Name:";
+            // 
+            // label86
+            // 
+            this.label86.AutoSize = true;
+            this.label86.Location = new System.Drawing.Point(7, 42);
+            this.label86.Name = "label86";
+            this.label86.Size = new System.Drawing.Size(43, 13);
+            this.label86.TabIndex = 1;
+            this.label86.Text = "Engine:";
+            // 
+            // label87
+            // 
+            this.label87.AutoSize = true;
+            this.label87.Location = new System.Drawing.Point(7, 70);
+            this.label87.Name = "label87";
+            this.label87.Size = new System.Drawing.Size(76, 13);
+            this.label87.TabIndex = 2;
+            this.label87.Text = "Connect Time:";
+            // 
+            // label88
+            // 
+            this.label88.AutoSize = true;
+            this.label88.Location = new System.Drawing.Point(6, 98);
+            this.label88.Name = "label88";
+            this.label88.Size = new System.Drawing.Size(79, 13);
+            this.label88.TabIndex = 3;
+            this.label88.Text = "Timeout Count:";
+            // 
+            // label89
+            // 
+            this.label89.AutoSize = true;
+            this.label89.Location = new System.Drawing.Point(7, 141);
+            this.label89.Name = "label89";
+            this.label89.Size = new System.Drawing.Size(78, 13);
+            this.label89.TabIndex = 4;
+            this.label89.Text = "Authentication:";
+            // 
+            // groupBox24
+            // 
+            this.groupBox24.Controls.Add(this.label95);
+            this.groupBox24.Controls.Add(this.label90);
+            this.groupBox24.Controls.Add(this.label91);
+            this.groupBox24.Controls.Add(this.label92);
+            this.groupBox24.Controls.Add(this.label93);
+            this.groupBox24.Controls.Add(this.label94);
+            this.groupBox24.Location = new System.Drawing.Point(164, 22);
+            this.groupBox24.Name = "groupBox24";
+            this.groupBox24.Size = new System.Drawing.Size(169, 257);
+            this.groupBox24.TabIndex = 11;
+            this.groupBox24.TabStop = false;
+            this.groupBox24.Text = "Info";
+            // 
+            // label90
+            // 
+            this.label90.AutoSize = true;
+            this.label90.Location = new System.Drawing.Point(7, 141);
+            this.label90.Name = "label90";
+            this.label90.Size = new System.Drawing.Size(78, 13);
+            this.label90.TabIndex = 4;
+            this.label90.Text = "Authentication:";
+            // 
+            // label91
+            // 
+            this.label91.AutoSize = true;
+            this.label91.Location = new System.Drawing.Point(6, 98);
+            this.label91.Name = "label91";
+            this.label91.Size = new System.Drawing.Size(79, 13);
+            this.label91.TabIndex = 3;
+            this.label91.Text = "Timeout Count:";
+            // 
+            // label92
+            // 
+            this.label92.AutoSize = true;
+            this.label92.Location = new System.Drawing.Point(7, 70);
+            this.label92.Name = "label92";
+            this.label92.Size = new System.Drawing.Size(76, 13);
+            this.label92.TabIndex = 2;
+            this.label92.Text = "Connect Time:";
+            // 
+            // label93
+            // 
+            this.label93.AutoSize = true;
+            this.label93.Location = new System.Drawing.Point(7, 42);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(44, 13);
+            this.label93.TabIndex = 1;
+            this.label93.Text = "Socket:";
+            // 
+            // label94
+            // 
+            this.label94.AutoSize = true;
+            this.label94.Location = new System.Drawing.Point(7, 20);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(62, 13);
+            this.label94.TabIndex = 0;
+            this.label94.Text = "SQL Name:";
+            // 
+            // label95
+            // 
+            this.label95.AutoSize = true;
+            this.label95.Location = new System.Drawing.Point(10, 180);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(31, 13);
+            this.label95.TabIndex = 5;
+            this.label95.Text = "Ping:";
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(378, 430);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(92, 20);
+            this.numericUpDown1.TabIndex = 13;
             // 
             // frmVSRO
             // 
@@ -5002,7 +5283,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1020, 653);
-            this.Controls.Add(this.lbLog);
+            this.Controls.Add(this.lvLog);
             this.Controls.Add(this.tcMain);
             this.Controls.Add(this.ssStatus);
             this.Controls.Add(this.msMenu);
@@ -5017,11 +5298,28 @@
             this.tcMain.ResumeLayout(false);
             this.tpSetup.ResumeLayout(false);
             this.tpSetup.PerformLayout();
+            this.groupBox18.ResumeLayout(false);
+            this.groupBox18.PerformLayout();
             this.groupBox11.ResumeLayout(false);
             this.groupBox11.PerformLayout();
             this.gbServerInfo.ResumeLayout(false);
             this.gbServerInfo.PerformLayout();
             this.tpConnect.ResumeLayout(false);
+            this.groupBox16.ResumeLayout(false);
+            this.groupBox16.PerformLayout();
+            this.groupBox15.ResumeLayout(false);
+            this.groupBox15.PerformLayout();
+            this.tpAnalyze.ResumeLayout(false);
+            this.tcNetwork.ResumeLayout(false);
+            this.tpNetworkCertification.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox23.ResumeLayout(false);
+            this.groupBox23.PerformLayout();
+            this.groupBox20.ResumeLayout(false);
+            this.groupBox20.PerformLayout();
+            this.groupBox14.ResumeLayout(false);
+            this.groupBox14.PerformLayout();
             this.tpTests.ResumeLayout(false);
             this.tcBruteForce.ResumeLayout(false);
             this.tpGeneral.ResumeLayout(false);
@@ -5031,6 +5329,8 @@
             this.groupBox6.PerformLayout();
             this.tpAccount.ResumeLayout(false);
             this.tpAccount.PerformLayout();
+            this.gbServerCharacter.ResumeLayout(false);
+            this.gbServerCharacter.PerformLayout();
             this.groupBox17.ResumeLayout(false);
             this.groupBox17.PerformLayout();
             this.gbBruteAccountSQL.ResumeLayout(false);
@@ -5074,26 +5374,12 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.gbExploitName.ResumeLayout(false);
-            this.tpAnalyze.ResumeLayout(false);
-            this.groupBox23.ResumeLayout(false);
-            this.groupBox23.PerformLayout();
-            this.groupBox20.ResumeLayout(false);
-            this.groupBox20.PerformLayout();
-            this.groupBox14.ResumeLayout(false);
-            this.groupBox14.PerformLayout();
             this.tpLog.ResumeLayout(false);
-            this.groupBox16.ResumeLayout(false);
-            this.groupBox16.PerformLayout();
-            this.groupBox15.ResumeLayout(false);
-            this.groupBox15.PerformLayout();
-            this.tcNetwork.ResumeLayout(false);
-            this.tpNetworkCertification.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox18.ResumeLayout(false);
-            this.groupBox18.PerformLayout();
-            this.gbServerCharacter.ResumeLayout(false);
-            this.gbServerCharacter.PerformLayout();
+            this.groupBox10.ResumeLayout(false);
+            this.groupBox10.PerformLayout();
+            this.groupBox24.ResumeLayout(false);
+            this.groupBox24.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -5113,21 +5399,14 @@
         private System.Windows.Forms.TabPage tpDatabase;
         private System.Windows.Forms.TabPage tpLog;
         private System.Windows.Forms.GroupBox gbServerInfo;
-        private System.Windows.Forms.ListBox lbLog;
         private System.Windows.Forms.ListBox lbLogDetail;
         private System.Windows.Forms.Button btnSetupServerAdd;
-        private System.Windows.Forms.CheckBox cbEnableXTrap;
-        private System.Windows.Forms.TextBox txtServerVersion;
-        private System.Windows.Forms.TextBox txtServerLocale;
         private System.Windows.Forms.TextBox txtSetupServerPort;
         private System.Windows.Forms.TextBox txtSetupServerIP;
-        private System.Windows.Forms.Label lblShardID;
-        private System.Windows.Forms.Label lblServerVersion;
-        private System.Windows.Forms.Label lblServerLocale;
         private System.Windows.Forms.Label lblServerPort;
         private System.Windows.Forms.Label lblServerIP;
         private System.Windows.Forms.Button btnSetupServerClear;
-        private System.Windows.Forms.CheckBox cbServerRemoteReady;
+        private System.Windows.Forms.CheckBox cbSetupServerReady;
         private System.Windows.Forms.GroupBox gbExploitDatabase;
         private System.Windows.Forms.GroupBox gbExploitInfo;
         private System.Windows.Forms.GroupBox gbExploitName;
@@ -5338,28 +5617,26 @@
         private System.Windows.Forms.CheckBox cbSetupServerUseProxy;
         private System.Windows.Forms.TextBox txtSetupServerProxyPort;
         private System.Windows.Forms.TextBox txtSetupServerProxyIP;
-        private System.Windows.Forms.TextBox textBox24;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.TextBox textBox28;
         private System.Windows.Forms.TextBox txtSetupServerName;
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.GroupBox groupBox11;
-        private System.Windows.Forms.ComboBox comboBox31;
-        private System.Windows.Forms.TextBox textBox31;
+        private System.Windows.Forms.ComboBox cbSetupSQLType;
+        private System.Windows.Forms.TextBox txtSetupSQLName;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.TextBox textBox32;
+        private System.Windows.Forms.TextBox txtSetupSQLDBName;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.TextBox textBox34;
+        private System.Windows.Forms.TextBox txtSetupSQLPW;
         private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.TextBox textBox33;
-        private System.Windows.Forms.TextBox textBox35;
+        private System.Windows.Forms.TextBox txtSetupSQLID;
+        private System.Windows.Forms.TextBox txtSetupSQLConnectionString;
         private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.CheckBox checkBox34;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button btnSetupSQLClear;
+        private System.Windows.Forms.CheckBox cbSetupSQLReady;
+        private System.Windows.Forms.Button btnSetupSQLAdd;
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.GroupBox groupBox12;
@@ -5458,20 +5735,20 @@
         private System.Windows.Forms.Label label58;
         private System.Windows.Forms.Label label68;
         private System.Windows.Forms.Label label59;
-        private System.Windows.Forms.ListBox listBox9;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.ComboBox comboBox39;
-        private System.Windows.Forms.ComboBox comboBox34;
-        private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.ListBox lbConnectServerList;
+        private System.Windows.Forms.Button btnCoonectServerDisconnect;
+        private System.Windows.Forms.ComboBox cbConnectServerSelectSQL;
+        private System.Windows.Forms.ComboBox cbConnectServerSelect;
+        private System.Windows.Forms.Button btnConnectServerConnect;
         private System.Windows.Forms.GroupBox groupBox15;
         private System.Windows.Forms.Label label56;
         private System.Windows.Forms.Label label69;
         private System.Windows.Forms.Label label57;
-        private System.Windows.Forms.ListBox listBox8;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.ComboBox comboBox40;
-        private System.Windows.Forms.ComboBox comboBox33;
-        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.ListBox lbConnectSQLList;
+        private System.Windows.Forms.Button btnConnectSQLDisconnect;
+        private System.Windows.Forms.ComboBox cbConnectSQLSelectEngine;
+        private System.Windows.Forms.ComboBox cbConnectSQLSelect;
+        private System.Windows.Forms.Button btnConnectSQLConnect;
         private System.Windows.Forms.TabControl tcNetwork;
         private System.Windows.Forms.TabPage tpNetworkModel;
         private System.Windows.Forms.TabPage tpNetworkCertification;
@@ -5482,7 +5759,7 @@
         private System.Windows.Forms.TabPage tpNetworkGatewayServer;
         private System.Windows.Forms.TabPage tpNetworkSMC;
         private System.Windows.Forms.GroupBox groupBox18;
-        private System.Windows.Forms.Button btnSetupCreateSocket;
+        private System.Windows.Forms.Button btnSetupSocketAdd;
         private System.Windows.Forms.CheckBox cbSetupSocketAsync;
         private System.Windows.Forms.CheckBox cbSetupSocketNoDelay;
         private System.Windows.Forms.TextBox txtSetupSocketName;
@@ -5508,5 +5785,38 @@
         private System.Windows.Forms.Label lblServerAccountID;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.ComboBox cbSetupServerType;
+        private System.Windows.Forms.CheckBox cbSetupSocketReady;
+        private System.Windows.Forms.Button btnSetupSocketClear;
+        private System.Windows.Forms.TextBox txtSetupSQLPort;
+        private System.Windows.Forms.TextBox txtSetupSQLHostname;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.ComboBox comboBox31;
+        private System.Windows.Forms.Label label78;
+        private System.Windows.Forms.ComboBox comboBox36;
+        private System.Windows.Forms.Label label79;
+        private System.Windows.Forms.ListView lvLog;
+        private System.Windows.Forms.Label label80;
+        private System.Windows.Forms.Label label82;
+        private System.Windows.Forms.ComboBox comboBox37;
+        private System.Windows.Forms.Label label81;
+        private System.Windows.Forms.Label label83;
+        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.GroupBox groupBox24;
+        private System.Windows.Forms.Label label95;
+        private System.Windows.Forms.Label label90;
+        private System.Windows.Forms.Label label91;
+        private System.Windows.Forms.Label label92;
+        private System.Windows.Forms.Label label93;
+        private System.Windows.Forms.Label label94;
+        private System.Windows.Forms.Label label84;
+        private System.Windows.Forms.GroupBox groupBox10;
+        private System.Windows.Forms.Label label89;
+        private System.Windows.Forms.Label label88;
+        private System.Windows.Forms.Label label87;
+        private System.Windows.Forms.Label label86;
+        private System.Windows.Forms.Label label85;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
     }
 }
